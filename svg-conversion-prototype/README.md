@@ -2,6 +2,12 @@
 
 This directory is reserved for converting proposed `system_*` Circuit JSON elements into SVG output and comparing rendered output against `reference-images/*.png`.
 
+Render the current reference recreation with:
+
+```sh
+bun svg-conversion-prototype/render-system-diagram.ts reference-images/refimage001.json svg-conversion-prototype/refimage001.svg
+```
+
 Initial renderer assumptions:
 
 - Diagram `width` and `height` are SVG viewport dimensions.

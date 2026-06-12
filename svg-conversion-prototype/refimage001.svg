@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1296" height="1382" viewBox="0 0 1296 1382">
+<defs>
+<marker id="marker-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke" />
+</marker>
+<marker id="marker-open-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+<path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="context-stroke" stroke-width="1.5" />
+</marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff" />
+<g id="chip_frame">
+<rect x="262" y="68" width="768" height="1130" rx="0" ry="0" fill="transparent" stroke="#000000" stroke-width="2" />
+</g>
+<g id="cpu_subsystem">
+<rect x="282" y="131.5" width="192" height="267" rx="0" ry="0" fill="#ccffcc" stroke="#000000" stroke-width="2" />
+</g>
+<g id="cpu_core">
+<rect x="303" y="175" width="150" height="202" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" />
+</g>
+<g id="rom">
+<rect x="506" y="132.5" width="44" height="107" rx="0" ry="0" fill="#ccffcc" stroke="#000000" stroke-width="2" />
+</g>
+<g id="ahb_bus">
+<rect x="592" y="131.5" width="32" height="267" rx="0" ry="0" fill="#ccffcc" stroke="#000000" stroke-width="2" />
+</g>
+<g id="gpio">
+<rect x="671" y="137.5" width="108" height="43" rx="0" ry="0" fill="#ffcc99" stroke="#000000" stroke-width="2" />
+<rect x="666" y="132.5" width="108" height="43" rx="0" ry="0" fill="#ffcc99" stroke="#000000" stroke-width="2" />
+<text id="gpio_label" x="720" y="154" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="720" dy="0">GPIO</tspan></text>
+</g>
+<g id="flash">
+<rect x="666" y="207.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="flash_label" x="720" y="229" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="720" dy="-0.575em">FLASH</tspan><tspan x="720" dy="1.15em">Up to 128KB</tspan></text>
+</g>
+<g id="sram">
+<rect x="666" y="281.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="sram_label" x="720" y="303" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="720" dy="-0.575em">SRAM</tspan><tspan x="720" dy="1.15em">Up to 32KB</tspan></text>
+</g>
+<g id="dma">
+<rect x="666" y="356.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="dma_label" x="720" y="378" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="720" dy="-0.575em">DMA</tspan><tspan x="720" dy="1.15em">7-channel</tspan></text>
+</g>
+<g id="mathacl">
+<rect x="666" y="431.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="mathacl_label" x="720" y="453" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="720" dy="0">MATHACL</tspan></text>
+</g>
+<g id="trng">
+<rect x="282" y="431.5" width="108" height="43" rx="0" ry="0" fill="#ccffcc" stroke="#000000" stroke-width="2" />
+<text id="trng_label" x="336" y="453" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="336" dy="0">TRNG</tspan></text>
+</g>
+<g id="cpu_only_pd1_bus">
+<rect x="282" y="505.5" width="492" height="33" rx="0" ry="0" fill="#ccffcc" stroke="#000000" stroke-width="2" />
+<text id="cpu_only_pd1_bus_label" x="528" y="522" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="528" dy="0">CPU-only PD1 Peripheral Bus (MCLK)</tspan></text>
+</g>
+<g id="pd1_peripheral_bus">
+<rect x="815.5" y="132" width="33" height="598" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+</g>
+<g id="can_fd">
+<rect x="890" y="132.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="can_fd_label" x="944" y="154" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="0">CAN-FD</tspan></text>
+</g>
+<g id="uart3">
+<rect x="890" y="207.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="uart3_label" x="944" y="229" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="0">UART3</tspan></text>
+</g>
+<g id="spi0_spi1">
+<rect x="895" y="287.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<rect x="890" y="282.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="spi0_spi1_label" x="944" y="304" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="-0.575em">SPI0</tspan><tspan x="944" dy="1.15em">SPI1</tspan></text>
+</g>
+<g id="tima0">
+<rect x="890" y="356.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="tima0_label" x="944" y="378" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="0">TIMA0</tspan></text>
+</g>
+<g id="tima1">
+<rect x="890" y="431.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="tima1_label" x="944" y="453" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="0">TIMA1</tspan></text>
+</g>
+<g id="timg6_timg7">
+<rect x="895" y="511.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<rect x="890" y="506.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="timg6_timg7_label" x="944" y="528" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="-0.575em">TIMG6</tspan><tspan x="944" dy="1.15em">TIMG7</tspan></text>
+</g>
+<g id="timg12">
+<rect x="890" y="581.5" width="108" height="43" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+<text id="timg12_label" x="944" y="603" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="-0.575em">TIMG12</tspan><tspan x="944" dy="1.15em">32-bit</tspan></text>
+</g>
+<g id="adc0_adc1">
+<rect x="895" y="681.5" width="108" height="43" rx="0" ry="0" fill="#ffcc99" stroke="#000000" stroke-width="2" />
+<rect x="890" y="676.5" width="108" height="43" rx="0" ry="0" fill="#ffcc99" stroke="#000000" stroke-width="2" />
+<text id="adc0_adc1_label" x="944" y="698" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="-0.575em">12b ADC0</tspan><tspan x="944" dy="1.15em">12b ADC1</tspan></text>
+</g>
+<g id="pdd_left_bus">
+<rect x="431.5" y="581" width="33" height="588" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+</g>
+<g id="iomux">
+<rect x="282" y="581.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="iomux_label" x="336" y="603" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="336" dy="0">IOMUX</tspan></text>
+</g>
+<g id="debug">
+<rect x="282" y="655.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="debug_label" x="336" y="677" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="336" dy="0">DEBUG</tspan></text>
+</g>
+<g id="rtc">
+<rect x="282" y="729.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="rtc_label" x="336" y="751" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="336" dy="0">RTC</tspan></text>
+</g>
+<g id="uart0">
+<rect x="282" y="804.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="uart0_label" x="336" y="826" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="336" dy="0">UART0</tspan></text>
+</g>
+<g id="uart1_uart2">
+<rect x="287" y="884.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<rect x="282" y="879.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="uart1_uart2_label" x="336" y="901" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="336" dy="-0.575em">UART1</tspan><tspan x="336" dy="1.15em">UART2</tspan></text>
+</g>
+<g id="i2c0_i2c1">
+<rect x="287" y="959.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<rect x="282" y="954.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="i2c0_i2c1_label" x="336" y="976" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="336" dy="-0.575em">I2C0</tspan><tspan x="336" dy="1.15em">I2C1</tspan></text>
+</g>
+<g id="timg0">
+<rect x="282" y="1029.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="timg0_label" x="336" y="1051" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="336" dy="0">TIMG0</tspan></text>
+</g>
+<g id="timg8">
+<rect x="282" y="1104.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="timg8_label" x="336" y="1126" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="336" dy="0">TIMG8</tspan></text>
+</g>
+<g id="wwdt0_wwdt1">
+<rect x="511" y="586.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<rect x="506" y="581.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="wwdt0_wwdt1_label" x="560" y="603" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="560" dy="-0.575em">WWDT0</tspan><tspan x="560" dy="1.15em">WWDT1</tspan></text>
+</g>
+<g id="flashctl">
+<rect x="506" y="655.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="flashctl_label" x="560" y="677" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="560" dy="0">FLASHCTL</tspan></text>
+</g>
+<g id="event">
+<rect x="506" y="729.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="event_label" x="560" y="751" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="560" dy="0">EVENT</tspan></text>
+</g>
+<g id="pmcu">
+<rect x="506" y="846.5" width="268" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="pmcu_label" x="640" y="868" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="640" dy="0">PMCU (SYSCTL)</tspan></text>
+</g>
+<g id="ckm_region">
+<rect x="506" y="921.5" width="118" height="247" rx="0" ry="0" fill="transparent" stroke="#000000" stroke-width="1.5" stroke-dasharray="9 7" />
+</g>
+<g id="syspll">
+<rect x="517" y="954" width="96" height="32" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" />
+<text id="syspll_label" x="565" y="970" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="565" dy="0">SYSPLL</tspan></text>
+</g>
+<g id="lfosc">
+<rect x="517" y="996" width="96" height="32" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" />
+<text id="lfosc_label" x="565" y="1012" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="565" dy="0">LFOSC</tspan></text>
+</g>
+<g id="sysosc">
+<rect x="517" y="1038" width="96" height="32" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" />
+<text id="sysosc_label" x="565" y="1054" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="565" dy="0">SYSOSC</tspan></text>
+</g>
+<g id="lfxt">
+<rect x="517" y="1080" width="96" height="32" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" />
+<text id="lfxt_label" x="565" y="1096" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="565" dy="0">LFXT</tspan></text>
+</g>
+<g id="hfxt">
+<rect x="517" y="1122" width="96" height="32" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" />
+<text id="hfxt_label" x="565" y="1138" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="565" dy="0">HFXT</tspan></text>
+</g>
+<g id="pmu_region">
+<rect x="655" y="921" width="118" height="204" rx="0" ry="0" fill="transparent" stroke="#000000" stroke-width="1.5" stroke-dasharray="9 7" />
+</g>
+<g id="ldo">
+<rect x="666" y="954" width="96" height="32" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" />
+<text id="ldo_label" x="714" y="970" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="714" dy="0">LDO</tspan></text>
+</g>
+<g id="bor">
+<rect x="666" y="996" width="96" height="32" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" />
+<text id="bor_label" x="714" y="1012" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="714" dy="0">BOR</tspan></text>
+</g>
+<g id="por">
+<rect x="666" y="1038" width="96" height="32" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" />
+<text id="por_label" x="714" y="1054" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="714" dy="0">POR</tspan></text>
+</g>
+<g id="vboost">
+<rect x="666" y="1080" width="96" height="32" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" />
+<text id="vboost_label" x="714" y="1096" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="714" dy="0">VBOOST</tspan></text>
+</g>
+<g id="pdd_right_bus">
+<rect x="815.5" y="772" width="33" height="396" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+</g>
+<g id="vref">
+<rect x="890" y="772.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="vref_label" x="944" y="794" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="0">VREF</tspan></text>
+</g>
+<g id="opa0_opa1">
+<rect x="895" y="852.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<rect x="890" y="847.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="opa0_opa1_label" x="944" y="869" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="-0.575em">OPA0</tspan><tspan x="944" dy="1.15em">OPA1</tspan></text>
+</g>
+<g id="gpamp">
+<rect x="890" y="922.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="gpamp_label" x="944" y="944" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="0">GPAMP</tspan></text>
+</g>
+<g id="dac0">
+<rect x="890" y="997.5" width="108" height="43" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="dac0_label" x="944" y="1019" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="0">12b DAC0</tspan></text>
+</g>
+<g id="comp0_comp1_comp2">
+<rect x="900" y="1071.5" width="108" height="65" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<rect x="895" y="1066.5" width="108" height="65" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<rect x="890" y="1061.5" width="108" height="65" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+<text id="comp0_comp1_comp2_label" x="944" y="1094" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="-1.15em">COMP0</tspan><tspan x="944" dy="1.15em">COMP1</tspan><tspan x="944" dy="1.15em">COMP2</tspan></text>
+</g>
+<g id="legend_swatch_pd1_cpu_only">
+<rect x="207" y="1241" width="22" height="22" rx="0" ry="0" fill="#ccffcc" stroke="#000000" stroke-width="2" />
+</g>
+<g id="legend_swatch_pd1_cpu_dma">
+<rect x="207" y="1263" width="22" height="22" rx="0" ry="0" fill="#ffff99" stroke="#000000" stroke-width="2" />
+</g>
+<g id="legend_swatch_pd1_pd0_cpu_dma">
+<rect x="207" y="1285" width="22" height="22" rx="0" ry="0" fill="#ffcc99" stroke="#000000" stroke-width="2" />
+</g>
+<g id="legend_swatch_pd0_cpu_dma">
+<rect x="207" y="1307" width="22" height="22" rx="0" ry="0" fill="#bfe4ff" stroke="#000000" stroke-width="2" />
+</g>
+<g id="conn_top_pins_to_gpio">
+<polyline id="conn_top_pins_to_gpio_path" points="720,47 720,132" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-open-arrow)" marker-end="url(#marker-open-arrow)" />
+</g>
+<g id="conn_iobus">
+<polyline id="conn_iobus_path" points="453,110 676,110 676,132" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<text id="conn_iobus_label_0" x="592" y="110" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="592" dy="0">IOBUS</tspan></text>
+</g>
+<g id="conn_rom_to_ahb">
+<polyline id="conn_rom_to_ahb_path" points="550,186 592,186" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-arrow)" marker-end="url(#marker-arrow)" />
+</g>
+<g id="conn_cpu_to_ahb">
+<polyline id="conn_cpu_to_ahb_path" points="453,270 592,270" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-open-arrow)" marker-end="url(#marker-open-arrow)" />
+</g>
+<g id="conn_ahb_to_pd1_bus">
+<polyline id="conn_ahb_to_pd1_bus_path" points="608,399 608,505" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-open-arrow)" marker-end="url(#marker-open-arrow)" />
+</g>
+<g id="conn_trng_to_pd1_bus">
+<polyline id="conn_trng_to_pd1_bus_path" points="336,474 336,505" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-arrow)" marker-end="url(#marker-arrow)" />
+</g>
+<g id="conn_pd1_bus_to_vertical_pd1_bus">
+<polyline id="conn_pd1_bus_to_vertical_pd1_bus_path" points="774,522 816,522" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-open-arrow)" marker-end="url(#marker-open-arrow)" />
+</g>
+<g id="conn_pd1_bus_to_pdd_right_bus">
+<polyline id="conn_pd1_bus_to_pdd_right_bus_path" points="832,730 832,772" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-open-arrow)" marker-end="url(#marker-open-arrow)" />
+</g>
+<g id="conn_pmcu_to_pdd_buses">
+<polyline id="conn_pmcu_to_pdd_buses_path" points="464,826 816,826" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-open-arrow)" marker-end="url(#marker-open-arrow)" />
+</g>
+<g id="conn_pmcu_to_pmu">
+<polyline id="conn_pmcu_to_pmu_path" points="714,890 714,921" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-arrow)" marker-end="url(#marker-arrow)" />
+</g>
+<g id="conn_pmcu_to_ckm">
+<polyline id="conn_pmcu_to_ckm_path" points="565,890 565,921" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-arrow)" marker-end="url(#marker-arrow)" />
+</g>
+<g id="conn_ckm_to_bottom_pins">
+<polyline id="conn_ckm_to_bottom_pins_path" points="565,1168 565,1228" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-open-arrow)" marker-end="url(#marker-open-arrow)" />
+</g>
+<g id="conn_pmu_to_bottom_pins">
+<polyline id="conn_pmu_to_bottom_pins_path" points="714,1125 714,1228" fill="none" stroke="#000000" stroke-width="2" marker-start="url(#marker-open-arrow)" marker-end="url(#marker-open-arrow)" />
+</g>
+<g id="conn_core_blocks_to_ahb_or_pd1">
+<polyline id="conn_core_blocks_to_ahb_or_pd1_branch_0" points="624,228 666,228" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_core_blocks_to_ahb_or_pd1_branch_1" points="774,228 816,228" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_core_blocks_to_ahb_or_pd1_branch_2" points="624,303 666,303" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_core_blocks_to_ahb_or_pd1_branch_3" points="774,303 816,303" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_core_blocks_to_ahb_or_pd1_branch_4" points="774,378 816,378" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_core_blocks_to_ahb_or_pd1_branch_5" points="774,453 816,453" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+</g>
+<g id="conn_pd1_bus_to_top_right_peripherals">
+<polyline id="conn_pd1_bus_to_top_right_peripherals_branch_0" points="848,154 890,154" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pd1_bus_to_top_right_peripherals_branch_1" points="848,229 890,229" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pd1_bus_to_top_right_peripherals_branch_2" points="848,304 890,304" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pd1_bus_to_top_right_peripherals_branch_3" points="848,378 890,378" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pd1_bus_to_top_right_peripherals_branch_4" points="848,453 890,453" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pd1_bus_to_top_right_peripherals_branch_5" points="848,528 890,528" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pd1_bus_to_top_right_peripherals_branch_6" points="848,603 890,603" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pd1_bus_to_top_right_peripherals_branch_7" points="848,698 890,698" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+</g>
+<g id="conn_pdd_left_peripherals">
+<polyline id="conn_pdd_left_peripherals_branch_0" points="390,603 431,603" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_left_peripherals_branch_1" points="390,677 431,677" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_left_peripherals_branch_2" points="390,751 431,751" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_left_peripherals_branch_3" points="390,826 431,826" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_left_peripherals_branch_4" points="390,901 431,901" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_left_peripherals_branch_5" points="390,976 431,976" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_left_peripherals_branch_6" points="390,1051 431,1051" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_left_peripherals_branch_7" points="390,1126 431,1126" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+</g>
+<g id="conn_pdd_middle_peripherals">
+<polyline id="conn_pdd_middle_peripherals_branch_0" points="464,603 506,603" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_middle_peripherals_branch_1" points="464,677 506,677" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_middle_peripherals_branch_2" points="464,751 506,751" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+</g>
+<g id="conn_pdd_right_peripherals">
+<polyline id="conn_pdd_right_peripherals_branch_0" points="848,794 890,794" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_right_peripherals_branch_1" points="848,869 890,869" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_right_peripherals_branch_2" points="848,944 890,944" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_right_peripherals_branch_3" points="848,1019 890,1019" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+<polyline id="conn_pdd_right_peripherals_branch_4" points="848,1094 890,1094" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#marker-arrow)" />
+</g>
+<line id="cpu_core_divider_1" x1="303" y1="249" x2="453" y2="249" fill="none" stroke="#000000" stroke-width="2" />
+<line id="cpu_core_divider_2" x1="303" y1="282" x2="453" y2="282" fill="none" stroke="#000000" stroke-width="2" />
+<line id="cpu_core_divider_3" x1="303" y1="315" x2="453" y2="315" fill="none" stroke="#000000" stroke-width="2" />
+<line id="cpu_core_divider_4" x1="303" y1="348" x2="453" y2="348" fill="none" stroke="#000000" stroke-width="2" />
+<line id="right_external_bus_spine_top" x1="1030" y1="145" x2="1030" y2="699" fill="none" stroke="#000000" stroke-width="1.5" />
+<line id="right_external_bus_spine_bottom" x1="1030" y1="790" x2="1030" y2="1100" fill="none" stroke="#000000" stroke-width="1.5" />
+<line id="left_external_bus_spine" x1="263" y1="674" x2="263" y2="1126" fill="none" stroke="#000000" stroke-width="1.5" />
+<text id="txt_top_pins" x="720" y="32" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="720" dy="0">PAx, PBx</tspan></text>
+<text id="txt_cpu_subsystem" x="378" y="151" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="378" dy="0">CPU Subsystem</tspan></text>
+<text id="txt_cpu_core" x="378" y="208" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="378" dy="-0.55em">Arm Cortex-M0+</tspan><tspan x="378" dy="1.1em">fmax = 80 MHz</tspan></text>
+<text id="txt_cpu_core_rows" x="378" y="312" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="378" dy="-2.7750000000000004em">NVIC</tspan><tspan x="378" dy="1.85em">MPU</tspan><tspan x="378" dy="1.85em">SWD + MTB</tspan><tspan x="378" dy="1.85em">IOPORT</tspan></text>
+<text id="txt_rom" x="528" y="186" transform="rotate(270 528 186)" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="528" dy="-0.55em">ROM</tspan><tspan x="528" dy="1.1em">BCR, BSL</tspan></text>
+<text id="txt_ahb_bus" x="608" y="265" transform="rotate(270 608 265)" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="608" dy="0">AHB Bus (MCLK)</tspan></text>
+<text id="txt_pd1_peripheral_bus" x="832" y="431" transform="rotate(270 832 431)" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="832" dy="0">PD1 Peripheral Bus (MCLK)</tspan></text>
+<text id="txt_temperature_sensor" x="944" y="641" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="hanging"><tspan x="944" dy="0">Temperature</tspan><tspan x="944" dy="1.05em">Sensor</tspan></text>
+<text id="txt_adc_clock" x="944" y="752" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="944" dy="0">UPLCLK</tspan></text>
+<text id="txt_pdd_left_bus" x="448" y="875" transform="rotate(270 448 875)" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="448" dy="0">PDD Peripheral Bus (UPLCLK)</tspan></text>
+<text id="txt_ckm" x="565" y="933" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="565" dy="0">CKM</tspan></text>
+<text id="txt_pmu" x="714" y="933" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="714" dy="0">PMU</tspan></text>
+<text id="txt_pdd_right_bus" x="832" y="970" transform="rotate(270 832 970)" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="832" dy="0">PDD Peripheral Bus (UPLCLK)</tspan></text>
+<text id="txt_left_external_labels" x="188" y="669" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="hanging"><tspan x="188" dy="0">SWCLK,</tspan><tspan x="188" dy="1.55em">SWDIO</tspan><tspan x="188" dy="1.55em"></tspan><tspan x="188" dy="1.55em">RTC_OUT</tspan><tspan x="188" dy="1.55em"></tspan><tspan x="188" dy="1.55em">TX, RX,</tspan><tspan x="188" dy="1.55em">CTS, RTS</tspan><tspan x="188" dy="1.55em"></tspan><tspan x="188" dy="1.55em">TX, RX,</tspan><tspan x="188" dy="1.55em">CTS, RTS</tspan><tspan x="188" dy="1.55em"></tspan><tspan x="188" dy="1.55em">SDA, SCL</tspan><tspan x="188" dy="1.55em"></tspan><tspan x="188" dy="1.55em">2-channel</tspan><tspan x="188" dy="1.55em"></tspan><tspan x="188" dy="1.55em">2-channel</tspan><tspan x="188" dy="1.55em">QEI/HALL</tspan></text>
+<text id="txt_right_external_labels_top" x="1072" y="145" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="hanging"><tspan x="1072" dy="0">TX, RX</tspan><tspan x="1072" dy="1.62em"></tspan><tspan x="1072" dy="1.62em">TX, RX,</tspan><tspan x="1072" dy="1.62em">CTS, RTS</tspan><tspan x="1072" dy="1.62em"></tspan><tspan x="1072" dy="1.62em">POCI, PICO,</tspan><tspan x="1072" dy="1.62em">SCK, CSx</tspan><tspan x="1072" dy="1.62em"></tspan><tspan x="1072" dy="1.62em">4-CH</tspan><tspan x="1072" dy="1.62em">FAULT</tspan><tspan x="1072" dy="1.62em"></tspan><tspan x="1072" dy="1.62em">2-CH</tspan><tspan x="1072" dy="1.62em">FAULT</tspan><tspan x="1072" dy="1.62em"></tspan><tspan x="1072" dy="1.62em">2-CH</tspan><tspan x="1072" dy="1.62em">2-CH</tspan><tspan x="1072" dy="1.62em"></tspan><tspan x="1072" dy="1.62em">2-CH</tspan></text>
+<text id="txt_right_external_labels_bottom" x="1072" y="681" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="hanging"><tspan x="1072" dy="0">A0_x</tspan><tspan x="1072" dy="1.55em">A1_x</tspan><tspan x="1072" dy="1.55em"></tspan><tspan x="1072" dy="1.55em">VREF+,</tspan><tspan x="1072" dy="1.55em">VREF-</tspan><tspan x="1072" dy="1.55em"></tspan><tspan x="1072" dy="1.55em">IN+, IN-,</tspan><tspan x="1072" dy="1.55em">OUT</tspan><tspan x="1072" dy="1.55em"></tspan><tspan x="1072" dy="1.55em">IN+, IN-,</tspan><tspan x="1072" dy="1.55em">OUT</tspan><tspan x="1072" dy="1.55em"></tspan><tspan x="1072" dy="1.55em">DAC_OUT</tspan><tspan x="1072" dy="1.55em"></tspan><tspan x="1072" dy="1.55em">IN+, IN-,</tspan><tspan x="1072" dy="1.55em">OUT</tspan></text>
+<text id="txt_bottom_clock_pins" x="565" y="1242" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="hanging"><tspan x="565" dy="0">LFXIN, LFXOUT</tspan><tspan x="565" dy="1.25em">HFXIN, HFXOUT</tspan><tspan x="565" dy="1.25em">ROSC</tspan><tspan x="565" dy="1.25em">CLK_OUT, FCC_IN</tspan></text>
+<text id="txt_bottom_power_pins" x="714" y="1242" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="hanging"><tspan x="714" dy="0">VDD, VSS</tspan><tspan x="714" dy="1.25em">VCORE, NRST</tspan></text>
+<text id="txt_comp_note" x="816" y="1222" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="hanging"><tspan x="816" dy="0">Each COMPx includes an 8-bit reference DAC.</tspan><tspan x="816" dy="1.2em">COMP0 and COMP1 reference DACs connect to</tspan><tspan x="816" dy="1.2em">OPA0 and OPA1, respectively</tspan></text>
+<text id="txt_legend_title" x="337" y="1223" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="337" dy="0">LEGEND</tspan></text>
+<text id="txt_legend_items" x="234" y="1241" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="hanging"><tspan x="234" dy="0">PD1, CPU access only</tspan><tspan x="234" dy="1.22em">PD1, CPU/DMA access</tspan><tspan x="234" dy="1.22em">PD1/PD0, CPU/DMA access</tspan><tspan x="234" dy="1.22em">PD0, CPU/DMA access</tspan></text>
+</svg>

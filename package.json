@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "render:refimage001": "bun svg-conversion-prototype/render-system-diagram.ts reference-images/refimage001.json svg-conversion-prototype/refimage001.svg"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
