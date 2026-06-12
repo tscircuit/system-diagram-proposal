@@ -94,10 +94,6 @@ interface SystemDiagram {
   width?: number
   height?: number
   subcircuit_id?: string
-  coordinate_system?: {
-    origin?: "center" | "top_left"
-    y_axis?: "up" | "down"
-  }
 }
 ```
 
