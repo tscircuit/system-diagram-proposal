@@ -1,0 +1,16 @@
+{
+  "id": "refimage005",
+  "source_vendor": "Espressif Systems",
+  "source_document_title": "ESP32-S3 Series Datasheet",
+  "source_device_family": "ESP32-S3",
+  "source_url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf",
+  "source_product_url": "https://www.espressif.com/en/products/socs/esp32-s3",
+  "document_version": "2.2",
+  "figure_title": "ESP32-S3 Functional Block Diagram",
+  "document_page": 2,
+  "notes": [
+    "Grouped SoC overview diagram with rounded outer frame, section containers, many rounded block tiles, and a small power-consumption legend.",
+    "Includes CPU and memory, RF, wireless digital circuits, peripherals, security, RTC, and low-power components shaded differently from normal components.",
+    "Useful for validating nested section containers, rounded rectangles, legend swatches, domain shading, tile grids, and diagrams with few explicit connection lines."
+  ]
+}

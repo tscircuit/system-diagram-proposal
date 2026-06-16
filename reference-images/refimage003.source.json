@@ -1,0 +1,17 @@
+{
+  "id": "refimage003",
+  "source_vendor": "STMicroelectronics",
+  "source_document_title": "STM32G030x6/x8 Datasheet",
+  "source_device_family": "STM32G030x6/x8",
+  "source_url": "https://www.st.com/resource/en/datasheet/stm32g030c8.pdf",
+  "source_product_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g030c8.html",
+  "document_revision": "DS12991 Rev 6",
+  "document_date": "June 2025",
+  "figure_title": "Figure 1. Block diagram",
+  "document_page": 9,
+  "notes": [
+    "STM32-style block diagram with a large chip boundary and legend for analog power domains.",
+    "Includes CPU, SWD, bus matrix, DMA/DMAMUX, flash/SRAM, RCC, clock sources, power/supply supervision, GPIO ports, APB/AHB buses, ADC, SPI/I2S, timers, USART, I2C, RTC, watchdogs, and debug blocks.",
+    "Useful for validating color swatches/legends, translucent domain overlays, bus spines, external edge pins, small interface blocks, and mixed horizontal/vertical labels."
+  ]
+}

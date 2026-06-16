@@ -1,0 +1,17 @@
+{
+  "id": "refimage007",
+  "source_vendor": "STMicroelectronics",
+  "source_document_title": "STM32H723VE STM32H723VG STM32H723ZE STM32H723ZG Datasheet",
+  "source_device_family": "STM32H723xE/G",
+  "source_url": "https://www.st.com/resource/en/datasheet/stm32h723zg.pdf",
+  "source_product_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h723zg.html",
+  "document_revision": "DS13313 Rev 5",
+  "document_date": "May 2025",
+  "figure_title": "Figure 1. STM32H723xE/G block diagram",
+  "document_page": 16,
+  "notes": [
+    "Very dense STM32H7 block diagram with multiple bus matrices, frequency-domain labels, memory/cache blocks, DMA controllers, timers, analog peripherals, communication peripherals, and power/clock/reset blocks.",
+    "Includes many external edge labels, nested blocks, vertical buses, angled bus-matrix polygons, small colored tags, SRAM callouts, and packed repeated peripheral rows.",
+    "Useful for validating dense routing, small text, mixed rect/polygon bus shapes, nested CPU/cache/memory components, vertical labels, and complex left/right diagram-edge terminals."
+  ]
+}

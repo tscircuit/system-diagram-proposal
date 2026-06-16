@@ -216,6 +216,7 @@ export type SystemEndpoint =
 export interface SystemConnectionBranch {
   path: Point[]
   endpoint?: SystemEndpoint
+  marker_start?: SystemMarker
   marker_end?: SystemMarker
   label?: string
 }
