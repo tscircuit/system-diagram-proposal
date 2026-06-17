@@ -1,0 +1,1503 @@
+[
+  {
+    "type": "system_diagram",
+    "system_diagram_id": "system_diagram_refimage002",
+    "name": "PIC32CM MC00 Family block diagram",
+    "description": "First-pass system_diagram recreation of reference-images/refimage002.png.",
+    "width": 1036,
+    "height": 1346
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_port_rail",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#bdcae4",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "text_style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_cpu",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#12325d",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "text_style": {
+      "color": "#ffffff",
+      "font_size": 15,
+      "font_weight": "bold",
+      "line_height": 1.12
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_memory",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#bdcae4",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "text_style": {
+      "font_size": 15,
+      "line_height": 1.1
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_bus_matrix",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#d7d7d7",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "text_style": {
+      "font_size": 15,
+      "line_height": 1.1
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_bridge_green",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#97cf45",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "text_style": {
+      "font_size": 14,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_bridge_pale",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#d9eeee",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "text_style": {
+      "font_size": 14,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_peripheral_blue",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#55b7e4",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "text_style": {
+      "font_size": 14,
+      "line_height": 1.08
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_control_pale",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#d9eeee",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "text_style": {
+      "font_size": 14,
+      "line_height": 1.08
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_event",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#f0a43a",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "text_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_signal",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_green_signal",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#78b943",
+      "stroke_width": 5
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_blue_bus",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#55b7e4",
+      "stroke_color": "#55b7e4",
+      "stroke_width": 4
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_blue_signal",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#55b7e4",
+      "stroke_width": 4
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_dma_badge",
+    "system_diagram_id": "system_diagram_refimage002",
+    "appearance": {
+      "fill_color": "#4aa7d4",
+      "stroke_color": "#000000",
+      "stroke_width": 0.8
+    },
+    "text_style": {
+      "font_size": 7
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_port_rail",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "io",
+    "label": "PORT",
+    "label_rotation": -90,
+    "center": { "x": 70, "y": 620 },
+    "size": { "width": 34, "height": 1195 },
+    "style_id": "style_port_rail",
+    "z_index": 0
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_port_rail",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "io",
+    "label": "PORT",
+    "label_rotation": -90,
+    "center": { "x": 971, "y": 812 },
+    "size": { "width": 34, "height": 976 },
+    "style_id": "style_port_rail",
+    "z_index": 0
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "serial_wire",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "debug",
+    "label": "SERIAL\nWIRE\n\nDEVICE\nSERVICE\nUNIT",
+    "center": { "x": 250, "y": 154 },
+    "size": { "width": 96, "height": 167 },
+    "style_id": "style_memory"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "cpu",
+    "label": "CORTEX-M0+\nPROCESSOR\nFmax 48 MHz",
+    "center": { "x": 426, "y": 85 },
+    "size": { "width": 137, "height": 122 },
+    "style_id": "style_cpu"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "micro_trace_buffer",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "debug",
+    "label": "MICRO\nTRACE BUFFER",
+    "label_rotation": -90,
+    "center": { "x": 513, "y": 85 },
+    "size": { "width": 36, "height": 122 },
+    "style_id": "style_memory"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "flash_nvm",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "memory",
+    "center": { "x": 611, "y": 85 },
+    "size": { "width": 122, "height": 122 },
+    "style_id": "style_memory"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sram",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "memory",
+    "center": { "x": 825, "y": 85 },
+    "size": { "width": 280, "height": 122 },
+    "style_id": "style_memory"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "divide_accelerator",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "module",
+    "label": "Divide Accelerator",
+    "center": { "x": 219, "y": 272 },
+    "size": { "width": 156, "height": 45 },
+    "style_id": "style_memory",
+    "label_style": { "font_size": 12 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "peripheral_access_controller",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "security",
+    "label": "PERIPHERAL\nACCESS CONTROLLER",
+    "center": { "x": 219, "y": 335 },
+    "size": { "width": 156, "height": 45 },
+    "style_id": "style_bridge_green"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "high_speed_bus_matrix",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "bus",
+    "label": "HIGH-SPEED\nBUS MATRIX",
+    "center": { "x": 543, "y": 263 },
+    "size": { "width": 370, "height": 134 },
+    "style_id": "style_bus_matrix",
+    "is_container": true
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "bus_matrix_inner",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "high_speed_bus_matrix",
+    "shape": "rect",
+    "center": { "x": 543, "y": 263 },
+    "size": { "width": 314, "height": 92 },
+    "appearance": {
+      "fill_color": "transparent",
+      "stroke_color": "#777777",
+      "stroke_width": 1
+    },
+    "z_index": 11
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "flash_nvm_divider_1",
+    "system_diagram_id": "system_diagram_refimage002",
+    "shape": "line",
+    "start": { "x": 550, "y": 85 },
+    "end": { "x": 672, "y": 85 },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#000000",
+      "stroke_width": 1
+    },
+    "z_index": 12
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "flash_nvm_divider_2",
+    "system_diagram_id": "system_diagram_refimage002",
+    "shape": "line",
+    "start": { "x": 550, "y": 118 },
+    "end": { "x": 672, "y": 118 },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#000000",
+      "stroke_width": 1
+    },
+    "z_index": 12
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "sram_divider",
+    "system_diagram_id": "system_diagram_refimage002",
+    "shape": "line",
+    "start": { "x": 685, "y": 85 },
+    "end": { "x": 965, "y": 85 },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#000000",
+      "stroke_width": 1
+    },
+    "z_index": 12
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "dma",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "module",
+    "label": "DMA",
+    "center": { "x": 820, "y": 247 },
+    "size": { "width": 78, "height": 62 },
+    "style_id": "style_memory"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "bridge_b",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "bus",
+    "label": "AHB-APB\nBRIDGE B",
+    "center": { "x": 343, "y": 408 },
+    "size": { "width": 84, "height": 62 },
+    "style_id": "style_bridge_green"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "bridge_a",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "bus",
+    "label": "AHB-APB\nBRIDGE A",
+    "center": { "x": 462, "y": 408 },
+    "size": { "width": 84, "height": 62 },
+    "style_id": "style_bridge_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "bridge_c",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "bus",
+    "label": "AHB-APB\nBRIDGE C",
+    "center": { "x": 578, "y": 408 },
+    "size": { "width": 84, "height": 62 },
+    "style_id": "style_peripheral_blue"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "main_clocks_controller",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "clock",
+    "label": "MAIN CLOCKS\nCONTROLLER",
+    "center": { "x": 338, "y": 513 },
+    "size": { "width": 150, "height": 45 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "oscillators_controller",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "clock",
+    "label": "OSCILLATORS CONTROLLER",
+    "center": { "x": 281, "y": 606 },
+    "size": { "width": 262, "height": 123 },
+    "style_id": "style_control_pale",
+    "is_container": true,
+    "label_style": { "font_size": 14 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "xosc",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "oscillators_controller",
+    "component_kind": "clock",
+    "label": "XOSC",
+    "center": { "x": 213, "y": 644 },
+    "size": { "width": 98, "height": 23 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "osc48m",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "oscillators_controller",
+    "component_kind": "clock",
+    "label": "OSC48M",
+    "center": { "x": 347, "y": 588 },
+    "size": { "width": 98, "height": 23 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "fdpll96m",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "oscillators_controller",
+    "component_kind": "clock",
+    "label": "FDPLL96M",
+    "center": { "x": 347, "y": 644 },
+    "size": { "width": 98, "height": 23 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "generic_clock_controller",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "clock",
+    "label": "GENERIC CLOCK\nCONTROLLER",
+    "center": { "x": 329, "y": 700 },
+    "size": { "width": 169, "height": 43 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "watchdog_timer",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "timer",
+    "label": "WATCHDOG\nTIMER",
+    "center": { "x": 329, "y": 750 },
+    "size": { "width": 169, "height": 39 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "external_interrupt_controller",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "io",
+    "label": "EXTERNAL INTERRUPT\nCONTROLLER",
+    "center": { "x": 329, "y": 795 },
+    "size": { "width": 169, "height": 41 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "power_manager",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "power",
+    "label": "POWER\nMANAGER",
+    "center": { "x": 329, "y": 856 },
+    "size": { "width": 169, "height": 39 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "osc32k_controller",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "clock",
+    "label": "OSC32K CONTROLLER",
+    "center": { "x": 281, "y": 946 },
+    "size": { "width": 262, "height": 100 },
+    "style_id": "style_control_pale",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "xosc32k",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "osc32k_controller",
+    "component_kind": "clock",
+    "label": "XOSC32K",
+    "center": { "x": 213, "y": 945 },
+    "size": { "width": 98, "height": 23 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "osculp32k",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "osc32k_controller",
+    "component_kind": "clock",
+    "label": "OSCULP32K",
+    "center": { "x": 347, "y": 945 },
+    "size": { "width": 98, "height": 23 },
+    "style_id": "style_control_pale",
+    "label_style": { "font_size": 12 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "osc32k",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "osc32k_controller",
+    "component_kind": "clock",
+    "label": "OSC32K",
+    "center": { "x": 347, "y": 978 },
+    "size": { "width": 98, "height": 23 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "supply_controller",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "power",
+    "label": "SUPPLY CONTROLLER",
+    "center": { "x": 281, "y": 1034 },
+    "size": { "width": 262, "height": 88 },
+    "style_id": "style_control_pale",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "bod55",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "supply_controller",
+    "component_kind": "power",
+    "label": "BOD55",
+    "center": { "x": 213, "y": 1024 },
+    "size": { "width": 98, "height": 23 },
+    "style_id": "style_control_pale",
+    "label_style": { "font_size": 12 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "vref",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "supply_controller",
+    "component_kind": "power",
+    "label": "VREF",
+    "center": { "x": 347, "y": 1024 },
+    "size": { "width": 98, "height": 23 },
+    "style_id": "style_control_pale",
+    "label_style": { "font_size": 12 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "vreg33",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "supply_controller",
+    "component_kind": "power",
+    "label": "3.3V VREG",
+    "center": { "x": 213, "y": 1056 },
+    "size": { "width": 98, "height": 23 },
+    "style_id": "style_control_pale",
+    "label_style": { "font_size": 12 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "vreg",
+    "system_diagram_id": "system_diagram_refimage002",
+    "parent_system_component_id": "supply_controller",
+    "component_kind": "power",
+    "label": "VREG",
+    "center": { "x": 347, "y": 1056 },
+    "size": { "width": 98, "height": 23 },
+    "style_id": "style_control_pale",
+    "label_style": { "font_size": 12 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "reset_controller",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "reset",
+    "label": "RESET\nCONTROLLER",
+    "center": { "x": 329, "y": 1118 },
+    "size": { "width": 169, "height": 43 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rtc",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "timer",
+    "label": "REAL TIME\nCOUNTER",
+    "center": { "x": 329, "y": 1165 },
+    "size": { "width": 169, "height": 41 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "frequency_meter",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "clock",
+    "label": "FREQUENCY\nMETER",
+    "center": { "x": 329, "y": 1212 },
+    "size": { "width": 169, "height": 39 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "temperature_sensor",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "analog",
+    "label": "TEMPERATURE\nSENSOR",
+    "center": { "x": 329, "y": 1258 },
+    "size": { "width": 169, "height": 40 },
+    "style_id": "style_control_pale"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "event_system",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "bus",
+    "label": "EVENT SYSTEM",
+    "label_rotation": -90,
+    "center": { "x": 508, "y": 822 },
+    "size": { "width": 31, "height": 748 },
+    "style_id": "style_event"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "apb_bus_a",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "bus",
+    "center": { "x": 462, "y": 843 },
+    "size": { "width": 17, "height": 872 },
+    "appearance": {
+      "fill_color": "transparent",
+      "stroke_color": "transparent",
+      "stroke_width": 0
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "apb_bus_c",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "bus",
+    "center": { "x": 563, "y": 889 },
+    "size": { "width": 17, "height": 802 },
+    "appearance": {
+      "fill_color": "#55b7e4",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "apb_bus_c_top_arrow",
+    "system_diagram_id": "system_diagram_refimage002",
+    "shape": "polygon",
+    "points": [
+      { "x": 563, "y": 474 },
+      { "x": 552, "y": 494 },
+      { "x": 574, "y": 494 }
+    ],
+    "appearance": {
+      "fill_color": "#55b7e4",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "z_index": 45
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "apb_bus_c_bottom_arrow",
+    "system_diagram_id": "system_diagram_refimage002",
+    "shape": "polygon",
+    "points": [
+      { "x": 563, "y": 1290 },
+      { "x": 552, "y": 1270 },
+      { "x": 574, "y": 1270 }
+    ],
+    "appearance": {
+      "fill_color": "#55b7e4",
+      "stroke_color": "#000000",
+      "stroke_width": 1.2
+    },
+    "z_index": 45
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ccl",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "other",
+    "label": "4x CCL",
+    "center": { "x": 692, "y": 565 },
+    "size": { "width": 170, "height": 78 },
+    "style_id": "style_peripheral_blue",
+    "shape": "stacked_rect",
+    "stack_count": 2,
+    "stack_offset": { "x": 7, "y": 7 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sercom",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "peripheral",
+    "label": "4x SERCOM",
+    "center": { "x": 692, "y": 655 },
+    "size": { "width": 170, "height": 67 },
+    "style_id": "style_peripheral_blue",
+    "shape": "stacked_rect",
+    "stack_count": 2,
+    "stack_offset": { "x": 7, "y": 7 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "timer_counter",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "timer",
+    "label": "5x TIMER/COUNTER",
+    "center": { "x": 692, "y": 744 },
+    "size": { "width": 170, "height": 66 },
+    "style_id": "style_peripheral_blue",
+    "shape": "stacked_rect",
+    "stack_count": 2,
+    "stack_offset": { "x": 7, "y": 7 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "timer_counter_control",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "timer",
+    "label": "3x TIMER/COUNTER\nFOR CONTROL",
+    "center": { "x": 692, "y": 836 },
+    "size": { "width": 170, "height": 67 },
+    "style_id": "style_peripheral_blue",
+    "shape": "stacked_rect",
+    "stack_count": 2,
+    "stack_offset": { "x": 7, "y": 7 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "adc",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "analog",
+    "label": "2x 12-CHANNEL\n12-bit ADC 1MSPS",
+    "center": { "x": 692, "y": 928 },
+    "size": { "width": 170, "height": 67 },
+    "style_id": "style_peripheral_blue",
+    "shape": "stacked_rect",
+    "stack_count": 2,
+    "stack_offset": { "x": 7, "y": 7 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "analog_comparators",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "analog",
+    "label": "2x ANALOG\nCOMPARATORS",
+    "center": { "x": 692, "y": 1017 },
+    "size": { "width": 170, "height": 67 },
+    "style_id": "style_peripheral_blue",
+    "shape": "stacked_rect",
+    "stack_count": 2,
+    "stack_offset": { "x": 7, "y": 7 }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "dac",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "analog",
+    "label": "10-bit DAC",
+    "center": { "x": 692, "y": 1102 },
+    "size": { "width": 170, "height": 68 },
+    "style_id": "style_peripheral_blue"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "pdec",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "peripheral",
+    "label": "PDEC",
+    "center": { "x": 692, "y": 1190 },
+    "size": { "width": 170, "height": 70 },
+    "style_id": "style_peripheral_blue"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sdadc",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "analog",
+    "label": "2-CHANNEL\n16-bit SDADC 3KSPS",
+    "center": { "x": 692, "y": 1273 },
+    "size": { "width": 170, "height": 68 },
+    "style_id": "style_peripheral_blue"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sercom_dma_badge",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "other",
+    "label": "DMA",
+    "center": { "x": 619, "y": 629 },
+    "size": { "width": 24, "height": 14 },
+    "style_id": "style_dma_badge",
+    "z_index": 45
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "tc_dma_badge",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "other",
+    "label": "DMA",
+    "center": { "x": 619, "y": 720 },
+    "size": { "width": 24, "height": 14 },
+    "style_id": "style_dma_badge",
+    "z_index": 45
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "tcc_dma_badge",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "other",
+    "label": "DMA",
+    "center": { "x": 619, "y": 811 },
+    "size": { "width": 24, "height": 14 },
+    "style_id": "style_dma_badge",
+    "z_index": 45
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "adc_dma_badge",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "other",
+    "label": "DMA",
+    "center": { "x": 619, "y": 901 },
+    "size": { "width": 24, "height": 14 },
+    "style_id": "style_dma_badge",
+    "z_index": 45
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "dac_dma_badge",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "other",
+    "label": "DMA",
+    "center": { "x": 619, "y": 1062 },
+    "size": { "width": 24, "height": 14 },
+    "style_id": "style_dma_badge",
+    "z_index": 45
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sdadc_dma_badge",
+    "system_diagram_id": "system_diagram_refimage002",
+    "component_kind": "other",
+    "label": "DMA",
+    "center": { "x": 619, "y": 1233 },
+    "size": { "width": 24, "height": 14 },
+    "style_id": "style_dma_badge",
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_flash_nvm_top",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "128-KB\nRWW\nNVM",
+    "position": { "x": 611, "y": 54 },
+    "anchor": "center",
+    "style": { "font_size": 15, "line_height": 1.05 },
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_flash_nvm_controller",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "NVM\nCONTROLLER",
+    "position": { "x": 611, "y": 104 },
+    "anchor": "center",
+    "style": { "font_size": 14, "line_height": 1.05 },
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_flash_nvm_cache",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "Cache",
+    "position": { "x": 611, "y": 133 },
+    "anchor": "center",
+    "style": { "font_size": 14 },
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_sram_top",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "16-KB\nRAM",
+    "position": { "x": 825, "y": 54 },
+    "anchor": "center",
+    "style": { "font_size": 15, "line_height": 1.05 },
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_sram_controller",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "SRAM\nCONTROLLER",
+    "position": { "x": 825, "y": 116 },
+    "anchor": "center",
+    "style": { "font_size": 15, "line_height": 1.05 },
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_bus_role_cpu_m",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "M",
+    "position": { "x": 372, "y": 204 },
+    "anchor": "center",
+    "style": { "font_size": 11 },
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_bus_role_cpu_s",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "S",
+    "position": { "x": 372, "y": 271 },
+    "anchor": "center",
+    "style": { "font_size": 11 },
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_bus_role_flash_m",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "M",
+    "position": { "x": 610, "y": 204 },
+    "anchor": "center",
+    "style": { "font_size": 11 },
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_bus_role_sram_s",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "S",
+    "position": { "x": 694, "y": 204 },
+    "anchor": "center",
+    "style": { "font_size": 11 },
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_bus_role_bridge_s",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "S",
+    "position": { "x": 579, "y": 322 },
+    "anchor": "center",
+    "style": { "font_size": 11 },
+    "z_index": 45
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_swclk",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "SWCLK\nSWDIO",
+    "position": { "x": 145, "y": 91 },
+    "anchor": "middle_right",
+    "style": { "font_size": 12, "line_height": 1.45 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_iobus",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "IOBUS",
+    "position": { "x": 220, "y": 38 },
+    "anchor": "center",
+    "style": { "font_size": 12 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_xin_xout",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "XIN\nXOUT",
+    "position": { "x": 145, "y": 637 },
+    "anchor": "middle_right",
+    "style": { "font_size": 12, "line_height": 1.2 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_gclk_io",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "GCLK_IO[7..0]",
+    "position": { "x": 145, "y": 706 },
+    "anchor": "middle_right",
+    "style": { "font_size": 12 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_extint_nmi",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "EXTINT[15..0]\nNMI",
+    "position": { "x": 145, "y": 789 },
+    "anchor": "middle_right",
+    "style": { "font_size": 12, "line_height": 1.2 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_xin32_xout32",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "XIN32\nXOUT32",
+    "position": { "x": 145, "y": 921 },
+    "anchor": "middle_right",
+    "style": { "font_size": 12, "line_height": 1.2 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_resetn",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "RESETN",
+    "position": { "x": 145, "y": 1116 },
+    "anchor": "middle_right",
+    "style": { "font_size": 12 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_ccl_io",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "OUT [3..0]\nIN[11..0]",
+    "position": { "x": 827, "y": 564 },
+    "anchor": "middle_left",
+    "style": { "font_size": 11, "line_height": 1.2 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_sercom_io",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "PAD0\nPAD1\nPAD2\nPAD3",
+    "position": { "x": 827, "y": 653 },
+    "anchor": "middle_left",
+    "style": { "font_size": 11, "line_height": 1.2 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_tc_io",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "WO0\nWO1",
+    "position": { "x": 827, "y": 743 },
+    "anchor": "middle_left",
+    "style": { "font_size": 11, "line_height": 1.2 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_tcc_io",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "WO0\nWO1\nWOn",
+    "position": { "x": 827, "y": 835 },
+    "anchor": "middle_left",
+    "style": { "font_size": 11, "line_height": 1.2 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_adc_io",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "AIN[11..0]\nVREFA",
+    "position": { "x": 827, "y": 928 },
+    "anchor": "middle_left",
+    "style": { "font_size": 11, "line_height": 1.2 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_ac_io",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "AIN[3..0]\nCMP[1:0]",
+    "position": { "x": 827, "y": 1017 },
+    "anchor": "middle_left",
+    "style": { "font_size": 11, "line_height": 1.2 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_dac_io",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "VOUT\nVREFA",
+    "position": { "x": 827, "y": 1102 },
+    "anchor": "middle_left",
+    "style": { "font_size": 11, "line_height": 1.2 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_pdec_io",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "QDI[2..0]",
+    "position": { "x": 827, "y": 1190 },
+    "anchor": "middle_left",
+    "style": { "font_size": 11 }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "txt_sdadc_io",
+    "system_diagram_id": "system_diagram_refimage002",
+    "text": "INN[1:0]\nINP[1:0]\nVREFB",
+    "position": { "x": 827, "y": 1273 },
+    "anchor": "middle_left",
+    "style": { "font_size": 11, "line_height": 1.2 }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_iobus",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 88, "y": 45 },
+      { "x": 360, "y": 45 }
+    ],
+    "marker_start": "arrow",
+    "marker_end": "arrow",
+    "style_id": "style_signal",
+    "appearance": { "stroke_width": 3 }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_swd_to_serial",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 88, "y": 88 },
+      { "x": 202, "y": 88 }
+    ],
+    "branches": [
+      {
+        "path": [
+          { "x": 88, "y": 111 },
+          { "x": 202, "y": 111 }
+        ],
+        "marker_start": "arrow"
+      }
+    ],
+    "marker_end": "arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_iobus_drop",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 178, "y": 45 },
+      { "x": 178, "y": 250 }
+    ],
+    "marker_end": "arrow",
+    "style_id": "style_signal",
+    "appearance": { "stroke_width": 5 }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_serial_cpu",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 298, "y": 128 },
+      { "x": 360, "y": 128 }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_left_modules_matrix",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 298, "y": 228 },
+      { "x": 357, "y": 228 }
+    ],
+    "branches": [
+      {
+        "path": [
+          { "x": 298, "y": 272 },
+          { "x": 357, "y": 272 }
+        ],
+        "marker_start": "open_arrow",
+        "marker_end": "open_arrow"
+      },
+      {
+        "path": [
+          { "x": 298, "y": 309 },
+          { "x": 357, "y": 309 }
+        ],
+        "marker_start": "open_arrow",
+        "marker_end": "open_arrow"
+      }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_cpu_matrix",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 446, "y": 146 },
+      { "x": 446, "y": 196 }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_memory_matrix",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 608, "y": 146 },
+      { "x": 608, "y": 184 }
+    ],
+    "branches": [
+      {
+        "path": [
+          { "x": 690, "y": 146 },
+          { "x": 690, "y": 184 }
+        ],
+        "marker_start": "open_arrow",
+        "marker_end": "open_arrow"
+      },
+      {
+        "path": [
+          { "x": 724, "y": 146 },
+          { "x": 724, "y": 184 }
+        ],
+        "marker_start": "open_arrow",
+        "marker_end": "open_arrow"
+      }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_sram_matrix",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 807, "y": 146 },
+      { "x": 807, "y": 184 }
+    ],
+    "branches": [
+      {
+        "path": [
+          { "x": 843, "y": 146 },
+          { "x": 843, "y": 184 }
+        ],
+        "marker_start": "open_arrow",
+        "marker_end": "open_arrow"
+      }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_sram_matrix_bus",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 515, "y": 166 },
+      { "x": 515, "y": 184 },
+      { "x": 777, "y": 184 },
+      { "x": 777, "y": 166 }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#7f93ad",
+      "stroke_width": 2
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_sram_dma",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 783, "y": 225 },
+      { "x": 748, "y": 225 }
+    ],
+    "branches": [
+      {
+        "path": [
+          { "x": 783, "y": 247 },
+          { "x": 748, "y": 247 }
+        ],
+        "marker_start": "open_arrow",
+        "marker_end": "open_arrow"
+      }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_matrix_bridge_b",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 343, "y": 330 },
+      { "x": 343, "y": 377 }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_matrix_bridge_a",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 462, "y": 330 },
+      { "x": 462, "y": 377 }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_matrix_bridge_c",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 578, "y": 330 },
+      { "x": 578, "y": 377 }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_green_access_bus",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 296, "y": 333 },
+      { "x": 344, "y": 333 },
+      { "x": 344, "y": 355 },
+      { "x": 749, "y": 355 },
+      { "x": 749, "y": 217 }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_green_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_left_port_bridge_b",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 88, "y": 409 },
+      { "x": 301, "y": 409 }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_green_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_left_clock_inputs",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 88, "y": 634 },
+      { "x": 164, "y": 634 }
+    ],
+    "branches": [
+      { "path": [{ "x": 88, "y": 646 }, { "x": 164, "y": 646 }], "marker_end": "arrow" },
+      { "path": [{ "x": 88, "y": 706 }, { "x": 244, "y": 706 }], "marker_end": "arrow" },
+      { "path": [{ "x": 88, "y": 786 }, { "x": 244, "y": 786 }], "marker_end": "arrow" },
+      { "path": [{ "x": 88, "y": 802 }, { "x": 244, "y": 802 }], "marker_end": "arrow" },
+      { "path": [{ "x": 88, "y": 916 }, { "x": 164, "y": 916 }], "marker_end": "arrow" },
+      { "path": [{ "x": 88, "y": 928 }, { "x": 164, "y": 928 }], "marker_end": "arrow" },
+      { "path": [{ "x": 88, "y": 1116 }, { "x": 244, "y": 1116 }], "marker_end": "arrow" }
+    ],
+    "marker_end": "arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_bridge_a_bus",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 462, "y": 439 },
+      { "x": 462, "y": 1279 }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_bridge_c_bus",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [],
+    "style_id": "style_blue_bus",
+    "appearance": { "stroke_width": 4 }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_event_system",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 524, "y": 823 },
+      { "x": 563, "y": 823 }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal",
+    "appearance": { "stroke_width": 2 }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_control_apb_a_arrows",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 413, "y": 513 },
+      { "x": 447, "y": 513 }
+    ],
+    "branches": [
+      { "path": [{ "x": 413, "y": 607 }, { "x": 447, "y": 607 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 413, "y": 700 }, { "x": 447, "y": 700 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 413, "y": 750 }, { "x": 447, "y": 750 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 413, "y": 795 }, { "x": 447, "y": 795 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 413, "y": 856 }, { "x": 447, "y": 856 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 413, "y": 946 }, { "x": 447, "y": 946 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 413, "y": 1034 }, { "x": 447, "y": 1034 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 413, "y": 1118 }, { "x": 447, "y": 1118 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 413, "y": 1165 }, { "x": 447, "y": 1165 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 413, "y": 1212 }, { "x": 447, "y": 1212 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 413, "y": 1258 }, { "x": 447, "y": 1258 }], "marker_start": "open_arrow", "marker_end": "open_arrow" }
+    ],
+    "style_id": "style_blue_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_apb_c_peripherals",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 579, "y": 565 },
+      { "x": 604, "y": 565 }
+    ],
+    "branches": [
+      { "path": [{ "x": 579, "y": 565 }, { "x": 604, "y": 565 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 579, "y": 655 }, { "x": 604, "y": 655 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 579, "y": 744 }, { "x": 604, "y": 744 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 579, "y": 836 }, { "x": 604, "y": 836 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 579, "y": 928 }, { "x": 604, "y": 928 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 579, "y": 1017 }, { "x": 604, "y": 1017 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 579, "y": 1102 }, { "x": 604, "y": 1102 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 579, "y": 1190 }, { "x": 604, "y": 1190 }], "marker_start": "open_arrow", "marker_end": "open_arrow" },
+      { "path": [{ "x": 579, "y": 1273 }, { "x": 604, "y": 1273 }], "marker_start": "open_arrow", "marker_end": "open_arrow" }
+    ],
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "style_id": "style_signal"
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "conn_right_labels",
+    "system_diagram_id": "system_diagram_refimage002",
+    "path": [
+      { "x": 777, "y": 556 },
+      { "x": 952, "y": 556 }
+    ],
+    "branches": [
+      { "path": [{ "x": 777, "y": 588 }, { "x": 952, "y": 588 }], "marker_start": "arrow" },
+      { "path": [{ "x": 777, "y": 636 }, { "x": 952, "y": 636 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 652 }, { "x": 952, "y": 652 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 668 }, { "x": 952, "y": 668 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 684 }, { "x": 952, "y": 684 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 737 }, { "x": 952, "y": 737 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 754 }, { "x": 952, "y": 754 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 812 }, { "x": 952, "y": 812 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 828 }, { "x": 952, "y": 828 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 861 }, { "x": 952, "y": 861 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 927 }, { "x": 952, "y": 927 }], "marker_start": "arrow" },
+      { "path": [{ "x": 777, "y": 945 }, { "x": 952, "y": 945 }], "marker_start": "arrow" },
+      { "path": [{ "x": 777, "y": 1016 }, { "x": 952, "y": 1016 }], "marker_start": "arrow" },
+      { "path": [{ "x": 777, "y": 1034 }, { "x": 952, "y": 1034 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 1102 }, { "x": 952, "y": 1102 }], "marker_end": "arrow" },
+      { "path": [{ "x": 777, "y": 1120 }, { "x": 952, "y": 1120 }], "marker_start": "arrow" },
+      { "path": [{ "x": 777, "y": 1190 }, { "x": 952, "y": 1190 }], "marker_start": "arrow" },
+      { "path": [{ "x": 777, "y": 1236 }, { "x": 952, "y": 1236 }], "marker_start": "arrow" },
+      { "path": [{ "x": 777, "y": 1255 }, { "x": 952, "y": 1255 }], "marker_start": "arrow" },
+      { "path": [{ "x": 777, "y": 1273 }, { "x": 952, "y": 1273 }], "marker_start": "arrow" }
+    ],
+    "marker_end": "arrow",
+    "style_id": "style_signal"
+  }
+]

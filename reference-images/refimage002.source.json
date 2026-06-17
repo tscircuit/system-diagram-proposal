@@ -1,0 +1,15 @@
+{
+  "id": "refimage002",
+  "source_vendor": "Microchip",
+  "source_document_title": "PIC32CM MC00 Family Data Sheet",
+  "source_device_family": "PIC32CM MC00",
+  "source_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CM-MC00-Family-Data-Sheet-DS60001638.pdf",
+  "source_product_url": "https://www.microchip.com/en-us/product/PIC32CM1216MC00032",
+  "figure_title": "Block Diagram",
+  "document_page": 14,
+  "notes": [
+    "Dense MCU block diagram with left and right PORT rails.",
+    "Includes CPU, memory, high-speed bus matrix, AHB-APB bridges, DMA, event system, clock/reset/power controllers, analog peripherals, and edge signal labels.",
+    "Useful for validating external diagram-edge terminals, stacked peripheral blocks, bus matrix rendering, bridge/bus semantics, and small DMA tag annotations."
+  ]
+}

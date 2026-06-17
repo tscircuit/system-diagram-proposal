@@ -1,0 +1,14 @@
+{
+  "id": "refimage004",
+  "source_vendor": "Nordic Semiconductor",
+  "source_document_title": "nRF52840 Product Specification",
+  "source_device_family": "nRF52840",
+  "source_url": "https://docs.nordicsemi.com/bundle/ps_nrf52840/page/blockdiagram.html",
+  "source_product_url": "https://www.nordicsemi.com/Products/nRF52840",
+  "figure_title": "Figure 1. Block diagram",
+  "notes": [
+    "Nordic system block diagram with a large chip frame, top RAM slices, GPIO, CPU/debug blocks, AHB multilayer, AHB-to-APB bridge, APB bus spine, and dense peripheral columns.",
+    "Includes repeated EasyDMA sub-blocks, repeated master/slave arrow labels, external pin arrows on both sides, wireless/security blocks, flash/code blocks, and audio/USB/NFC/QSPI/UART/SPI/I2C peripherals.",
+    "Useful for validating repeated components, stacked internal sublabels, monochrome diagrams, dense connector arrows, bus role labels, and many small external edge terminals."
+  ]
+}

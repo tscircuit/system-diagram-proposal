@@ -1,0 +1,13 @@
+{
+  "id": "refimage006",
+  "source_vendor": "NXP Semiconductors",
+  "source_document_title": "i.MX RT1060: Crossover MCU with Arm Cortex-M7",
+  "source_device_family": "i.MX RT1060",
+  "source_url": "https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/i-mx-rt-crossover-mcus/i-mx-rt1060-crossover-mcu-with-arm-cortex-m7-core:i.MX-RT1060",
+  "figure_title": "i.MX RT1060 Crossover MCU",
+  "notes": [
+    "NXP product-family capability diagram with categorized columns, pastel section groups, and many repeated horizontal feature blocks.",
+    "Includes system control, internal memory, power management, main CPU platform, multimedia, external memory, connectivity, ADC/DAC, and security sections.",
+    "Useful for validating section headers, table-like block groups, dashed availability boxes, color-coded capability domains, bottom legends, and diagrams with almost no explicit connection routing."
+  ]
+}
