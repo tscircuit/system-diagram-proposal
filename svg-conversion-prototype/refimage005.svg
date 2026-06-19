@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1284" height="1086" viewBox="0 0 1284 1086">
+<defs>
+<marker id="marker-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke" />
+</marker>
+<marker id="marker-open-arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="13" markerHeight="13" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+<path d="M 2 2 L 10 6 L 2 10" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+</marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff" />
+<g id="outer_frame">
+<rect x="42" y="35" width="1200" height="890" rx="8" ry="8" fill="#ffffff" stroke="#777777" stroke-width="1.2" />
+</g>
+<g id="cpu_sec">
+<rect x="63" y="84.5" width="404" height="267" rx="8" ry="8" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+</g>
+<g id="rf_sec">
+<rect x="484" y="84.5" width="380" height="267" rx="8" ry="8" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+</g>
+<g id="wireless_sec">
+<rect x="886" y="84.5" width="330" height="267" rx="8" ry="8" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+</g>
+<g id="periph_sec">
+<rect x="61" y="387" width="810" height="540" rx="8" ry="8" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+</g>
+<g id="security_sec">
+<rect x="886" y="376" width="330" height="340" rx="8" ry="8" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+</g>
+<g id="rtc_sec">
+<rect x="886" y="723" width="330" height="212" rx="8" ry="8" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+</g>
+<g id="xtensa">
+<rect x="81" y="127" width="366" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="xtensa_label" x="264" y="156" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="264" dy="-0.525em">Xtensa® Dual-core 32-bit LX7</tspan><tspan x="264" dy="1.05em">Microprocessor</tspan></text>
+</g>
+<g id="cache">
+<rect x="75.5" y="198.5" width="113" height="59" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="cache_label" x="132" y="228" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="132" dy="0">Cache</tspan></text>
+</g>
+<g id="sram">
+<rect x="207.5" y="198.5" width="113" height="59" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="sram_label" x="264" y="228" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="264" dy="0">SRAM</tspan></text>
+</g>
+<g id="interrupt_matrix">
+<rect x="339.5" y="185" width="113" height="118" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="interrupt_matrix_label" x="396" y="244" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="396" dy="-0.525em">Interrupt</tspan><tspan x="396" dy="1.05em">Matrix</tspan></text>
+</g>
+<g id="jtag">
+<rect x="75.5" y="270.5" width="113" height="59" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="jtag_label" x="132" y="300" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="132" dy="0">JTAG</tspan></text>
+</g>
+<g id="rom">
+<rect x="207.5" y="270.5" width="113" height="59" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="rom_label" x="264" y="300" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="264" dy="0">ROM</tspan></text>
+</g>
+<g id="rf_balun">
+<rect x="476.5" y="127" width="205" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="rf_balun_label" x="579" y="156" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="579" dy="-0.525em">2.4 GHz Balun +</tspan><tspan x="579" dy="1.05em">Switch</tspan></text>
+</g>
+<g id="rf_ext_clock">
+<rect x="709" y="127" width="112" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="rf_ext_clock_label" x="765" y="156" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="765" dy="-0.525em">External</tspan><tspan x="765" dy="1.05em">Main Clock</tspan></text>
+</g>
+<g id="rf_receiver">
+<rect x="499" y="186" width="58" height="118" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="rf_receiver_label" x="528" y="245" transform="rotate(-90 528 245)" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="528" dy="-0.525em">2.4 GHz</tspan><tspan x="528" dy="1.05em">Receiver</tspan></text>
+</g>
+<g id="rf_transmitter">
+<rect x="570" y="186" width="58" height="118" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="rf_transmitter_label" x="599" y="245" transform="rotate(-90 599 245)" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="599" dy="-0.525em">2.4 GHz</tspan><tspan x="599" dy="1.05em">Transmitter</tspan></text>
+</g>
+<g id="rf_synth">
+<rect x="641" y="186" width="58" height="118" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="rf_synth_label" x="670" y="245" transform="rotate(-90 670 245)" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="670" dy="-0.525em">RF</tspan><tspan x="670" dy="1.05em">Synthesizer</tspan></text>
+</g>
+<g id="rf_fast_rc">
+<rect x="709" y="198.5" width="112" height="59" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="rf_fast_rc_label" x="765" y="228" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="765" dy="-0.525em">Fast RC</tspan><tspan x="765" dy="1.05em">Oscillator</tspan></text>
+</g>
+<g id="rf_pll">
+<rect x="709" y="270.5" width="112" height="59" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="rf_pll_label" x="765" y="300" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="765" dy="-0.525em">Phase Lock</tspan><tspan x="765" dy="1.05em">Loop</tspan></text>
+</g>
+<g id="wifi_mac">
+<rect x="885.5" y="127" width="145" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="wifi_mac_label" x="958" y="156" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="958" dy="0">Wi-Fi MAC</tspan></text>
+</g>
+<g id="wifi_baseband">
+<rect x="1047.5" y="127" width="145" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="wifi_baseband_label" x="1120" y="156" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1120" dy="-0.525em">Wi-Fi</tspan><tspan x="1120" dy="1.05em">Baseband</tspan></text>
+</g>
+<g id="ble_link">
+<rect x="894" y="199" width="290" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="ble_link_label" x="1039" y="228" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1039" dy="0">Bluetooth LE Link Controller</tspan></text>
+</g>
+<g id="ble_baseband">
+<rect x="894" y="271" width="290" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="ble_baseband_label" x="1039" y="300" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1039" dy="0">Bluetooth LE Baseband</tspan></text>
+</g>
+<g id="periph_0_0">
+<rect x="60.5" y="412" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_0_0_label" x="132" y="449" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="132" dy="0">GDMA</tspan></text>
+</g>
+<g id="periph_0_1">
+<rect x="218.5" y="412" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_0_1_label" x="290" y="449" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="290" dy="-0.51em">System</tspan><tspan x="290" dy="1.02em">Timer</tspan></text>
+</g>
+<g id="periph_0_2">
+<rect x="376.5" y="412" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_0_2_label" x="448" y="449" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="448" dy="-1.02em">General-</tspan><tspan x="448" dy="1.02em">purpose</tspan><tspan x="448" dy="1.02em">Timers</tspan></text>
+</g>
+<g id="periph_0_3">
+<rect x="534.5" y="412" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_0_3_label" x="606" y="449" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="606" dy="0">GPIO</tspan></text>
+</g>
+<g id="periph_0_4">
+<rect x="692.5" y="412" width="143" height="74" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="periph_0_4_label" x="764" y="449" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="764" dy="0">RTC GPIO</tspan></text>
+</g>
+<g id="periph_1_0">
+<rect x="60.5" y="498" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_1_0_label" x="132" y="535" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="132" dy="-0.51em">SD/MMC</tspan><tspan x="132" dy="1.02em">Host</tspan></text>
+</g>
+<g id="periph_1_1">
+<rect x="218.5" y="498" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_1_1_label" x="290" y="535" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="290" dy="-0.51em">Pulse</tspan><tspan x="290" dy="1.02em">Counter</tspan></text>
+</g>
+<g id="periph_1_2">
+<rect x="376.5" y="498" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_1_2_label" x="448" y="535" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="448" dy="-0.51em">World</tspan><tspan x="448" dy="1.02em">Controller</tspan></text>
+</g>
+<g id="periph_1_3">
+<rect x="534.5" y="498" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_1_3_label" x="606" y="535" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="606" dy="-0.51em">USB Serial/</tspan><tspan x="606" dy="1.02em">JTAG</tspan></text>
+</g>
+<g id="periph_1_4">
+<rect x="692.5" y="498" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_1_4_label" x="764" y="535" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="764" dy="-0.51em">eFuse</tspan><tspan x="764" dy="1.02em">Controller</tspan></text>
+</g>
+<g id="periph_2_0">
+<rect x="60.5" y="584" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_2_0_label" x="132" y="621" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="132" dy="0">SPI0/1</tspan></text>
+</g>
+<g id="periph_2_1">
+<rect x="218.5" y="584" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_2_1_label" x="290" y="621" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="290" dy="0">SPI2/3</tspan></text>
+</g>
+<g id="periph_2_2">
+<rect x="376.5" y="584" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_2_2_label" x="448" y="621" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="448" dy="0">I2S</tspan></text>
+</g>
+<g id="periph_2_3">
+<rect x="534.5" y="584" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_2_3_label" x="606" y="621" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="606" dy="-1.02em">Main System</tspan><tspan x="606" dy="1.02em">Watchdog</tspan><tspan x="606" dy="1.02em">Timers</tspan></text>
+</g>
+<g id="periph_2_4">
+<rect x="692.5" y="584" width="143" height="74" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="periph_2_4_label" x="764" y="621" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="764" dy="-1.02em">RTC</tspan><tspan x="764" dy="1.02em">Watchdog</tspan><tspan x="764" dy="1.02em">Timer</tspan></text>
+</g>
+<g id="periph_3_0">
+<rect x="60.5" y="670" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_3_0_label" x="132" y="707" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="132" dy="0">USB OTG</tspan></text>
+</g>
+<g id="periph_3_1">
+<rect x="218.5" y="670" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_3_1_label" x="290" y="707" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="290" dy="0">TWAI®</tspan></text>
+</g>
+<g id="periph_3_2">
+<rect x="376.5" y="670" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_3_2_label" x="448" y="707" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="448" dy="0">I2C</tspan></text>
+</g>
+<g id="periph_3_3">
+<rect x="534.5" y="670" width="143" height="74" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="periph_3_3_label" x="606" y="707" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="606" dy="-0.51em">Super</tspan><tspan x="606" dy="1.02em">Watchdog</tspan></text>
+</g>
+<g id="periph_3_4">
+<rect x="692.5" y="670" width="143" height="74" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="periph_3_4_label" x="764" y="707" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="764" dy="-0.51em">Touch</tspan><tspan x="764" dy="1.02em">Sensor</tspan></text>
+</g>
+<g id="periph_4_0">
+<rect x="60.5" y="756" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_4_0_label" x="132" y="793" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="132" dy="0">UART</tspan></text>
+</g>
+<g id="periph_4_1">
+<rect x="218.5" y="756" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_4_1_label" x="290" y="793" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="290" dy="0">LED PWM</tspan></text>
+</g>
+<g id="periph_4_2">
+<rect x="376.5" y="756" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_4_2_label" x="448" y="793" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="448" dy="0">MCPWM</tspan></text>
+</g>
+<g id="periph_4_3">
+<rect x="534.5" y="756" width="143" height="74" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="periph_4_3_label" x="606" y="793" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="606" dy="-0.51em">Super</tspan><tspan x="606" dy="1.02em">Watchdog</tspan></text>
+</g>
+<g id="periph_4_4">
+<rect x="692.5" y="756" width="143" height="74" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="periph_4_4_label" x="764" y="793" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="764" dy="-0.51em">Touch</tspan><tspan x="764" dy="1.02em">Sensor</tspan></text>
+</g>
+<g id="periph_5_0">
+<rect x="60.5" y="842" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_5_0_label" x="132" y="879" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="132" dy="0">RMT</tspan></text>
+</g>
+<g id="periph_5_1">
+<rect x="218.5" y="842" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_5_1_label" x="290" y="879" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="290" dy="-0.51em">LCD</tspan><tspan x="290" dy="1.02em">Interface</tspan></text>
+</g>
+<g id="periph_5_2">
+<rect x="376.5" y="842" width="143" height="74" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="periph_5_2_label" x="448" y="879" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="448" dy="-0.51em">Camera</tspan><tspan x="448" dy="1.02em">Interface</tspan></text>
+</g>
+<g id="periph_5_3">
+<rect x="534.5" y="842" width="143" height="74" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="periph_5_3_label" x="606" y="879" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="606" dy="0">RTC I2C</tspan></text>
+</g>
+<g id="periph_5_4">
+<rect x="692.5" y="842" width="143" height="74" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="periph_5_4_label" x="764" y="879" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="764" dy="-0.51em">Temperature</tspan><tspan x="764" dy="1.02em">Sensor</tspan></text>
+</g>
+<g id="security_tiles_0">
+<rect x="900" y="407" width="64" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="security_tiles_0_label" x="932" y="436" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="932" dy="0">SHA</tspan></text>
+</g>
+<g id="security_tiles_1">
+<rect x="979" y="407" width="64" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="security_tiles_1_label" x="1011" y="436" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1011" dy="0">RSA</tspan></text>
+</g>
+<g id="security_tiles_2">
+<rect x="1058" y="407" width="64" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="security_tiles_2_label" x="1090" y="436" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1090" dy="0">AES</tspan></text>
+</g>
+<g id="security_tiles_3">
+<rect x="1137" y="407" width="64" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="security_tiles_3_label" x="1169" y="436" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1169" dy="0">RNG</tspan></text>
+</g>
+<g id="security_tiles_4">
+<rect x="900" y="479" width="64" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="security_tiles_4_label" x="932" y="508" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="932" dy="0">HMAC</tspan></text>
+</g>
+<g id="security_tiles_5">
+<rect x="979" y="479" width="64" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="security_tiles_5_label" x="1011" y="508" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1011" dy="0">RSA_DS</tspan></text>
+</g>
+<g id="security_tiles_6">
+<rect x="1058" y="479" width="64" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="security_tiles_6_label" x="1090" y="508" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1090" dy="0">Secure Boot</tspan></text>
+</g>
+<g id="security_tiles_7">
+<rect x="1137" y="479" width="64" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="security_tiles_7_label" x="1169" y="508" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1169" dy="-0.51em">Flash</tspan><tspan x="1169" dy="1.02em">Encryption</tspan></text>
+</g>
+<g id="security_tiles_8">
+<rect x="900" y="551" width="64" height="58" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+<text id="security_tiles_8_label" x="932" y="580" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="932" dy="-0.51em">Permission</tspan><tspan x="932" dy="1.02em">Control</tspan></text>
+</g>
+<g id="rtc_tiles_0">
+<rect x="900" y="769" width="143" height="58" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="rtc_tiles_0_label" x="971.5" y="798" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="971.5" dy="-0.51em">RTC</tspan><tspan x="971.5" dy="1.02em">Memory</tspan></text>
+</g>
+<g id="rtc_tiles_1">
+<rect x="1057" y="769" width="143" height="58" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="rtc_tiles_1_label" x="1128.5" y="798" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1128.5" dy="0">PMU</tspan></text>
+</g>
+<g id="rtc_tiles_2">
+<rect x="900" y="845" width="143" height="58" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+<text id="rtc_tiles_2_label" x="971.5" y="874" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="971.5" dy="0">ULP Coprocessor</tspan></text>
+</g>
+<g id="legend_normal">
+<rect x="74" y="1013.5" width="96" height="21" rx="8" ry="8" fill="#e5e5e5" stroke="#111111" stroke-width="1.1" />
+</g>
+<g id="legend_low">
+<rect x="74" y="1041.5" width="96" height="21" rx="8" ry="8" fill="#bebebe" stroke="#111111" stroke-width="1.1" />
+</g>
+<text id="cpu_section_title" x="265" y="103" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="265" dy="0">CPU and Memory</tspan></text>
+<text id="rf_section_title" x="674" y="103" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="674" dy="0">RF</tspan></text>
+<text id="wireless_section_title" x="1051" y="103" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1051" dy="0">Wireless Digital Circuits</tspan></text>
+<text id="periph_section_title" x="466" y="378" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="466" dy="0">Peripherals</tspan></text>
+<text id="security_section_title" x="1051" y="380" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1051" dy="0">Security</tspan></text>
+<text id="rtc_section_title" x="1051" y="738" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1051" dy="0">RTC</tspan></text>
+<text id="title" x="642" y="53" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="642" dy="0">Espressif ESP32-S3 Wi-Fi + Bluetooth® Low Energy SoC</tspan></text>
+<text id="legend_title" x="78" y="996" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="78" dy="0">Power consumption</tspan></text>
+<text id="legend_normal_text" x="177" y="1025" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="177" dy="0">Normal</tspan></text>
+<text id="legend_low_text" x="177" y="1053" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="177" dy="0">Low power consumption components capable of working in Deep-sleep mode</tspan></text>
+</svg>

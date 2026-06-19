@@ -1,0 +1,1195 @@
+[
+  {
+    "type": "system_diagram",
+    "system_diagram_id": "system_diagram_refimage006",
+    "name": "i.MX RT1060 Crossover MCU",
+    "description": "Semantic system_diagram recreation of reference-images/refimage006.png.",
+    "width": 1862,
+    "height": 940
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage006_section",
+    "system_diagram_id": "system_diagram_refimage006",
+    "appearance": {
+      "fill_color": "#eeeeee",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 18,
+      "font_weight": "bold"
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage006_orange",
+    "system_diagram_id": "system_diagram_refimage006",
+    "appearance": {
+      "fill_color": "#f6bd3f",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage006_green",
+    "system_diagram_id": "system_diagram_refimage006",
+    "appearance": {
+      "fill_color": "#c4dc4f",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage006_green_light",
+    "system_diagram_id": "system_diagram_refimage006",
+    "appearance": {
+      "fill_color": "#e9f1b6",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage006_mint",
+    "system_diagram_id": "system_diagram_refimage006",
+    "appearance": {
+      "fill_color": "#aad7d8",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage006_blue",
+    "system_diagram_id": "system_diagram_refimage006",
+    "appearance": {
+      "fill_color": "#b7c4e5",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage006_purple",
+    "system_diagram_id": "system_diagram_refimage006",
+    "appearance": {
+      "fill_color": "#a998c4",
+      "stroke_color": "#555555",
+      "stroke_width": 1,
+      "stroke_dash": {
+        "dash_length": 4,
+        "gap_length": 3
+      }
+    },
+    "text_style": {
+      "font_size": 16,
+      "line_height": 1.08
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage006_tan",
+    "system_diagram_id": "system_diagram_refimage006",
+    "appearance": {
+      "fill_color": "#ffdfa7",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 16,
+      "line_height": 1.08
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage006_security",
+    "system_diagram_id": "system_diagram_refimage006",
+    "appearance": {
+      "fill_color": "#74a9dc",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage006_legend_mark",
+    "system_diagram_id": "system_diagram_refimage006",
+    "appearance": {
+      "fill_color": "transparent",
+      "stroke_color": "#111111",
+      "stroke_width": 1.2,
+      "stroke_dash": {
+        "dash_length": 4,
+        "gap_length": 3
+      }
+    },
+    "text_style": {}
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "i.MX RT1060 Crossover MCU",
+    "position": {
+      "x": 25,
+      "y": 74
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 40,
+      "font_weight": "bold"
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sys_sec",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 689,
+      "y": 327
+    },
+    "size": {
+      "width": 320,
+      "height": 395
+    },
+    "style_id": "style_system_diagram_refimage006_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sys_0",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "Secure JTAG",
+    "center": {
+      "x": 687,
+      "y": 172.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_orange"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sys_1",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "PLL, OSC",
+    "center": {
+      "x": 687,
+      "y": 213.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_orange"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sys_2",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "eDMA",
+    "center": {
+      "x": 687,
+      "y": 254.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_orange"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sys_3",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "4 x Watch Dog",
+    "center": {
+      "x": 687,
+      "y": 295.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_orange"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sys_4",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "6 x GP Timer",
+    "center": {
+      "x": 687,
+      "y": 336.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_orange"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sys_5",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "4 x Quadrature ENC",
+    "center": {
+      "x": 687,
+      "y": 377.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_orange"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sys_6",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "4 x QuadTimer",
+    "center": {
+      "x": 687,
+      "y": 418.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_orange"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sys_7",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "4 x FlexPWM",
+    "center": {
+      "x": 687,
+      "y": 459.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_orange"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sys_8",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "IOMUX",
+    "center": {
+      "x": 687,
+      "y": 500.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_orange"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "mem_sec",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 689,
+      "y": 588
+    },
+    "size": {
+      "width": 320,
+      "height": 112
+    },
+    "style_id": "style_system_diagram_refimage006_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "mem_0",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "Up to 1 MB SRAM Total",
+    "center": {
+      "x": 687,
+      "y": 577.5
+    },
+    "size": {
+      "width": 290,
+      "height": 33
+    },
+    "style_id": "style_system_diagram_refimage006_blue"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "mem_1",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "128 KB ROM",
+    "center": {
+      "x": 687,
+      "y": 619.5
+    },
+    "size": {
+      "width": 290,
+      "height": 33
+    },
+    "style_id": "style_system_diagram_refimage006_blue"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "pwr_sec",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 689,
+      "y": 715
+    },
+    "size": {
+      "width": 320,
+      "height": 104
+    },
+    "style_id": "style_system_diagram_refimage006_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "pwr_0",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "DC/DC & LDO",
+    "center": {
+      "x": 687,
+      "y": 697.5
+    },
+    "size": {
+      "width": 290,
+      "height": 33
+    },
+    "style_id": "style_system_diagram_refimage006_blue"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "pwr_1",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "Temp Monitor",
+    "center": {
+      "x": 687,
+      "y": 739.5
+    },
+    "size": {
+      "width": 290,
+      "height": 33
+    },
+    "style_id": "style_system_diagram_refimage006_blue"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu_sec",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1089,
+      "y": 247
+    },
+    "size": {
+      "width": 465,
+      "height": 240
+    },
+    "style_id": "style_system_diagram_refimage006_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu_core",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1090,
+      "y": 256
+    },
+    "size": {
+      "width": 422,
+      "height": 197
+    },
+    "style_id": "style_system_diagram_refimage006_green"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu_arm_tile",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1090,
+      "y": 203
+    },
+    "size": {
+      "width": 390,
+      "height": 50
+    },
+    "style_id": "style_system_diagram_refimage006_green_light"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "cpu_core_title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "Core",
+    "position": {
+      "x": 1090,
+      "y": 172
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "cpu_core_arm",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "Arm® Cortex®-M7",
+    "position": {
+      "x": 1090,
+      "y": 205
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu_sub_0",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "32 KB\nI-cache",
+    "center": {
+      "x": 984.5,
+      "y": 266
+    },
+    "size": {
+      "width": 193,
+      "height": 46
+    },
+    "style_id": "style_system_diagram_refimage006_green_light"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu_sub_1",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "32 KB\nD-cache",
+    "center": {
+      "x": 1186.5,
+      "y": 266
+    },
+    "size": {
+      "width": 193,
+      "height": 46
+    },
+    "style_id": "style_system_diagram_refimage006_green_light"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu_sub_2",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "FPU",
+    "center": {
+      "x": 984.5,
+      "y": 323
+    },
+    "size": {
+      "width": 193,
+      "height": 46
+    },
+    "style_id": "style_system_diagram_refimage006_green_light"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu_sub_3",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "Up to 512 KB TCM",
+    "center": {
+      "x": 1186.5,
+      "y": 323
+    },
+    "size": {
+      "width": 193,
+      "height": 46
+    },
+    "style_id": "style_system_diagram_refimage006_green_light"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "mm_sec",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1090,
+      "y": 462
+    },
+    "size": {
+      "width": 465,
+      "height": 190
+    },
+    "style_id": "style_system_diagram_refimage006_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "mm_camera",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "8-/16-bit Parallel Camera Interface",
+    "center": {
+      "x": 1089,
+      "y": 416
+    },
+    "size": {
+      "width": 435,
+      "height": 34
+    },
+    "style_id": "style_system_diagram_refimage006_purple"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "mm_lcd",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "24-bit Parallel LCD (RGB)",
+    "center": {
+      "x": 1089,
+      "y": 456
+    },
+    "size": {
+      "width": 435,
+      "height": 34
+    },
+    "style_id": "style_system_diagram_refimage006_purple"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "mm_pxp",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "Pixel Processing Pipeline (PXP)\n2D Graphics Acceleration\nResize, CSC, Overlay, Rotation",
+    "center": {
+      "x": 1089,
+      "y": 514
+    },
+    "size": {
+      "width": 435,
+      "height": 76
+    },
+    "style_id": "style_system_diagram_refimage006_purple",
+    "label_style": {
+      "font_size": 16,
+      "line_height": 1.08
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ext_sec",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1090,
+      "y": 685
+    },
+    "size": {
+      "width": 465,
+      "height": 199
+    },
+    "style_id": "style_system_diagram_refimage006_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "extmem_0",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "2 x Dual-Channel Quad-SPI with Bus\nEncryption Engine",
+    "center": {
+      "x": 1089.5,
+      "y": 626
+    },
+    "size": {
+      "width": 435,
+      "height": 54
+    },
+    "style_id": "style_system_diagram_refimage006_tan"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "extmem_1",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "External Memory Controller\n8-/16-bit SDRAM\nParallel NOR Flash\nNAND Flash",
+    "center": {
+      "x": 1089.5,
+      "y": 690
+    },
+    "size": {
+      "width": 435,
+      "height": 54
+    },
+    "style_id": "style_system_diagram_refimage006_tan"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_sec",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1495,
+      "y": 385
+    },
+    "size": {
+      "width": 320,
+      "height": 518
+    },
+    "style_id": "style_system_diagram_refimage006_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_0",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "eMMC 4.5/SD 3.0 x 2",
+    "center": {
+      "x": 1490,
+      "y": 172.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_1",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "8 x UART",
+    "center": {
+      "x": 1490,
+      "y": 211.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_2",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "8 x 8 Keypad",
+    "center": {
+      "x": 1490,
+      "y": 250.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_3",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "4 x I²C",
+    "center": {
+      "x": 1490,
+      "y": 289.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_4",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "4 x SPI",
+    "center": {
+      "x": 1490,
+      "y": 328.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_5",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "Single Clock Cycle GPIO",
+    "center": {
+      "x": 1490,
+      "y": 367.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_6",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "3 x I²S/SAI",
+    "center": {
+      "x": 1490,
+      "y": 406.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_7",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "S/PDIF Tx/Rx",
+    "center": {
+      "x": 1490,
+      "y": 445.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_8",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "1 x CAN FD",
+    "center": {
+      "x": 1490,
+      "y": 484.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_9",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "2 x CAN",
+    "center": {
+      "x": 1490,
+      "y": 523.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_10",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "2 x USB 2.0\nwith PHY",
+    "center": {
+      "x": 1490,
+      "y": 562.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "conn_11",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "2 x 10/100 ENET\nwith IEEE® 1588",
+    "center": {
+      "x": 1490,
+      "y": 601.5
+    },
+    "size": {
+      "width": 290,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage006_mint"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "adc_sec",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1495,
+      "y": 752
+    },
+    "size": {
+      "width": 320,
+      "height": 105
+    },
+    "style_id": "style_system_diagram_refimage006_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "adc_0",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "2 x ADC (20-ch.)",
+    "center": {
+      "x": 1490,
+      "y": 706.5
+    },
+    "size": {
+      "width": 290,
+      "height": 33
+    },
+    "style_id": "style_system_diagram_refimage006_blue"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "adc_1",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "4 x ACMP",
+    "center": {
+      "x": 1490,
+      "y": 748.5
+    },
+    "size": {
+      "width": 290,
+      "height": 33
+    },
+    "style_id": "style_system_diagram_refimage006_blue"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_sec",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1090,
+      "y": 812
+    },
+    "size": {
+      "width": 1120,
+      "height": 71
+    },
+    "style_id": "style_system_diagram_refimage006_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sec_0",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "Ciphers & RNG",
+    "center": {
+      "x": 667,
+      "y": 817.5
+    },
+    "size": {
+      "width": 250,
+      "height": 33
+    },
+    "style_id": "style_system_diagram_refimage006_security"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sec_1",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "Secure RTC",
+    "center": {
+      "x": 952,
+      "y": 817.5
+    },
+    "size": {
+      "width": 250,
+      "height": 33
+    },
+    "style_id": "style_system_diagram_refimage006_security"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sec_2",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "eFuse",
+    "center": {
+      "x": 1237,
+      "y": 817.5
+    },
+    "size": {
+      "width": 250,
+      "height": 33
+    },
+    "style_id": "style_system_diagram_refimage006_security"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sec_3",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "HAB",
+    "center": {
+      "x": 1522,
+      "y": 817.5
+    },
+    "size": {
+      "width": 250,
+      "height": 33
+    },
+    "style_id": "style_system_diagram_refimage006_security"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rt1060_sys_section_title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "System Control",
+    "position": {
+      "x": 689,
+      "y": 143
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rt1060_mem_section_title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "Internal Memory",
+    "position": {
+      "x": 689,
+      "y": 546
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rt1060_pwr_section_title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "Power Management",
+    "position": {
+      "x": 689,
+      "y": 671
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rt1060_cpu_section_title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "Main CPU Platform",
+    "position": {
+      "x": 1089,
+      "y": 143
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rt1060_mm_section_title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "Multimedia",
+    "position": {
+      "x": 1090,
+      "y": 386
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rt1060_ext_section_title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "External Memory",
+    "position": {
+      "x": 1090,
+      "y": 581
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rt1060_conn_section_title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "Connectivity",
+    "position": {
+      "x": 1495,
+      "y": 143
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rt1060_adc_section_title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "ADC/DAC",
+    "position": {
+      "x": 1495,
+      "y": 671
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rt1060_security_section_title",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "Security",
+    "position": {
+      "x": 1090,
+      "y": 785
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "legend_box",
+    "system_diagram_id": "system_diagram_refimage006",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 532,
+      "y": 876
+    },
+    "size": {
+      "width": 14,
+      "height": 14
+    },
+    "style_id": "style_system_diagram_refimage006_legend_mark"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "legend",
+    "system_diagram_id": "system_diagram_refimage006",
+    "text": "Available on certain product families",
+    "position": {
+      "x": 548,
+      "y": 876
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 13
+    }
+  }
+]

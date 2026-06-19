@@ -1,0 +1,5141 @@
+[
+  {
+    "type": "system_diagram",
+    "system_diagram_id": "system_diagram_refimage003",
+    "name": "STM32G030x6/x8 block diagram",
+    "description": "Semantic system_diagram recreation of reference-images/refimage003.png.",
+    "width": 1400,
+    "height": 1406
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage003_white",
+    "system_diagram_id": "system_diagram_refimage003",
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "text_style": {
+      "font_size": 17,
+      "line_height": 1.08
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage003_chip",
+    "system_diagram_id": "system_diagram_refimage003",
+    "appearance": {
+      "fill_color": "transparent",
+      "stroke_color": "#111111",
+      "stroke_width": 2.4
+    },
+    "text_style": {}
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage003_pale",
+    "system_diagram_id": "system_diagram_refimage003",
+    "appearance": {
+      "fill_color": "#f7f7f7",
+      "stroke_color": "#111111",
+      "stroke_width": 1.5
+    },
+    "text_style": {
+      "font_size": 20,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage003_peach",
+    "system_diagram_id": "system_diagram_refimage003",
+    "appearance": {
+      "fill_color": "#f6ddc0",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 20
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage003_violet",
+    "system_diagram_id": "system_diagram_refimage003",
+    "appearance": {
+      "fill_color": "#beb2d0",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 20
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage003_green",
+    "system_diagram_id": "system_diagram_refimage003",
+    "appearance": {
+      "fill_color": "#b9dbc9",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 20
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage003_gray",
+    "system_diagram_id": "system_diagram_refimage003",
+    "appearance": {
+      "fill_color": "#bcbcbc",
+      "stroke_color": "none",
+      "stroke_width": 0
+    },
+    "text_style": {
+      "font_size": 20
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "title",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "STM32G030x6/x8",
+    "position": {
+      "x": 175,
+      "y": 78
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 29,
+      "font_weight": "bold"
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "desc",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "Description",
+    "position": {
+      "x": 1240,
+      "y": 78
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 26,
+      "font_weight": "bold"
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "top_rule",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "line",
+    "start": {
+      "x": 100,
+      "y": 105
+    },
+    "end": {
+      "x": 1330,
+      "y": 105
+    },
+    "appearance": {
+      "stroke_color": "#111111",
+      "stroke_width": 2,
+      "fill_color": "none"
+    },
+    "z_index": 1
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "figure",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "Figure 1. Block diagram",
+    "position": {
+      "x": 700,
+      "y": 162
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 27,
+      "font_weight": "bold"
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "chip_frame",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 715,
+      "y": 760
+    },
+    "size": {
+      "width": 1228,
+      "height": 1160
+    },
+    "style_id": "style_system_diagram_refimage003_chip",
+    "is_container": true,
+    "z_index": 0
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "CPU\nCORTEX-M0+\nfmax = 64 MHz",
+    "center": {
+      "x": 386,
+      "y": 353
+    },
+    "size": {
+      "width": 186,
+      "height": 226
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "swd",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "SWD",
+    "center": {
+      "x": 331,
+      "y": 267
+    },
+    "size": {
+      "width": 74,
+      "height": 56
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "nvic",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "NVIC",
+    "center": {
+      "x": 332,
+      "y": 444
+    },
+    "size": {
+      "width": 74,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ioport",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "IOPORT",
+    "center": {
+      "x": 438,
+      "y": 444
+    },
+    "size": {
+      "width": 78,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "gpio_domain",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 346,
+      "y": 637
+    },
+    "size": {
+      "width": 100,
+      "height": 224
+    },
+    "style_id": "style_system_diagram_refimage003_peach",
+    "z_index": 1
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "gpio_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "GPIOs",
+    "position": {
+      "x": 347,
+      "y": 531
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 22
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "gpio_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "Port A",
+    "center": {
+      "x": 346,
+      "y": 565.5
+    },
+    "size": {
+      "width": 82,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "gpio_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "Port B",
+    "center": {
+      "x": 346,
+      "y": 626.5
+    },
+    "size": {
+      "width": 82,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "gpio_2",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "Port C",
+    "center": {
+      "x": 346,
+      "y": 687.5
+    },
+    "size": {
+      "width": 82,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "gpio_3",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "Port D",
+    "center": {
+      "x": 346,
+      "y": 748.5
+    },
+    "size": {
+      "width": 82,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "gpio_4",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "Port F",
+    "center": {
+      "x": 346,
+      "y": 809.5
+    },
+    "size": {
+      "width": 82,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "exti",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "EXTI",
+    "center": {
+      "x": 350,
+      "y": 791
+    },
+    "size": {
+      "width": 90,
+      "height": 45
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "decoder",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "decoder",
+    "center": {
+      "x": 450,
+      "y": 646
+    },
+    "size": {
+      "width": 38,
+      "height": 215
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_rotation": -90,
+    "label_style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "bus_matrix_outline",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 530,
+        "y": 235
+      },
+      {
+        "x": 562,
+        "y": 267
+      },
+      {
+        "x": 562,
+        "y": 506
+      },
+      {
+        "x": 530,
+        "y": 552
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "z_index": 10
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "bus_matrix_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "Bus matrix",
+    "position": {
+      "x": 543,
+      "y": 393
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "dma",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "DMAMUX\n\nDMA",
+    "center": {
+      "x": 663,
+      "y": 275
+    },
+    "size": {
+      "width": 86,
+      "height": 80
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "dma_split",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "line",
+    "start": {
+      "x": 620,
+      "y": 275
+    },
+    "end": {
+      "x": 706,
+      "y": 275
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.5
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "if_flash",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "I/F",
+    "center": {
+      "x": 641,
+      "y": 358
+    },
+    "size": {
+      "width": 38,
+      "height": 47
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "flash",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "Flash memory\nup to 64 KB",
+    "center": {
+      "x": 754,
+      "y": 363
+    },
+    "size": {
+      "width": 116,
+      "height": 55
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sram",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "SRAM\n8 KB",
+    "center": {
+      "x": 711,
+      "y": 432
+    },
+    "size": {
+      "width": 116,
+      "height": 51
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "parity",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "Parity",
+    "center": {
+      "x": 782,
+      "y": 432
+    },
+    "size": {
+      "width": 67,
+      "height": 51
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rcc",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "RCC\nReset & clock control",
+    "center": {
+      "x": 711,
+      "y": 673
+    },
+    "size": {
+      "width": 109,
+      "height": 66
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 12,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "pll_domain",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 847,
+      "y": 528
+    },
+    "size": {
+      "width": 126,
+      "height": 130
+    },
+    "style_id": "style_system_diagram_refimage003_violet",
+    "z_index": 1
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "clockbox_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "RC 16 MHz",
+    "center": {
+      "x": 851,
+      "y": 491
+    },
+    "size": {
+      "width": 102,
+      "height": 28
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "clockbox_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "PLL",
+    "center": {
+      "x": 851,
+      "y": 558
+    },
+    "size": {
+      "width": 102,
+      "height": 28
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "clockbox_2",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "RC 32 kHz",
+    "center": {
+      "x": 851,
+      "y": 625
+    },
+    "size": {
+      "width": 102,
+      "height": 28
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "hsi16_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "HSI16",
+    "position": {
+      "x": 743,
+      "y": 469
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "pll_pclk_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "PLLPCLK",
+    "position": {
+      "x": 742,
+      "y": 501
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "pll_rclk_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "PLLRCLK",
+    "position": {
+      "x": 742,
+      "y": 529
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "lsi_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "LSI",
+    "position": {
+      "x": 744,
+      "y": 557
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "hse_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "HSE",
+    "position": {
+      "x": 779,
+      "y": 612
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "lse_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "LSE",
+    "position": {
+      "x": 817,
+      "y": 662
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "xtal",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "XTAL OSC\n4-48 MHz",
+    "center": {
+      "x": 1036,
+      "y": 573
+    },
+    "size": {
+      "width": 116,
+      "height": 54
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "power_reg",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "Voltage\nregulator",
+    "center": {
+      "x": 1030,
+      "y": 276
+    },
+    "size": {
+      "width": 106,
+      "height": 54
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "power_header",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "POWER",
+    "center": {
+      "x": 1029,
+      "y": 247
+    },
+    "size": {
+      "width": 128,
+      "height": 18
+    },
+    "style_id": "style_system_diagram_refimage003_gray",
+    "label_style": {
+      "font_size": 13
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "power_domain",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1030,
+      "y": 421
+    },
+    "size": {
+      "width": 128,
+      "height": 123
+    },
+    "style_id": "style_system_diagram_refimage003_violet",
+    "z_index": 1
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "supply_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "SUPPLY\nSUPERVISION",
+    "position": {
+      "x": 1030,
+      "y": 382
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 13,
+      "line_height": 1
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "supply_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "POR",
+    "center": {
+      "x": 1029,
+      "y": 410.5
+    },
+    "size": {
+      "width": 96,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "supply_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "T sensor",
+    "center": {
+      "x": 1029,
+      "y": 468.5
+    },
+    "size": {
+      "width": 96,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "iwdg",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "IWDG",
+    "center": {
+      "x": 1035,
+      "y": 618
+    },
+    "size": {
+      "width": 114,
+      "height": 36
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "if_xtal",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "I/F",
+    "center": {
+      "x": 1005,
+      "y": 650
+    },
+    "size": {
+      "width": 58,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "low_voltage_detector",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "Low-voltage\ndetector",
+    "position": {
+      "x": 1009,
+      "y": 684
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 13,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "vdd_small",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VDD",
+    "position": {
+      "x": 1058,
+      "y": 660
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 12
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "lse_domain",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1030,
+      "y": 766
+    },
+    "size": {
+      "width": 128,
+      "height": 101
+    },
+    "style_id": "style_system_diagram_refimage003_green",
+    "z_index": 1
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rtc_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "XTAL32 kHz",
+    "center": {
+      "x": 1036,
+      "y": 732
+    },
+    "size": {
+      "width": 110,
+      "height": 30
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rtc_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "RTC, TAMP\nBackup regs",
+    "center": {
+      "x": 1036,
+      "y": 791
+    },
+    "size": {
+      "width": 110,
+      "height": 30
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rtc_if",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "I/F",
+    "center": {
+      "x": 987,
+      "y": 820
+    },
+    "size": {
+      "width": 58,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "vcore_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VCORE",
+    "position": {
+      "x": 845,
+      "y": 278
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "vddio1_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VDDIO1",
+    "position": {
+      "x": 852,
+      "y": 315
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "vdda_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VDDA",
+    "position": {
+      "x": 851,
+      "y": 340
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "vdd_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VDD",
+    "position": {
+      "x": 851,
+      "y": 363
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "external_supply_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VDD/VDDA\nVSS/VSSA",
+    "position": {
+      "x": 1143,
+      "y": 340
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "crc",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "CRC",
+    "center": {
+      "x": 529,
+      "y": 638
+    },
+    "size": {
+      "width": 72,
+      "height": 40
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "adc_domain",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 353,
+      "y": 974
+    },
+    "size": {
+      "width": 119,
+      "height": 128
+    },
+    "style_id": "style_system_diagram_refimage003_violet",
+    "z_index": 1
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "adc",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "ADC",
+    "center": {
+      "x": 356,
+      "y": 989
+    },
+    "size": {
+      "width": 92,
+      "height": 59
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "adc_if",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "I/F",
+    "center": {
+      "x": 414,
+      "y": 989
+    },
+    "size": {
+      "width": 31,
+      "height": 59
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "spi1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "SPI1/I2S",
+    "center": {
+      "x": 361,
+      "y": 1079
+    },
+    "size": {
+      "width": 132,
+      "height": 40
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "spi2",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "SPI2",
+    "center": {
+      "x": 361,
+      "y": 1160
+    },
+    "size": {
+      "width": 132,
+      "height": 40
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "system_peripheral_clocks",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "System and\nperipheral\nclocks",
+    "position": {
+      "x": 724,
+      "y": 755
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sycfg",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "SYSCFG",
+    "center": {
+      "x": 735.5,
+      "y": 977.5
+    },
+    "size": {
+      "width": 119,
+      "height": 37
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "pwrctrl",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "PWRCTRL",
+    "center": {
+      "x": 735.5,
+      "y": 1077.5
+    },
+    "size": {
+      "width": 119,
+      "height": 37
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "wwdg",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "WWDG",
+    "center": {
+      "x": 735.5,
+      "y": 1128
+    },
+    "size": {
+      "width": 119,
+      "height": 37
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "dbgmcu",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "DBGMCU",
+    "center": {
+      "x": 735.5,
+      "y": 1178
+    },
+    "size": {
+      "width": 119,
+      "height": 37
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_periph_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "TIM1",
+    "center": {
+      "x": 1023,
+      "y": 887.5
+    },
+    "size": {
+      "width": 138,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_periph_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "TIM3",
+    "center": {
+      "x": 1023,
+      "y": 934.5
+    },
+    "size": {
+      "width": 138,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_periph_2",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "TIM14",
+    "center": {
+      "x": 1023,
+      "y": 981.5
+    },
+    "size": {
+      "width": 138,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_periph_3",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "TIM16 & 17",
+    "center": {
+      "x": 1023,
+      "y": 1028.5
+    },
+    "size": {
+      "width": 138,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_periph_4",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "USART1",
+    "center": {
+      "x": 1023,
+      "y": 1075.5
+    },
+    "size": {
+      "width": 138,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_periph_5",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "USART2",
+    "center": {
+      "x": 1023,
+      "y": 1122.5
+    },
+    "size": {
+      "width": 138,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_periph_6",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "I2C1",
+    "center": {
+      "x": 1023,
+      "y": 1169.5
+    },
+    "size": {
+      "width": 138,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_periph_7",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "I2C2",
+    "center": {
+      "x": 1023,
+      "y": 1216.5
+    },
+    "size": {
+      "width": 138,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_style": {
+      "font_size": 18
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "apb_left",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "APB",
+    "center": {
+      "x": 554,
+      "y": 1067.5
+    },
+    "size": {
+      "width": 25,
+      "height": 357
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_rotation": -90
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "apb_right",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "APB",
+    "center": {
+      "x": 882,
+      "y": 947.5
+    },
+    "size": {
+      "width": 25,
+      "height": 615
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "label_rotation": -90
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ahb_apb",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "AHB-to-APB",
+    "center": {
+      "x": 622,
+      "y": 832
+    },
+    "size": {
+      "width": 101,
+      "height": 31
+    },
+    "style_id": "style_system_diagram_refimage003_white"
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "cpu_to_bus_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 480,
+        "y": 355
+      },
+      {
+        "x": 492,
+        "y": 349
+      },
+      {
+        "x": 492,
+        "y": 352
+      },
+      {
+        "x": 522,
+        "y": 352
+      },
+      {
+        "x": 522,
+        "y": 349
+      },
+      {
+        "x": 534,
+        "y": 355
+      },
+      {
+        "x": 522,
+        "y": 361
+      },
+      {
+        "x": 522,
+        "y": 358
+      },
+      {
+        "x": 492,
+        "y": 358
+      },
+      {
+        "x": 492,
+        "y": 361
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "bus_to_dma_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 558,
+        "y": 282
+      },
+      {
+        "x": 570,
+        "y": 276
+      },
+      {
+        "x": 570,
+        "y": 279
+      },
+      {
+        "x": 608,
+        "y": 279
+      },
+      {
+        "x": 608,
+        "y": 276
+      },
+      {
+        "x": 620,
+        "y": 282
+      },
+      {
+        "x": 608,
+        "y": 288
+      },
+      {
+        "x": 608,
+        "y": 285
+      },
+      {
+        "x": 570,
+        "y": 285
+      },
+      {
+        "x": 570,
+        "y": 288
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "bus_to_if_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 558,
+        "y": 362
+      },
+      {
+        "x": 568,
+        "y": 357
+      },
+      {
+        "x": 568,
+        "y": 359
+      },
+      {
+        "x": 612,
+        "y": 359
+      },
+      {
+        "x": 612,
+        "y": 357
+      },
+      {
+        "x": 622,
+        "y": 362
+      },
+      {
+        "x": 612,
+        "y": 367
+      },
+      {
+        "x": 612,
+        "y": 365
+      },
+      {
+        "x": 568,
+        "y": 365
+      },
+      {
+        "x": 568,
+        "y": 367
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "if_to_flash_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 660,
+        "y": 362
+      },
+      {
+        "x": 668,
+        "y": 358
+      },
+      {
+        "x": 668,
+        "y": 359
+      },
+      {
+        "x": 688,
+        "y": 359
+      },
+      {
+        "x": 688,
+        "y": 358
+      },
+      {
+        "x": 696,
+        "y": 362
+      },
+      {
+        "x": 688,
+        "y": 366
+      },
+      {
+        "x": 688,
+        "y": 365
+      },
+      {
+        "x": 668,
+        "y": 365
+      },
+      {
+        "x": 668,
+        "y": 366
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "bus_to_sram_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 558,
+        "y": 432
+      },
+      {
+        "x": 570,
+        "y": 426
+      },
+      {
+        "x": 570,
+        "y": 429
+      },
+      {
+        "x": 641,
+        "y": 429
+      },
+      {
+        "x": 641,
+        "y": 426
+      },
+      {
+        "x": 653,
+        "y": 432
+      },
+      {
+        "x": 641,
+        "y": 438
+      },
+      {
+        "x": 641,
+        "y": 435
+      },
+      {
+        "x": 570,
+        "y": 435
+      },
+      {
+        "x": 570,
+        "y": 438
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_port_spine",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "line",
+    "start": {
+      "x": 270,
+      "y": 240
+    },
+    "end": {
+      "x": 270,
+      "y": 1278
+    },
+    "appearance": {
+      "stroke_color": "#111111",
+      "stroke_width": 1.5,
+      "fill_color": "none"
+    },
+    "z_index": 2
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_port_spine",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "line",
+    "start": {
+      "x": 1119,
+      "y": 326
+    },
+    "end": {
+      "x": 1119,
+      "y": 1278
+    },
+    "appearance": {
+      "stroke_color": "#111111",
+      "stroke_width": 1.5,
+      "fill_color": "none"
+    },
+    "z_index": 2
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "inner_chip_top",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "line",
+    "start": {
+      "x": 270,
+      "y": 205
+    },
+    "end": {
+      "x": 1119,
+      "y": 205
+    },
+    "appearance": {
+      "stroke_color": "#111111",
+      "stroke_width": 1.5,
+      "fill_color": "none"
+    },
+    "z_index": 2
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "inner_chip_bottom",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "line",
+    "start": {
+      "x": 270,
+      "y": 1278
+    },
+    "end": {
+      "x": 1119,
+      "y": 1278
+    },
+    "appearance": {
+      "stroke_color": "#111111",
+      "stroke_width": 1.5,
+      "fill_color": "none"
+    },
+    "z_index": 2
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "swclk_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "SWCLK\nSWDIO",
+    "position": {
+      "x": 197,
+      "y": 270
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "swd_external_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 237,
+        "y": 258
+      },
+      {
+        "x": 249,
+        "y": 252
+      },
+      {
+        "x": 249,
+        "y": 255
+      },
+      {
+        "x": 282,
+        "y": 255
+      },
+      {
+        "x": 282,
+        "y": 252
+      },
+      {
+        "x": 294,
+        "y": 258
+      },
+      {
+        "x": 282,
+        "y": 264
+      },
+      {
+        "x": 282,
+        "y": 261
+      },
+      {
+        "x": 249,
+        "y": 261
+      },
+      {
+        "x": 249,
+        "y": 264
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "swdio_external_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 237,
+        "y": 278
+      },
+      {
+        "x": 249,
+        "y": 272
+      },
+      {
+        "x": 249,
+        "y": 275
+      },
+      {
+        "x": 282,
+        "y": 275
+      },
+      {
+        "x": 282,
+        "y": 272
+      },
+      {
+        "x": 294,
+        "y": 278
+      },
+      {
+        "x": 282,
+        "y": 284
+      },
+      {
+        "x": 282,
+        "y": 281
+      },
+      {
+        "x": 249,
+        "y": 281
+      },
+      {
+        "x": 249,
+        "y": 284
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "gpio_to_decoder_a_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 387,
+        "y": 563
+      },
+      {
+        "x": 399,
+        "y": 557
+      },
+      {
+        "x": 399,
+        "y": 560
+      },
+      {
+        "x": 420,
+        "y": 560
+      },
+      {
+        "x": 420,
+        "y": 557
+      },
+      {
+        "x": 432,
+        "y": 563
+      },
+      {
+        "x": 420,
+        "y": 569
+      },
+      {
+        "x": 420,
+        "y": 566
+      },
+      {
+        "x": 399,
+        "y": 566
+      },
+      {
+        "x": 399,
+        "y": 569
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "gpio_to_decoder_b_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 387,
+        "y": 607
+      },
+      {
+        "x": 399,
+        "y": 601
+      },
+      {
+        "x": 399,
+        "y": 604
+      },
+      {
+        "x": 420,
+        "y": 604
+      },
+      {
+        "x": 420,
+        "y": 601
+      },
+      {
+        "x": 432,
+        "y": 607
+      },
+      {
+        "x": 420,
+        "y": 613
+      },
+      {
+        "x": 420,
+        "y": 610
+      },
+      {
+        "x": 399,
+        "y": 610
+      },
+      {
+        "x": 399,
+        "y": 613
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "gpio_to_decoder_c_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 387,
+        "y": 651
+      },
+      {
+        "x": 399,
+        "y": 645
+      },
+      {
+        "x": 399,
+        "y": 648
+      },
+      {
+        "x": 420,
+        "y": 648
+      },
+      {
+        "x": 420,
+        "y": 645
+      },
+      {
+        "x": 432,
+        "y": 651
+      },
+      {
+        "x": 420,
+        "y": 657
+      },
+      {
+        "x": 420,
+        "y": 654
+      },
+      {
+        "x": 399,
+        "y": 654
+      },
+      {
+        "x": 399,
+        "y": 657
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "gpio_to_decoder_d_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 387,
+        "y": 695
+      },
+      {
+        "x": 399,
+        "y": 689
+      },
+      {
+        "x": 399,
+        "y": 692
+      },
+      {
+        "x": 420,
+        "y": 692
+      },
+      {
+        "x": 420,
+        "y": 689
+      },
+      {
+        "x": 432,
+        "y": 695
+      },
+      {
+        "x": 420,
+        "y": 701
+      },
+      {
+        "x": 420,
+        "y": 698
+      },
+      {
+        "x": 399,
+        "y": 698
+      },
+      {
+        "x": 399,
+        "y": 701
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "gpio_to_decoder_f_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 387,
+        "y": 739
+      },
+      {
+        "x": 399,
+        "y": 733
+      },
+      {
+        "x": 399,
+        "y": 736
+      },
+      {
+        "x": 420,
+        "y": 736
+      },
+      {
+        "x": 420,
+        "y": 733
+      },
+      {
+        "x": 432,
+        "y": 739
+      },
+      {
+        "x": 420,
+        "y": 745
+      },
+      {
+        "x": 420,
+        "y": 742
+      },
+      {
+        "x": 399,
+        "y": 742
+      },
+      {
+        "x": 399,
+        "y": 745
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "exti_from_peripherals_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 396,
+        "y": 778
+      },
+      {
+        "x": 408,
+        "y": 772
+      },
+      {
+        "x": 408,
+        "y": 775
+      },
+      {
+        "x": 595,
+        "y": 775
+      },
+      {
+        "x": 595,
+        "y": 772
+      },
+      {
+        "x": 607,
+        "y": 778
+      },
+      {
+        "x": 595,
+        "y": 784
+      },
+      {
+        "x": 595,
+        "y": 781
+      },
+      {
+        "x": 408,
+        "y": 781
+      },
+      {
+        "x": 408,
+        "y": 784
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "from_peripherals",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "from peripherals",
+    "position": {
+      "x": 433,
+      "y": 830
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "crc_to_bus_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 565,
+        "y": 638
+      },
+      {
+        "x": 580,
+        "y": 630.5
+      },
+      {
+        "x": 580,
+        "y": 635
+      },
+      {
+        "x": 597,
+        "y": 635
+      },
+      {
+        "x": 597,
+        "y": 630.5
+      },
+      {
+        "x": 612,
+        "y": 638
+      },
+      {
+        "x": 597,
+        "y": 645.5
+      },
+      {
+        "x": 597,
+        "y": 641
+      },
+      {
+        "x": 580,
+        "y": 641
+      },
+      {
+        "x": 580,
+        "y": 645.5
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "adc_to_apb_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 445,
+        "y": 989
+      },
+      {
+        "x": 461,
+        "y": 981
+      },
+      {
+        "x": 461,
+        "y": 986
+      },
+      {
+        "x": 525.5,
+        "y": 986
+      },
+      {
+        "x": 525.5,
+        "y": 981
+      },
+      {
+        "x": 541.5,
+        "y": 989
+      },
+      {
+        "x": 525.5,
+        "y": 997
+      },
+      {
+        "x": 525.5,
+        "y": 992
+      },
+      {
+        "x": 461,
+        "y": 992
+      },
+      {
+        "x": 461,
+        "y": 997
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "spi1_to_apb_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 427,
+        "y": 1079
+      },
+      {
+        "x": 443,
+        "y": 1071
+      },
+      {
+        "x": 443,
+        "y": 1076
+      },
+      {
+        "x": 525.5,
+        "y": 1076
+      },
+      {
+        "x": 525.5,
+        "y": 1071
+      },
+      {
+        "x": 541.5,
+        "y": 1079
+      },
+      {
+        "x": 525.5,
+        "y": 1087
+      },
+      {
+        "x": 525.5,
+        "y": 1082
+      },
+      {
+        "x": 443,
+        "y": 1082
+      },
+      {
+        "x": 443,
+        "y": 1087
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "spi2_to_apb_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 427,
+        "y": 1160
+      },
+      {
+        "x": 443,
+        "y": 1152
+      },
+      {
+        "x": 443,
+        "y": 1157
+      },
+      {
+        "x": 525.5,
+        "y": 1157
+      },
+      {
+        "x": 525.5,
+        "y": 1152
+      },
+      {
+        "x": 541.5,
+        "y": 1160
+      },
+      {
+        "x": 525.5,
+        "y": 1168
+      },
+      {
+        "x": 525.5,
+        "y": 1163
+      },
+      {
+        "x": 443,
+        "y": 1163
+      },
+      {
+        "x": 443,
+        "y": 1168
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "bus_matrix_to_ahb_bus_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 562,
+        "y": 506
+      },
+      {
+        "x": 576,
+        "y": 499
+      },
+      {
+        "x": 576,
+        "y": 502
+      },
+      {
+        "x": 624,
+        "y": 502
+      },
+      {
+        "x": 624,
+        "y": 662
+      },
+      {
+        "x": 627,
+        "y": 662
+      },
+      {
+        "x": 620,
+        "y": 676
+      },
+      {
+        "x": 613,
+        "y": 662
+      },
+      {
+        "x": 616,
+        "y": 662
+      },
+      {
+        "x": 616,
+        "y": 510
+      },
+      {
+        "x": 576,
+        "y": 510
+      },
+      {
+        "x": 576,
+        "y": 513
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ahb_to_ahb_apb_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 625,
+        "y": 676
+      },
+      {
+        "x": 625,
+        "y": 676
+      },
+      {
+        "x": 625,
+        "y": 800
+      },
+      {
+        "x": 628,
+        "y": 800
+      },
+      {
+        "x": 620,
+        "y": 816
+      },
+      {
+        "x": 612,
+        "y": 800
+      },
+      {
+        "x": 615,
+        "y": 800
+      },
+      {
+        "x": 615,
+        "y": 676
+      },
+      {
+        "x": 615,
+        "y": 676
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "ahb_to_rcc_branch",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 625,
+        "y": 790
+      },
+      {
+        "x": 650,
+        "y": 790
+      },
+      {
+        "x": 650,
+        "y": 673
+      },
+      {
+        "x": 656.5,
+        "y": 673
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.5
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 5
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ahb_apb_to_bus_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 622,
+        "y": 848
+      },
+      {
+        "x": 629,
+        "y": 862
+      },
+      {
+        "x": 625,
+        "y": 862
+      },
+      {
+        "x": 625,
+        "y": 910
+      },
+      {
+        "x": 625,
+        "y": 910
+      },
+      {
+        "x": 619,
+        "y": 910
+      },
+      {
+        "x": 619,
+        "y": 910
+      },
+      {
+        "x": 619,
+        "y": 862
+      },
+      {
+        "x": 615,
+        "y": 862
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "lower_bus_to_right_apb_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 570,
+        "y": 910
+      },
+      {
+        "x": 582,
+        "y": 904
+      },
+      {
+        "x": 582,
+        "y": 907
+      },
+      {
+        "x": 870,
+        "y": 907
+      },
+      {
+        "x": 870,
+        "y": 904
+      },
+      {
+        "x": 882,
+        "y": 910
+      },
+      {
+        "x": 870,
+        "y": 916
+      },
+      {
+        "x": 870,
+        "y": 913
+      },
+      {
+        "x": 582,
+        "y": 913
+      },
+      {
+        "x": 582,
+        "y": 916
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "rcc_to_clocks",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 699,
+        "y": 640
+      },
+      {
+        "x": 699,
+        "y": 480
+      },
+      {
+        "x": 800,
+        "y": 480
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "pll_to_xtal",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 904,
+        "y": 548
+      },
+      {
+        "x": 945,
+        "y": 548
+      },
+      {
+        "x": 945,
+        "y": 572
+      },
+      {
+        "x": 978,
+        "y": 572
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "vcore_to_power",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 882,
+        "y": 280
+      },
+      {
+        "x": 977,
+        "y": 280
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "vddio_to_power",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 882,
+        "y": 318
+      },
+      {
+        "x": 977,
+        "y": 318
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "vdda_to_power",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 882,
+        "y": 340
+      },
+      {
+        "x": 919,
+        "y": 340
+      },
+      {
+        "x": 919,
+        "y": 340
+      },
+      {
+        "x": 977,
+        "y": 340
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "vdd_to_power",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 882,
+        "y": 363
+      },
+      {
+        "x": 919,
+        "y": 363
+      },
+      {
+        "x": 919,
+        "y": 340
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "power_to_external_supply",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1085,
+        "y": 340
+      },
+      {
+        "x": 1134,
+        "y": 340
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "por_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "POR",
+    "position": {
+      "x": 928,
+      "y": 401
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "reset_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "Reset",
+    "position": {
+      "x": 928,
+      "y": 422
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "int_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "Int",
+    "position": {
+      "x": 928,
+      "y": 444
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "por_reset_int",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 954,
+        "y": 401
+      },
+      {
+        "x": 981,
+        "y": 401
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "rtc_if_to_apb_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 894.5,
+        "y": 820
+      },
+      {
+        "x": 904.5,
+        "y": 815
+      },
+      {
+        "x": 904.5,
+        "y": 817
+      },
+      {
+        "x": 948,
+        "y": 817
+      },
+      {
+        "x": 948,
+        "y": 815
+      },
+      {
+        "x": 958,
+        "y": 820
+      },
+      {
+        "x": 948,
+        "y": 825
+      },
+      {
+        "x": 948,
+        "y": 823
+      },
+      {
+        "x": 904.5,
+        "y": 823
+      },
+      {
+        "x": 904.5,
+        "y": 825
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "supply_vertical_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 1030,
+        "y": 483
+      },
+      {
+        "x": 1036,
+        "y": 495
+      },
+      {
+        "x": 1033,
+        "y": 495
+      },
+      {
+        "x": 1033,
+        "y": 532
+      },
+      {
+        "x": 1036,
+        "y": 532
+      },
+      {
+        "x": 1030,
+        "y": 544
+      },
+      {
+        "x": 1024,
+        "y": 532
+      },
+      {
+        "x": 1027,
+        "y": 532
+      },
+      {
+        "x": 1027,
+        "y": 495
+      },
+      {
+        "x": 1024,
+        "y": 495
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "xtal_to_iwdg",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1035,
+        "y": 600
+      },
+      {
+        "x": 1035,
+        "y": 636
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "rtc_bidir_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 1092,
+        "y": 778
+      },
+      {
+        "x": 1102,
+        "y": 773
+      },
+      {
+        "x": 1102,
+        "y": 775
+      },
+      {
+        "x": 1124,
+        "y": 775
+      },
+      {
+        "x": 1124,
+        "y": 773
+      },
+      {
+        "x": 1134,
+        "y": 778
+      },
+      {
+        "x": 1124,
+        "y": 783
+      },
+      {
+        "x": 1124,
+        "y": 781
+      },
+      {
+        "x": 1102,
+        "y": 781
+      },
+      {
+        "x": 1102,
+        "y": 783
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_periph_bus_0_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 894.5,
+        "y": 887
+      },
+      {
+        "x": 902.5,
+        "y": 883
+      },
+      {
+        "x": 902.5,
+        "y": 884
+      },
+      {
+        "x": 946,
+        "y": 884
+      },
+      {
+        "x": 946,
+        "y": 883
+      },
+      {
+        "x": 954,
+        "y": 887
+      },
+      {
+        "x": 946,
+        "y": 891
+      },
+      {
+        "x": 946,
+        "y": 890
+      },
+      {
+        "x": 902.5,
+        "y": 890
+      },
+      {
+        "x": 902.5,
+        "y": 891
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_periph_bus_1_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 894.5,
+        "y": 934
+      },
+      {
+        "x": 902.5,
+        "y": 930
+      },
+      {
+        "x": 902.5,
+        "y": 931
+      },
+      {
+        "x": 946,
+        "y": 931
+      },
+      {
+        "x": 946,
+        "y": 930
+      },
+      {
+        "x": 954,
+        "y": 934
+      },
+      {
+        "x": 946,
+        "y": 938
+      },
+      {
+        "x": 946,
+        "y": 937
+      },
+      {
+        "x": 902.5,
+        "y": 937
+      },
+      {
+        "x": 902.5,
+        "y": 938
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_periph_bus_2_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 894.5,
+        "y": 981
+      },
+      {
+        "x": 902.5,
+        "y": 977
+      },
+      {
+        "x": 902.5,
+        "y": 978
+      },
+      {
+        "x": 946,
+        "y": 978
+      },
+      {
+        "x": 946,
+        "y": 977
+      },
+      {
+        "x": 954,
+        "y": 981
+      },
+      {
+        "x": 946,
+        "y": 985
+      },
+      {
+        "x": 946,
+        "y": 984
+      },
+      {
+        "x": 902.5,
+        "y": 984
+      },
+      {
+        "x": 902.5,
+        "y": 985
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_periph_bus_3_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 894.5,
+        "y": 1028
+      },
+      {
+        "x": 902.5,
+        "y": 1024
+      },
+      {
+        "x": 902.5,
+        "y": 1025
+      },
+      {
+        "x": 946,
+        "y": 1025
+      },
+      {
+        "x": 946,
+        "y": 1024
+      },
+      {
+        "x": 954,
+        "y": 1028
+      },
+      {
+        "x": 946,
+        "y": 1032
+      },
+      {
+        "x": 946,
+        "y": 1031
+      },
+      {
+        "x": 902.5,
+        "y": 1031
+      },
+      {
+        "x": 902.5,
+        "y": 1032
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_periph_bus_4_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 894.5,
+        "y": 1075
+      },
+      {
+        "x": 902.5,
+        "y": 1071
+      },
+      {
+        "x": 902.5,
+        "y": 1072
+      },
+      {
+        "x": 946,
+        "y": 1072
+      },
+      {
+        "x": 946,
+        "y": 1071
+      },
+      {
+        "x": 954,
+        "y": 1075
+      },
+      {
+        "x": 946,
+        "y": 1079
+      },
+      {
+        "x": 946,
+        "y": 1078
+      },
+      {
+        "x": 902.5,
+        "y": 1078
+      },
+      {
+        "x": 902.5,
+        "y": 1079
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_periph_bus_5_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 894.5,
+        "y": 1122
+      },
+      {
+        "x": 902.5,
+        "y": 1118
+      },
+      {
+        "x": 902.5,
+        "y": 1119
+      },
+      {
+        "x": 946,
+        "y": 1119
+      },
+      {
+        "x": 946,
+        "y": 1118
+      },
+      {
+        "x": 954,
+        "y": 1122
+      },
+      {
+        "x": 946,
+        "y": 1126
+      },
+      {
+        "x": 946,
+        "y": 1125
+      },
+      {
+        "x": 902.5,
+        "y": 1125
+      },
+      {
+        "x": 902.5,
+        "y": 1126
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_periph_bus_6_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 894.5,
+        "y": 1169
+      },
+      {
+        "x": 902.5,
+        "y": 1165
+      },
+      {
+        "x": 902.5,
+        "y": 1166
+      },
+      {
+        "x": 946,
+        "y": 1166
+      },
+      {
+        "x": 946,
+        "y": 1165
+      },
+      {
+        "x": 954,
+        "y": 1169
+      },
+      {
+        "x": 946,
+        "y": 1173
+      },
+      {
+        "x": 946,
+        "y": 1172
+      },
+      {
+        "x": 902.5,
+        "y": 1172
+      },
+      {
+        "x": 902.5,
+        "y": 1173
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_periph_bus_7_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 894.5,
+        "y": 1216
+      },
+      {
+        "x": 902.5,
+        "y": 1212
+      },
+      {
+        "x": 902.5,
+        "y": 1213
+      },
+      {
+        "x": 946,
+        "y": 1213
+      },
+      {
+        "x": 946,
+        "y": 1212
+      },
+      {
+        "x": 954,
+        "y": 1216
+      },
+      {
+        "x": 946,
+        "y": 1220
+      },
+      {
+        "x": 946,
+        "y": 1219
+      },
+      {
+        "x": 902.5,
+        "y": 1219
+      },
+      {
+        "x": 902.5,
+        "y": 1220
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "sycfg_to_apb_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 795,
+        "y": 977.5
+      },
+      {
+        "x": 807,
+        "y": 971.5
+      },
+      {
+        "x": 807,
+        "y": 974.5
+      },
+      {
+        "x": 857,
+        "y": 974.5
+      },
+      {
+        "x": 857,
+        "y": 971.5
+      },
+      {
+        "x": 869,
+        "y": 977.5
+      },
+      {
+        "x": 857,
+        "y": 983.5
+      },
+      {
+        "x": 857,
+        "y": 980.5
+      },
+      {
+        "x": 807,
+        "y": 980.5
+      },
+      {
+        "x": 807,
+        "y": 983.5
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "pwrctrl_to_apb_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 795,
+        "y": 1077.5
+      },
+      {
+        "x": 807,
+        "y": 1071.5
+      },
+      {
+        "x": 807,
+        "y": 1074.5
+      },
+      {
+        "x": 857,
+        "y": 1074.5
+      },
+      {
+        "x": 857,
+        "y": 1071.5
+      },
+      {
+        "x": 869,
+        "y": 1077.5
+      },
+      {
+        "x": 857,
+        "y": 1083.5
+      },
+      {
+        "x": 857,
+        "y": 1080.5
+      },
+      {
+        "x": 807,
+        "y": 1080.5
+      },
+      {
+        "x": 807,
+        "y": 1083.5
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "wwdg_to_apb_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 795,
+        "y": 1128
+      },
+      {
+        "x": 807,
+        "y": 1122
+      },
+      {
+        "x": 807,
+        "y": 1125
+      },
+      {
+        "x": 857,
+        "y": 1125
+      },
+      {
+        "x": 857,
+        "y": 1122
+      },
+      {
+        "x": 869,
+        "y": 1128
+      },
+      {
+        "x": 857,
+        "y": 1134
+      },
+      {
+        "x": 857,
+        "y": 1131
+      },
+      {
+        "x": 807,
+        "y": 1131
+      },
+      {
+        "x": 807,
+        "y": 1134
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "dbgmcu_to_apb_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage003",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 795,
+        "y": 1178
+      },
+      {
+        "x": 807,
+        "y": 1172
+      },
+      {
+        "x": 807,
+        "y": 1175
+      },
+      {
+        "x": 857,
+        "y": 1175
+      },
+      {
+        "x": 857,
+        "y": 1172
+      },
+      {
+        "x": 869,
+        "y": 1178
+      },
+      {
+        "x": 857,
+        "y": 1184
+      },
+      {
+        "x": 857,
+        "y": 1181
+      },
+      {
+        "x": 807,
+        "y": 1181
+      },
+      {
+        "x": 807,
+        "y": 1184
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "tim3_right_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "4 channels\nETR",
+    "position": {
+      "x": 1148,
+      "y": 934
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "tim3_right_label_square",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 934
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "tim3_right_label_line",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 934
+      },
+      {
+        "x": 1134,
+        "y": 934
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "tim14_right_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "1 channel",
+    "position": {
+      "x": 1148,
+      "y": 981
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "tim14_right_label_square",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 981
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "tim14_right_label_line",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 981
+      },
+      {
+        "x": 1134,
+        "y": 981
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "tim16_right_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "1 channel\nBK",
+    "position": {
+      "x": 1148,
+      "y": 1028
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "tim16_right_label_square",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 1028
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "tim16_right_label_line",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 1028
+      },
+      {
+        "x": 1134,
+        "y": 1028
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "usart2_right_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "RX, TX\nCTS, RTS, CK",
+    "position": {
+      "x": 1148,
+      "y": 1122
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "usart2_right_label_square",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 1122
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "usart2_right_label_line",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 1122
+      },
+      {
+        "x": 1134,
+        "y": 1122
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "i2c1_right_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "SCL, SDA, SMBA",
+    "position": {
+      "x": 1148,
+      "y": 1169
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "i2c1_right_label_square",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 1169
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "i2c1_right_label_line",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 1169
+      },
+      {
+        "x": 1134,
+        "y": 1169
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "i2c2_right_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "SCL, SDA",
+    "position": {
+      "x": 1148,
+      "y": 1216
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "i2c2_right_label_square",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 1216
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "i2c2_right_label_line",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 1216
+      },
+      {
+        "x": 1134,
+        "y": 1216
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pin_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "PAx",
+    "position": {
+      "x": 220,
+      "y": 600
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_pin_square_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 270,
+      "y": 600
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "left_pin_line_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 270,
+        "y": 600
+      },
+      {
+        "x": 295,
+        "y": 600
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pin_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "PBx",
+    "position": {
+      "x": 220,
+      "y": 648
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_pin_square_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 270,
+      "y": 648
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "left_pin_line_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 270,
+        "y": 648
+      },
+      {
+        "x": 295,
+        "y": 648
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pin_2",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "PCx",
+    "position": {
+      "x": 220,
+      "y": 694
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_pin_square_2",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 270,
+      "y": 694
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "left_pin_line_2",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 270,
+        "y": 694
+      },
+      {
+        "x": 295,
+        "y": 694
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pin_3",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "PDx",
+    "position": {
+      "x": 220,
+      "y": 739
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_pin_square_3",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 270,
+      "y": 739
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "left_pin_line_3",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 270,
+        "y": 739
+      },
+      {
+        "x": 295,
+        "y": 739
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pin_4",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "PFx",
+    "position": {
+      "x": 220,
+      "y": 786
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_pin_square_4",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 270,
+      "y": 786
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "left_pin_line_4",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 270,
+        "y": 786
+      },
+      {
+        "x": 295,
+        "y": 786
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pin_5",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VREF+",
+    "position": {
+      "x": 220,
+      "y": 920
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_pin_square_5",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 270,
+      "y": 920
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "left_pin_line_5",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 270,
+        "y": 920
+      },
+      {
+        "x": 295,
+        "y": 920
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pin_6",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "16x IN",
+    "position": {
+      "x": 220,
+      "y": 991
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_pin_square_6",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 270,
+      "y": 991
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "left_pin_line_6",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 270,
+        "y": 991
+      },
+      {
+        "x": 295,
+        "y": 991
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pin_7",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "MOSI/SD\nMISO/MCK\nSCK/CK\nNSS/WS",
+    "position": {
+      "x": 220,
+      "y": 1087
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_pin_square_7",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 270,
+      "y": 1087
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "left_pin_line_7",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 270,
+        "y": 1087
+      },
+      {
+        "x": 295,
+        "y": 1087
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pin_8",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "MOSI, MISO\nSCK, NSS",
+    "position": {
+      "x": 220,
+      "y": 1158
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_pin_square_8",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 270,
+      "y": 1158
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "left_pin_line_8",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 270,
+        "y": 1158
+      },
+      {
+        "x": 295,
+        "y": 1158
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_pin_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "OSC_IN\nOSC_OUT",
+    "position": {
+      "x": 1148,
+      "y": 588
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_pin_square_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 588
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "right_pin_line_0",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 588
+      },
+      {
+        "x": 1134,
+        "y": 588
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_pin_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "NRST",
+    "position": {
+      "x": 1148,
+      "y": 436
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_pin_square_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 436
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "right_pin_line_1",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 436
+      },
+      {
+        "x": 1134,
+        "y": 436
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_pin_2",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VBAT",
+    "position": {
+      "x": 1148,
+      "y": 659
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_pin_square_2",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 659
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "right_pin_line_2",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 659
+      },
+      {
+        "x": 1134,
+        "y": 659
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_pin_3",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "OSC32_IN\nOSC32_OUT",
+    "position": {
+      "x": 1148,
+      "y": 742
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_pin_square_3",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 742
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "right_pin_line_3",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 742
+      },
+      {
+        "x": 1134,
+        "y": 742
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_pin_4",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "RTC_OUT\nRTC_REFIN\nRTC_TS\nTAMP_IN",
+    "position": {
+      "x": 1148,
+      "y": 790
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_pin_square_4",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 790
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "right_pin_line_4",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 790
+      },
+      {
+        "x": 1134,
+        "y": 790
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_pin_5",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "4 channels\nBK, BK2, ETR",
+    "position": {
+      "x": 1148,
+      "y": 883
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_pin_square_5",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 883
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "right_pin_line_5",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 883
+      },
+      {
+        "x": 1134,
+        "y": 883
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_pin_6",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "RX, TX\nCTS, RTS, CK",
+    "position": {
+      "x": 1148,
+      "y": 1080
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_pin_square_6",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1119,
+      "y": 1080
+    },
+    "size": {
+      "width": 13,
+      "height": 13
+    },
+    "style_id": "style_system_diagram_refimage003_white",
+    "z_index": 35
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "right_pin_line_6",
+    "system_diagram_id": "system_diagram_refimage003",
+    "path": [
+      {
+        "x": 1100,
+        "y": 1080
+      },
+      {
+        "x": 1134,
+        "y": 1080
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "legend_vbat_swatch",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 532,
+      "y": 1310
+    },
+    "size": {
+      "width": 42,
+      "height": 24
+    },
+    "style_id": "style_system_diagram_refimage003_green"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "legend_vbat_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VBAT",
+    "position": {
+      "x": 562,
+      "y": 1312
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "legend_vdd_swatch",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 659,
+      "y": 1310
+    },
+    "size": {
+      "width": 42,
+      "height": 24
+    },
+    "style_id": "style_system_diagram_refimage003_gray"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "legend_vdd_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VDD",
+    "position": {
+      "x": 689,
+      "y": 1312
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "legend_vdda_swatch",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 786,
+      "y": 1310
+    },
+    "size": {
+      "width": 42,
+      "height": 24
+    },
+    "style_id": "style_system_diagram_refimage003_violet"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "legend_vdda_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VDDA",
+    "position": {
+      "x": 816,
+      "y": 1312
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "legend_vddio_swatch",
+    "system_diagram_id": "system_diagram_refimage003",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 913,
+      "y": 1310
+    },
+    "size": {
+      "width": 42,
+      "height": 24
+    },
+    "style_id": "style_system_diagram_refimage003_peach"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "legend_vddio_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "VDDIO1",
+    "position": {
+      "x": 943,
+      "y": 1312
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "legend_label",
+    "system_diagram_id": "system_diagram_refimage003",
+    "text": "Power domain of analog blocks :",
+    "position": {
+      "x": 338,
+      "y": 1312
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 19
+    }
+  }
+]

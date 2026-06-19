@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1036" height="1428" viewBox="0 0 1036 1428">
+<defs>
+<marker id="marker-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke" />
+</marker>
+<marker id="marker-open-arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="13" markerHeight="13" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+<path d="M 2 2 L 10 6 L 2 10" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+</marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff" />
+<g id="frame">
+<rect x="14" y="46" width="984" height="1324" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+</g>
+<line id="bus_left" x1="360" y1="190" x2="360" y2="1288" fill="none" stroke="#aeb5b9" stroke-width="7" />
+<line id="bus_mid" x1="520" y1="170" x2="520" y2="1210" fill="none" stroke="#aeb5b9" stroke-width="7" />
+<line id="bus_right" x1="728" y1="190" x2="728" y2="1165" fill="none" stroke="#aeb5b9" stroke-width="7" />
+<line id="bus_top_to_right" x1="520" y1="242" x2="728" y2="242" fill="none" stroke="#aeb5b9" stroke-width="7" />
+<line id="bus_mid_right_drop" x1="585" y1="422" x2="585" y2="585" fill="none" stroke="#aeb5b9" stroke-width="7" />
+<line id="bus_mid_left" x1="360" y1="587" x2="585" y2="587" fill="none" stroke="#aeb5b9" stroke-width="7" />
+<line id="bus_bottom_left" x1="320" y1="940" x2="657" y2="940" fill="none" stroke="#aeb5b9" stroke-width="7" />
+<line id="bus_bottom_drop" x1="657" y1="940" x2="657" y2="1288" fill="none" stroke="#aeb5b9" stroke-width="7" />
+<line id="bus_clock_left" x1="360" y1="1288" x2="657" y2="1288" fill="none" stroke="#aeb5b9" stroke-width="7" />
+<line id="ahb_lower_matrix" x1="435" y1="848" x2="645" y2="848" fill="none" stroke="#c8bed0" stroke-width="25" />
+<g id="inner_frame">
+<rect x="186" y="122" width="654" height="1236" rx="0" ry="0" fill="transparent" stroke="#111111" stroke-width="1.6" />
+</g>
+<g id="cpu">
+<rect x="242.5" y="171.5" width="121" height="95" rx="0" ry="0" fill="#b8beb8" stroke="#111111" stroke-width="1.2" />
+<text id="cpu_label" x="303" y="219" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="303" dy="-1.02em">Arm CPU</tspan><tspan x="303" dy="1.02em">Cortex-M7</tspan><tspan x="303" dy="1.02em">550 MHz</tspan></text>
+</g>
+<g id="cpu_jtag">
+<rect x="216" y="179" width="38" height="80" rx="0" ry="0" fill="#b8beb8" stroke="#111111" stroke-width="1.2" />
+<text id="cpu_jtag_label" x="235" y="219" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="235" dy="0">JTAG/SW</tspan></text>
+</g>
+<g id="cpu_etm">
+<rect x="216" y="244.5" width="40" height="23" rx="0" ry="0" fill="#b8beb8" stroke="#111111" stroke-width="1.2" />
+<text id="cpu_etm_label" x="236" y="256" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="236" dy="0">ETM</tspan></text>
+</g>
+<g id="cache_0">
+<rect x="194" y="133" width="57" height="43" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="cache_0_label" x="222.5" y="154.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="222.5" dy="-0.51em">D-TCM</tspan><tspan x="222.5" dy="1.02em">64KB</tspan></text>
+</g>
+<g id="cache_1">
+<rect x="264" y="133" width="57" height="43" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="cache_1_label" x="292.5" y="154.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="-0.51em">D-TCM</tspan><tspan x="292.5" dy="1.02em">64KB</tspan></text>
+</g>
+<g id="cache_2">
+<rect x="194" y="291" width="57" height="43" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="cache_2_label" x="222.5" y="312.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="222.5" dy="-0.51em">I-Cache</tspan><tspan x="222.5" dy="1.02em">32KB</tspan></text>
+</g>
+<g id="cache_3">
+<rect x="264" y="291" width="57" height="43" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="cache_3_label" x="292.5" y="312.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="-0.51em">D-Cache</tspan><tspan x="292.5" dy="1.02em">32KB</tspan></text>
+</g>
+<g id="itcm">
+<rect x="381" y="151.5" width="132" height="111" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="itcm_label" x="447" y="207" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="447" dy="-1.02em">I-TCM 64KB</tspan><tspan x="447" dy="1.02em">Shared AXI</tspan><tspan x="447" dy="1.02em">I-TCM 192KB</tspan></text>
+</g>
+<g id="itcm_yellow">
+<rect x="400" y="211" width="92" height="24" rx="0" ry="0" fill="#ffe586" stroke="#111111" stroke-width="0.9" />
+<text id="itcm_yellow_label" x="446" y="223" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="446" dy="-0.5em">128 KB AXI</tspan><tspan x="446" dy="1em">SRAM</tspan></text>
+</g>
+<g id="flash">
+<rect x="404" y="290.5" width="116" height="37" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="flash_label" x="462" y="309" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="462" dy="-0.51em">1 MB FLASH</tspan><tspan x="462" dy="1.02em">FMC</tspan></text>
+</g>
+<g id="axi_matrix">
+<rect x="378" y="204.5" width="42" height="331" rx="0" ry="0" fill="#c8bed0" stroke="#111111" stroke-width="1.2" />
+<text id="axi_matrix_label" x="399" y="370" transform="rotate(-90 399 370)" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="399" dy="0">64-bit AXI BUS-MATRIX</tspan></text>
+</g>
+<g id="mdma_dark">
+<rect x="226" y="311.5" width="70" height="29" rx="0" ry="0" fill="#81887f" stroke="#111111" stroke-width="1.2" />
+<text id="mdma_dark_label" x="261" y="326" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="261" dy="0">MDMA</tspan></text>
+</g>
+<g id="mdma_fifo">
+<rect x="296.5" y="311.5" width="51" height="29" rx="0" ry="0" fill="#81887f" stroke="#111111" stroke-width="1.2" />
+<text id="mdma_fifo_label" x="322" y="326" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="322" dy="-0.5em">16 Streams</tspan><tspan x="322" dy="1em">FIFO</tspan></text>
+</g>
+<g id="wwdg_tag">
+<rect x="243" y="422" width="46" height="10" rx="0" ry="0" fill="#5ea6d3" stroke="#111111" stroke-width="0.7" />
+<text id="wwdg_tag_label" x="266" y="427" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="266" dy="0">AHB/APB</tspan></text>
+</g>
+<g id="left_bus_tag">
+<rect x="320.5" y="581.5" width="15" height="45" rx="0" ry="0" fill="#5ea6d3" stroke="#111111" stroke-width="0.7" />
+<text id="left_bus_tag_label" x="328" y="604" transform="rotate(-90 328 604)" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="328" dy="0">AHB/APB</tspan></text>
+</g>
+<g id="left_mem_0">
+<rect x="236" y="326" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+</g>
+<g id="left_mem_1">
+<rect x="236" y="360" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_1_label" x="292.5" y="372" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="-1em">CHROM-ART</tspan><tspan x="292.5" dy="1em">(DMA2D)</tspan><tspan x="292.5" dy="1em">FIFO</tspan></text>
+</g>
+<g id="left_mem_2">
+<rect x="236" y="394" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_2_label" x="292.5" y="406" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="-0.5em">LCD-TFT</tspan><tspan x="292.5" dy="1em">FIFO</tspan></text>
+</g>
+<g id="left_mem_3">
+<rect x="236" y="428" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_3_label" x="292.5" y="440" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">WWDG</tspan></text>
+</g>
+<g id="left_mem_4">
+<rect x="236" y="462" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_4_label" x="292.5" y="474" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">DLYBSD1</tspan></text>
+</g>
+<g id="left_mem_5">
+<rect x="236" y="496" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_5_label" x="292.5" y="508" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="-0.5em">DCMI</tspan><tspan x="292.5" dy="1em">PSSI</tspan></text>
+</g>
+<g id="left_mem_6">
+<rect x="236" y="530" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_6_label" x="292.5" y="542" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">DFSDM</tspan></text>
+</g>
+<g id="left_mem_7">
+<rect x="236" y="564" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_7_label" x="292.5" y="576" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="-0.5em">SAI1</tspan><tspan x="292.5" dy="1em">FIFO</tspan></text>
+</g>
+<g id="left_mem_8">
+<rect x="236" y="598" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_8_label" x="292.5" y="610" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">SPI5</tspan></text>
+</g>
+<g id="left_mem_9">
+<rect x="236" y="632" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_9_label" x="292.5" y="644" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">TIM17</tspan></text>
+</g>
+<g id="left_mem_10">
+<rect x="236" y="666" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_10_label" x="292.5" y="678" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">TIM16</tspan></text>
+</g>
+<g id="left_mem_11">
+<rect x="236" y="700" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_11_label" x="292.5" y="712" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">TIM15</tspan></text>
+</g>
+<g id="left_mem_12">
+<rect x="236" y="734" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_12_label" x="292.5" y="746" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">SPI4</tspan></text>
+</g>
+<g id="left_mem_13">
+<rect x="236" y="768" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_13_label" x="292.5" y="780" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">SPI1/I2S1</tspan></text>
+</g>
+<g id="left_mem_14">
+<rect x="236" y="802" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_14_label" x="292.5" y="814" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">UART9</tspan></text>
+</g>
+<g id="left_mem_15">
+<rect x="236" y="836" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_15_label" x="292.5" y="848" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">UART10</tspan></text>
+</g>
+<g id="left_mem_16">
+<rect x="236" y="870" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_16_label" x="292.5" y="882" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">USART6</tspan></text>
+</g>
+<g id="left_mem_17">
+<rect x="236" y="904" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_17_label" x="292.5" y="916" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">USART1</tspan></text>
+</g>
+<g id="left_mem_18">
+<rect x="236" y="938" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_18_label" x="292.5" y="950" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">TIM1/PWM</tspan></text>
+</g>
+<g id="left_mem_19">
+<rect x="236" y="972" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_19_label" x="292.5" y="984" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">TIM8/PWM</tspan></text>
+</g>
+<g id="left_mem_20">
+<rect x="236" y="1006" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_20_label" x="292.5" y="1018" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">ADC3</tspan></text>
+</g>
+<g id="left_mem_21">
+<rect x="236" y="1040" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_21_label" x="292.5" y="1052" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">GPIO PORTA..H</tspan></text>
+</g>
+<g id="left_mem_22">
+<rect x="236" y="1074" width="113" height="24" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="left_mem_22_label" x="292.5" y="1086" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="292.5" dy="0">GPIO PORTJ,K</tspan></text>
+</g>
+<g id="ahb_matrix">
+<rect x="530" y="164.5" width="350" height="27" rx="0" ry="0" fill="#c8bed0" stroke="#111111" stroke-width="1.2" />
+<text id="ahb_matrix_label" x="705" y="178" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="705" dy="0">32-bit AHB BUS-MATRIX</tspan></text>
+</g>
+<g id="top_0">
+<rect x="548" y="126" width="56" height="82" rx="0" ry="0" fill="#b8beb8" stroke="#111111" stroke-width="1.2" />
+<text id="top_0_label" x="576" y="167" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="576" dy="-1em">DMA1</tspan><tspan x="576" dy="1em">8 Stream</tspan><tspan x="576" dy="1em">FIFOs</tspan></text>
+</g>
+<g id="top_1">
+<rect x="609" y="126" width="56" height="82" rx="0" ry="0" fill="#b8beb8" stroke="#111111" stroke-width="1.2" />
+<text id="top_1_label" x="637" y="167" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="637" dy="-1em">DMA2</tspan><tspan x="637" dy="1em">8 Stream</tspan><tspan x="637" dy="1em">FIFOs</tspan></text>
+</g>
+<g id="top_2">
+<rect x="670" y="126" width="56" height="82" rx="0" ry="0" fill="#b8beb8" stroke="#111111" stroke-width="1.2" />
+<text id="top_2_label" x="698" y="167" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="698" dy="-0.5em">ETHER</tspan><tspan x="698" dy="1em">MAC</tspan></text>
+</g>
+<g id="top_3">
+<rect x="731" y="126" width="56" height="82" rx="0" ry="0" fill="#b8beb8" stroke="#111111" stroke-width="1.2" />
+<text id="top_3_label" x="759" y="167" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="759" dy="0">SDMMC2</tspan></text>
+</g>
+<g id="top_4">
+<rect x="792" y="126" width="56" height="82" rx="0" ry="0" fill="#b8beb8" stroke="#111111" stroke-width="1.2" />
+<text id="top_4_label" x="820" y="167" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="820" dy="-0.5em">PHY</tspan><tspan x="820" dy="1em">OTG_HS</tspan></text>
+</g>
+<g id="compute_0">
+<rect x="610" y="289" width="80" height="25" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="compute_0_label" x="650" y="301.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="650" dy="-0.51em">DMA</tspan><tspan x="650" dy="1.02em">Mux1</tspan></text>
+</g>
+<g id="compute_1">
+<rect x="610" y="322" width="80" height="25" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="compute_1_label" x="650" y="334.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="650" dy="0">RNG</tspan></text>
+</g>
+<g id="compute_2">
+<rect x="610" y="355" width="80" height="25" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="compute_2_label" x="650" y="367.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="650" dy="0">CORDIC</tspan></text>
+</g>
+<g id="compute_3">
+<rect x="610" y="388" width="80" height="25" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="compute_3_label" x="650" y="400.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="650" dy="0">FMAC</tspan></text>
+</g>
+<g id="octo_0">
+<rect x="428" y="339" width="23" height="72" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="octo_0_label" x="439.5" y="375" transform="rotate(-90 439.5 375)" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="439.5" dy="0">OCTOSPI1</tspan></text>
+</g>
+<g id="octo_1">
+<rect x="428" y="416" width="23" height="72" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="octo_1_label" x="439.5" y="452" transform="rotate(-90 439.5 452)" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="439.5" dy="0">OCTOSPI2</tspan></text>
+</g>
+<g id="octo_mid_0">
+<rect x="470" y="341" width="31" height="66" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="octo_mid_0_label" x="485.5" y="374" transform="rotate(-90 485.5 374)" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="485.5" dy="0">OCTOSPI1</tspan></text>
+</g>
+<g id="octo_mid_1">
+<rect x="470" y="412" width="31" height="66" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="octo_mid_1_label" x="485.5" y="445" transform="rotate(-90 485.5 445)" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="485.5" dy="0">OCTOSPI2</tspan></text>
+</g>
+<g id="fmc_signals">
+<rect x="465.5" y="340" width="47" height="12" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="fmc_signals_label" x="489" y="346" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="489" dy="0">FMC_signals</tspan></text>
+</g>
+<g id="dlybos">
+<rect x="408" y="432" width="118" height="12" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="dlybos_label" x="467" y="438" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="467" dy="0">DLYBOS1-2</tspan></text>
+</g>
+<g id="sram_0">
+<rect x="738" y="260" width="50" height="31" rx="0" ry="0" fill="#ffe586" stroke="#111111" stroke-width="0.9" />
+<text id="sram_0_label" x="763" y="275.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="763" dy="-0.575em">SRAM1</tspan><tspan x="763" dy="1.15em">16 KB</tspan></text>
+</g>
+<g id="sram_1">
+<rect x="788" y="260" width="50" height="31" rx="0" ry="0" fill="#ffe586" stroke="#111111" stroke-width="0.9" />
+<text id="sram_1_label" x="813" y="275.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="813" dy="-0.575em">SRAM2</tspan><tspan x="813" dy="1.15em">16 KB</tspan></text>
+</g>
+<g id="right_periph_0">
+<rect x="724" y="314" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_0_label" x="771.5" y="323" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">ADC1</tspan></text>
+</g>
+<g id="right_periph_1">
+<rect x="724" y="337" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_1_label" x="771.5" y="346" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">ADC2</tspan></text>
+</g>
+<g id="right_periph_2">
+<rect x="724" y="360" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_2_label" x="771.5" y="369" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">TIM2</tspan></text>
+</g>
+<g id="right_periph_3">
+<rect x="724" y="383" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_3_label" x="771.5" y="392" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">TIM3</tspan></text>
+</g>
+<g id="right_periph_4">
+<rect x="724" y="406" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_4_label" x="771.5" y="415" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">TIM4</tspan></text>
+</g>
+<g id="right_periph_5">
+<rect x="724" y="429" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_5_label" x="771.5" y="438" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">TIM5</tspan></text>
+</g>
+<g id="right_periph_6">
+<rect x="724" y="452" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_6_label" x="771.5" y="461" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">TIM23</tspan></text>
+</g>
+<g id="right_periph_7">
+<rect x="724" y="475" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_7_label" x="771.5" y="484" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">TIM24</tspan></text>
+</g>
+<g id="right_periph_8">
+<rect x="724" y="498" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_8_label" x="771.5" y="507" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">TIM12</tspan></text>
+</g>
+<g id="right_periph_9">
+<rect x="724" y="521" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_9_label" x="771.5" y="530" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">TIM13</tspan></text>
+</g>
+<g id="right_periph_10">
+<rect x="724" y="544" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_10_label" x="771.5" y="553" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">TIM14</tspan></text>
+</g>
+<g id="right_periph_11">
+<rect x="724" y="567" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_11_label" x="771.5" y="576" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">USART2</tspan></text>
+</g>
+<g id="right_periph_12">
+<rect x="724" y="590" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_12_label" x="771.5" y="599" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">USART3</tspan></text>
+</g>
+<g id="right_periph_13">
+<rect x="724" y="613" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_13_label" x="771.5" y="622" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">UART4</tspan></text>
+</g>
+<g id="right_periph_14">
+<rect x="724" y="636" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_14_label" x="771.5" y="645" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">UART5</tspan></text>
+</g>
+<g id="right_periph_15">
+<rect x="724" y="659" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_15_label" x="771.5" y="668" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">UART7</tspan></text>
+</g>
+<g id="right_periph_16">
+<rect x="724" y="682" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_16_label" x="771.5" y="691" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">UART8</tspan></text>
+</g>
+<g id="right_periph_17">
+<rect x="724" y="705" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_17_label" x="771.5" y="714" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">SPI2/I2S2</tspan></text>
+</g>
+<g id="right_periph_18">
+<rect x="724" y="728" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_18_label" x="771.5" y="737" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">SPI3/I2S3</tspan></text>
+</g>
+<g id="right_periph_19">
+<rect x="724" y="751" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_19_label" x="771.5" y="760" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">I2C1/SMBUS</tspan></text>
+</g>
+<g id="right_periph_20">
+<rect x="724" y="774" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_20_label" x="771.5" y="783" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">I2C2/SMBUS</tspan></text>
+</g>
+<g id="right_periph_21">
+<rect x="724" y="797" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_21_label" x="771.5" y="806" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">I2C3/SMBUS</tspan></text>
+</g>
+<g id="right_periph_22">
+<rect x="724" y="820" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_22_label" x="771.5" y="829" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">I2C5/SMBUS</tspan></text>
+</g>
+<g id="right_periph_23">
+<rect x="724" y="843" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_23_label" x="771.5" y="852" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">USBCR</tspan></text>
+</g>
+<g id="right_periph_24">
+<rect x="724" y="866" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_24_label" x="771.5" y="875" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">MDIOS</tspan></text>
+</g>
+<g id="right_periph_25">
+<rect x="724" y="889" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_25_label" x="771.5" y="898" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">TT-FDCAN1</tspan></text>
+</g>
+<g id="right_periph_26">
+<rect x="724" y="912" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_26_label" x="771.5" y="921" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">FDCAN2</tspan></text>
+</g>
+<g id="right_periph_27">
+<rect x="724" y="935" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_27_label" x="771.5" y="944" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">FDCAN3</tspan></text>
+</g>
+<g id="right_periph_28">
+<rect x="724" y="958" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_28_label" x="771.5" y="967" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">SPDIFRX1</tspan></text>
+</g>
+<g id="right_periph_29">
+<rect x="724" y="981" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_29_label" x="771.5" y="990" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">HDMI-CEC</tspan></text>
+</g>
+<g id="right_periph_30">
+<rect x="724" y="1004" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_30_label" x="771.5" y="1013" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">DAC</tspan></text>
+</g>
+<g id="right_periph_31">
+<rect x="724" y="1027" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_31_label" x="771.5" y="1036" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">LPTIM1</tspan></text>
+</g>
+<g id="right_periph_32">
+<rect x="724" y="1050" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_32_label" x="771.5" y="1059" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">OPAMP1</tspan></text>
+</g>
+<g id="right_periph_33">
+<rect x="724" y="1073" width="95" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="right_periph_33_label" x="771.5" y="1082" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="771.5" dy="0">OPAMP2</tspan></text>
+</g>
+<g id="apb_right">
+<rect x="699" y="313" width="18" height="784" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="apb_right_label" x="708" y="705" transform="rotate(-90 708 705)" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="708" dy="0">APB1  138 MHz</tspan></text>
+</g>
+<g id="bottom_left_0">
+<rect x="236" y="1074" width="96" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="bottom_left_0_label" x="284" y="1083.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="284" dy="-0.5em">SAI4</tspan><tspan x="284" dy="1em">FIFO</tspan></text>
+</g>
+<g id="bottom_left_1">
+<rect x="236" y="1100" width="96" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="bottom_left_1_label" x="284" y="1109.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="284" dy="0">COMP1&amp;2</tspan></text>
+</g>
+<g id="bottom_left_2">
+<rect x="236" y="1126" width="96" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="bottom_left_2_label" x="284" y="1135.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="284" dy="-0.5em">LPTIM5</tspan><tspan x="284" dy="1em">16b</tspan></text>
+</g>
+<g id="bottom_left_3">
+<rect x="236" y="1152" width="96" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="bottom_left_3_label" x="284" y="1161.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="284" dy="-0.5em">LPTIM4</tspan><tspan x="284" dy="1em">16b</tspan></text>
+</g>
+<g id="bottom_left_4">
+<rect x="236" y="1178" width="96" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="bottom_left_4_label" x="284" y="1187.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="284" dy="0">LPTIM3</tspan></text>
+</g>
+<g id="bottom_left_5">
+<rect x="236" y="1204" width="96" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="bottom_left_5_label" x="284" y="1213.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="284" dy="0">I2C4</tspan></text>
+</g>
+<g id="bottom_left_6">
+<rect x="236" y="1230" width="96" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="bottom_left_6_label" x="284" y="1239.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="284" dy="0">SPI6/I2S6</tspan></text>
+</g>
+<g id="bottom_left_7">
+<rect x="236" y="1256" width="96" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="bottom_left_7_label" x="284" y="1265.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="284" dy="0">LPUART1</tspan></text>
+</g>
+<g id="bottom_left_8">
+<rect x="236" y="1282" width="96" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="bottom_left_8_label" x="284" y="1291.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="284" dy="-0.5em">LPTIM2</tspan><tspan x="284" dy="1em">16b</tspan></text>
+</g>
+<g id="dma_mux2_bdma">
+<rect x="447" y="751" width="56" height="38" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="dma_mux2_bdma_label" x="475" y="770" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="475" dy="-1em">DMA</tspan><tspan x="475" dy="1em">Mux2</tspan><tspan x="475" dy="1em">BDMA</tspan></text>
+</g>
+<g id="dap">
+<rect x="600" y="755" width="50" height="30" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="dap_label" x="625" y="770" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="625" dy="0">DAP</tspan></text>
+</g>
+<g id="hsem">
+<rect x="396" y="884" width="54" height="16" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="hsem_label" x="423" y="892" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="423" dy="0">HSEM</tspan></text>
+</g>
+<g id="crc">
+<rect x="396" y="904" width="54" height="16" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="crc_label" x="423" y="912" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="423" dy="0">CRC</tspan></text>
+</g>
+<g id="sram_10k">
+<rect x="657" y="752" width="34" height="76" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="sram_10k_label" x="674" y="790" transform="rotate(-90 674 790)" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="674" dy="-1em">10 KB SRAM</tspan><tspan x="674" dy="1em">RAM</tspan><tspan x="674" dy="1em">I/F</tspan></text>
+</g>
+<g id="sram_16k">
+<rect x="524" y="901" width="64" height="18" rx="0" ry="0" fill="#ffe586" stroke="#111111" stroke-width="0.9" />
+<text id="sram_16k_label" x="556" y="910" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="556" dy="0">16 KB SRAM</tspan></text>
+</g>
+<g id="bkp_4k">
+<rect x="617" y="898" width="62" height="24" rx="0" ry="0" fill="#ffe586" stroke="#111111" stroke-width="0.9" />
+<text id="bkp_4k_label" x="648" y="910" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="648" dy="-0.5em">4 KB BKP</tspan><tspan x="648" dy="1em">RAM</tspan></text>
+</g>
+<g id="rcc_bottom">
+<rect x="563" y="961" width="54" height="54" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="rcc_bottom_label" x="590" y="988" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="590" dy="-1em">RCC</tspan><tspan x="590" dy="1em">Reset &amp;</tspan><tspan x="590" dy="1em">control</tspan></text>
+</g>
+<g id="sys_bottom_0">
+<rect x="392" y="1084" width="78" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="sys_bottom_0_label" x="431" y="1093.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="431" dy="0">VREF</tspan></text>
+</g>
+<g id="sys_bottom_1">
+<rect x="392" y="1116" width="78" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="sys_bottom_1_label" x="431" y="1125.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="431" dy="0">SYSCFG</tspan></text>
+</g>
+<g id="sys_bottom_2">
+<rect x="392" y="1148" width="78" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="sys_bottom_2_label" x="431" y="1157.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="431" dy="0">EXTI WKUP</tspan></text>
+</g>
+<g id="sys_bottom_3">
+<rect x="392" y="1180" width="78" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="sys_bottom_3_label" x="431" y="1189.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="431" dy="0">IWDG</tspan></text>
+</g>
+<g id="sys_bottom_4">
+<rect x="392" y="1212" width="78" height="19" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="sys_bottom_4_label" x="431" y="1221.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="431" dy="-0.5em">Temperature</tspan><tspan x="431" dy="1em">sensor</tspan></text>
+</g>
+<g id="clock">
+<rect x="541" y="1179" width="82" height="78" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="clock_label" x="582" y="1218" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="582" dy="-2.04em">HSI RC</tspan><tspan x="582" dy="1.02em">HSI48 RC</tspan><tspan x="582" dy="1.02em">CSI RC</tspan><tspan x="582" dy="1.02em">LSI RC</tspan><tspan x="582" dy="1.02em">PLL1+PLL2+PLL3</tspan></text>
+</g>
+<g id="power_mgmt">
+<rect x="753" y="1085" width="110" height="18" rx="0" ry="0" fill="#b8beb8" stroke="#111111" stroke-width="1.2" />
+<text id="power_mgmt_label" x="808" y="1094" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="808" dy="0">BBgen + POWER MNGT</tspan></text>
+</g>
+<g id="pwrctrl">
+<rect x="735.5" y="1098" width="25" height="64" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="pwrctrl_label" x="748" y="1130" transform="rotate(-90 748 1130)" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="748" dy="0">PWRCTRL</tspan></text>
+</g>
+<g id="power">
+<rect x="782" y="1104" width="80" height="56" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="power_label" x="822" y="1132" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="822" dy="-1.02em">Voltage</tspan><tspan x="822" dy="1.02em">regulator</tspan><tspan x="822" dy="1.02em">3.3 to 1.2V</tspan></text>
+</g>
+<g id="rtc_ls">
+<rect x="733" y="1166" width="30" height="108" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="rtc_ls_label" x="748" y="1220" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="748" dy="-1.2em">LS</tspan><tspan x="748" dy="1.2em"></tspan><tspan x="748" dy="1.2em">LS</tspan></text>
+</g>
+<g id="rtc_xtal32">
+<rect x="781" y="1169" width="78" height="18" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="rtc_xtal32_label" x="820" y="1178" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="820" dy="0">XTAL 32 kHz</tspan></text>
+</g>
+<g id="rtc">
+<rect x="764" y="1189" width="112" height="70" rx="0" ry="0" fill="#b8beb8" stroke="#111111" stroke-width="1.2" />
+<text id="rtc_label" x="820" y="1224" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="820" dy="-1.02em">RTC</tspan><tspan x="820" dy="1.02em">Backup registers</tspan><tspan x="820" dy="1.02em">AWU</tspan></text>
+</g>
+<g id="xtal_osc">
+<rect x="776.5" y="1290" width="93" height="32" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="xtal_osc_label" x="823" y="1306" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="823" dy="-0.5em">XTAL OSC</tspan><tspan x="823" dy="1em">4-48 MHz</tspan></text>
+</g>
+<g id="supply">
+<rect x="727" y="1342" width="150" height="44" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="supply_label" x="802" y="1364" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="802" dy="-1.02em">SUPPLY SUPERVISION</tspan><tspan x="802" dy="1.02em">POR/PDR/BOR</tspan><tspan x="802" dy="1.02em">PVD</tspan></text>
+</g>
+<g id="top_apb_box">
+<rect x="552" y="77" width="70" height="34" rx="0" ry="0" fill="#ffffff" stroke="#111111" stroke-width="1.2" />
+<text id="top_apb_box_label" x="587" y="94" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="587" dy="-0.51em">To APB1-2</tspan><tspan x="587" dy="1.02em">peripherals</tspan></text>
+</g>
+<text id="title" x="518" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="518" dy="0">Figure 1. STM32H723xE/G block diagram</tspan></text>
+<text id="cpu_axim" x="345" y="236" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="345" dy="0">AXIM</tspan></text>
+<text id="cpu_ahbp" x="294" y="188" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="294" dy="0">AHBP</tspan></text>
+<text id="cpu_ahbs" x="352" y="289" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="352" dy="0">AHBS</tspan></text>
+<text id="ahb_lower_matrix_label" x="542" y="848" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="542" dy="0">32-bit AHB BUS-MATRIX</tspan></text>
+<text id="left_apb3_label" x="219" y="407" transform="rotate(-90 219 407)" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="219" dy="0">APB3 (180 MHz)</tspan></text>
+<text id="left_ahb2_label" x="326" y="708" transform="rotate(-90 326 708)" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="326" dy="0">AHB2 (240MHz)</tspan></text>
+<text id="left_ahb4_label" x="327" y="926" transform="rotate(-90 327 926)" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="327" dy="0">AHB4</tspan></text>
+<text id="mid_ahb_label" x="518" y="787" transform="rotate(-90 518 787)" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="518" dy="0">AHB4</tspan></text>
+<text id="right_ahb_label" x="683" y="725" transform="rotate(-90 683 725)" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="683" dy="0">AHB1 (240MHz)</tspan></text>
+<text id="right_apb_freq_label" x="676" y="1005" transform="rotate(-90 676 1005)" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="676" dy="0">APB1 138 MHz</tspan></text>
+<text id="h7_left_label_0" x="92" y="170" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="end" dominant-baseline="middle"><tspan x="92" dy="-2em">NJTRST, JTDI</tspan><tspan x="92" dy="1em">JTCK/SWCLK</tspan><tspan x="92" dy="1em">JTDO/SWDIO, JTDO</tspan><tspan x="92" dy="1em">TRACECLK</tspan><tspan x="92" dy="1em">TRACED[3:0]</tspan></text>
+<text id="h7_left_label_1" x="92" y="378" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="end" dominant-baseline="middle"><tspan x="92" dy="-1em">LCD_R[7:0], LCD_G[7:0]</tspan><tspan x="92" dy="1em">LCD_B[7:0], LCD_HSYNC</tspan><tspan x="92" dy="1em">LCD_VSYNC, LCD_DE, LCD_CLK</tspan></text>
+<text id="h7_left_label_2" x="92" y="475" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="end" dominant-baseline="middle"><tspan x="92" dy="-0.5em">D[7:0], D[12:3]DIR, DODIR</tspan><tspan x="92" dy="1em">CMD, CKas AF</tspan></text>
+<text id="h7_left_label_3" x="92" y="650" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="end" dominant-baseline="middle"><tspan x="92" dy="0">MOSI, MISO, SCK, NSS as AF</tspan></text>
+<text id="h7_left_label_4" x="92" y="815" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="end" dominant-baseline="middle"><tspan x="92" dy="0">RX, TX, CTS, RTS, DE as AF</tspan></text>
+<text id="h7_left_label_5" x="92" y="1018" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="end" dominant-baseline="middle"><tspan x="92" dy="-0.5em">PA..H[15:0]</tspan><tspan x="92" dy="1em">PJ,K[11:0]</tspan></text>
+<text id="h7_right_label_0" x="875" y="86" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="875" dy="-1.5em">D[7:0], DP, DM, STP,</tspan><tspan x="875" dy="1em">NXT,ULPI:CK</tspan><tspan x="875" dy="1em">D[7:0], DIR,</tspan><tspan x="875" dy="1em">CMD, CKas AF</tspan></text>
+<text id="h7_right_label_1" x="875" y="322" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="875" dy="-0.5em">Up to 20 analog inputs Most</tspan><tspan x="875" dy="1em">are common to ADC1 &amp; 2</tspan></text>
+<text id="h7_right_label_2" x="875" y="420" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="875" dy="0">CH[4:1], ETR as AF</tspan></text>
+<text id="h7_right_label_3" x="875" y="640" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="875" dy="0">RX, TX, CK, CTS, RTS, DE as AF</tspan></text>
+<text id="h7_right_label_4" x="875" y="820" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="875" dy="0">SCL, SDA, SMBA as AF</tspan></text>
+<text id="h7_right_label_5" x="875" y="924" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="875" dy="-0.5em">TX, RX, RXFD_MODE,</tspan><tspan x="875" dy="1em">TXFD_MODE as AF</tspan></text>
+<text id="h7_right_label_6" x="875" y="1019" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="875" dy="0">OUT1, OUT2 as AF</tspan></text>
+<text id="h7_right_label_7" x="875" y="1134" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="875" dy="-1em">VDD</tspan><tspan x="875" dy="1em">VSS</tspan><tspan x="875" dy="1em">VCAP, VDDLDO</tspan></text>
+<text id="h7_right_label_8" x="875" y="1230" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="875" dy="-0.5em">OSC32_IN</tspan><tspan x="875" dy="1em">OSC32_OUT</tspan></text>
+<text id="h7_right_label_9" x="875" y="1302" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="875" dy="-0.5em">OSC_IN</tspan><tspan x="875" dy="1em">OSC_OUT</tspan></text>
+<polygon id="top_apb_arrow" points="588,112 591,118 589.2,118 589.2,136 591,136 588,142 585,136 586.8,136 586.8,118 585,118" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="top_dma_arrow_0" points="575,210 577.5,215 576.2,215 576.2,230 577.5,230 575,235 572.5,230 573.8,230 573.8,215 572.5,215" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="top_dma_arrow_1" points="638,210 640.5,215 639.2,215 639.2,230 640.5,230 638,235 635.5,230 636.8,230 636.8,215 635.5,215" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="top_dma_arrow_2" points="699,210 701.5,215 700.2,215 700.2,230 701.5,230 699,235 696.5,230 697.8,230 697.8,215 696.5,215" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="top_dma_arrow_3" points="763,210 765.5,215 764.2,215 764.2,230 765.5,230 763,235 760.5,230 761.8,230 761.8,215 760.5,215" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="top_dma_arrow_4" points="824,210 826.5,215 825.2,215 825.2,230 826.5,230 824,235 821.5,230 822.8,230 822.8,215 821.5,215" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="sram_bus_arrow_0" points="613,260 615.5,265 614.2,265 614.2,277 615.5,277 613,282 610.5,277 611.8,277 611.8,265 610.5,265" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="sram_bus_arrow_1" points="651,260 653.5,265 652.2,265 652.2,277 653.5,277 651,282 648.5,277 649.8,277 649.8,265 648.5,265" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="sram_bus_arrow_2" points="689,260 691.5,265 690.2,265 690.2,277 691.5,277 689,282 686.5,277 687.8,277 687.8,265 686.5,265" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="cpu_left_arrow_0" points="160,207 166,204 166,205.8 210,205.8 210,204 216,207 210,210 210,208.2 166,208.2 166,210" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="cpu_left_arrow_1" points="160,225 166,222 166,223.8 210,223.8 210,222 216,225 210,228 210,226.2 166,226.2 166,228" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="cpu_left_arrow_2" points="160,243 166,240 166,241.8 210,241.8 210,240 216,243 210,246 210,244.2 166,244.2 166,246" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="cpu_axi_to_matrix" points="347,236 353,233 353,234.8 371,234.8 371,233 377,236 371,239 371,237.2 353,237.2 353,239" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="axi_to_itcm" points="419,199 425,196 425,197.8 519,197.8 519,196 525,199 519,202 519,200.2 425,200.2 425,202" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="axi_to_flash" points="419,309 425,306 425,307.8 398,307.8 398,306 404,309 398,312 398,310.2 425,310.2 425,312" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="compute_to_bus" points="532,340 538,337 538,338.8 604,338.8 604,337 610,340 604,343 604,341.2 538,341.2 538,343" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="compute_left_arrow_0" points="530,288 536,285 536,286.8 604,286.8 604,285 610,288 604,291 604,289.2 536,289.2 536,291" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="compute_left_arrow_1" points="530,321 536,318 536,319.8 604,319.8 604,318 610,321 604,324 604,322.2 536,322.2 536,324" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="compute_left_arrow_2" points="530,354 536,351 536,352.8 604,352.8 604,351 610,354 604,357 604,355.2 536,355.2 536,357" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="center_bus_arrow_0" points="400,770 405,767.5 405,769 439,769 439,767.5 444,770 439,772.5 439,771 405,771 405,772.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="dma_mux2_arrow" points="475,789 477.5,794 476,794 476,827 477.5,827 475,832 472.5,827 474,827 474,794 472.5,794" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="dap_arrow" points="625,787 627.5,792 626,792 626,827 627.5,827 625,832 622.5,827 624,827 624,792 622.5,792" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="lower_matrix_to_sram_arrow" points="556,864 558.5,869 557,869 557,886 558.5,886 556,891 553.5,886 555,886 555,869 553.5,869" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="lower_matrix_to_bkp_arrow" points="648,864 650.5,869 649,869 649,885 650.5,885 648,890 645.5,885 647,885 647,869 645.5,869" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="lower_matrix_to_rcc_arrow" points="590,860 592.5,865 591,865 591,955 592.5,955 590,960 587.5,955 589,955 589,865 587.5,865" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<line id="power_to_rtc" x1="822" y1="1160" x2="822" y2="1188" fill="none" stroke="#111111" stroke-width="1.2" />
+<line id="rtc_to_xtal" x1="822" y1="1259" x2="822" y2="1290" fill="none" stroke="#111111" stroke-width="1.2" />
+<line id="rtc_to_supply" x1="822" y1="1259" x2="822" y2="1342" fill="none" stroke="#111111" stroke-width="1.2" />
+<polygon id="right_bus_to_block_0" points="717,323 721,321 721,322.1 720,322.1 720,321 724,323 720,325 720,323.9 721,323.9 721,325" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_0" points="819,323 825,320 825,321.8 900,321.8 900,321.8 900,324.2 900,324.2 825,324.2 825,326" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_1" points="717,346 721,344 721,345.1 720,345.1 720,344 724,346 720,348 720,346.9 721,346.9 721,348" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_1" points="819,346 825,343 825,344.8 900,344.8 900,344.8 900,347.2 900,347.2 825,347.2 825,349" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_2" points="717,369 721,367 721,368.1 720,368.1 720,367 724,369 720,371 720,369.9 721,369.9 721,371" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_2" points="819,369 825,366 825,367.8 900,367.8 900,367.8 900,370.2 900,370.2 825,370.2 825,372" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_3" points="717,392 721,390 721,391.1 720,391.1 720,390 724,392 720,394 720,392.9 721,392.9 721,394" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_3" points="819,392 825,389 825,390.8 900,390.8 900,390.8 900,393.2 900,393.2 825,393.2 825,395" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_4" points="717,415 721,413 721,414.1 720,414.1 720,413 724,415 720,417 720,415.9 721,415.9 721,417" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_4" points="819,415 825,412 825,413.8 900,413.8 900,413.8 900,416.2 900,416.2 825,416.2 825,418" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_5" points="717,438 721,436 721,437.1 720,437.1 720,436 724,438 720,440 720,438.9 721,438.9 721,440" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_5" points="819,438 825,435 825,436.8 900,436.8 900,436.8 900,439.2 900,439.2 825,439.2 825,441" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_6" points="717,461 721,459 721,460.1 720,460.1 720,459 724,461 720,463 720,461.9 721,461.9 721,463" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_6" points="819,461 825,458 825,459.8 900,459.8 900,459.8 900,462.2 900,462.2 825,462.2 825,464" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_7" points="717,484 721,482 721,483.1 720,483.1 720,482 724,484 720,486 720,484.9 721,484.9 721,486" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_7" points="819,484 825,481 825,482.8 900,482.8 900,482.8 900,485.2 900,485.2 825,485.2 825,487" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_8" points="717,507 721,505 721,506.1 720,506.1 720,505 724,507 720,509 720,507.9 721,507.9 721,509" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_8" points="819,507 825,504 825,505.8 900,505.8 900,505.8 900,508.2 900,508.2 825,508.2 825,510" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_9" points="717,530 721,528 721,529.1 720,529.1 720,528 724,530 720,532 720,530.9 721,530.9 721,532" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_9" points="819,530 825,527 825,528.8 900,528.8 900,528.8 900,531.2 900,531.2 825,531.2 825,533" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_10" points="717,553 721,551 721,552.1 720,552.1 720,551 724,553 720,555 720,553.9 721,553.9 721,555" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_10" points="819,553 825,550 825,551.8 900,551.8 900,551.8 900,554.2 900,554.2 825,554.2 825,556" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_11" points="717,576 721,574 721,575.1 720,575.1 720,574 724,576 720,578 720,576.9 721,576.9 721,578" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_11" points="819,576 825,573 825,574.8 900,574.8 900,574.8 900,577.2 900,577.2 825,577.2 825,579" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_12" points="717,599 721,597 721,598.1 720,598.1 720,597 724,599 720,601 720,599.9 721,599.9 721,601" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_12" points="819,599 825,596 825,597.8 900,597.8 900,597.8 900,600.2 900,600.2 825,600.2 825,602" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_13" points="717,622 721,620 721,621.1 720,621.1 720,620 724,622 720,624 720,622.9 721,622.9 721,624" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_13" points="819,622 825,619 825,620.8 900,620.8 900,620.8 900,623.2 900,623.2 825,623.2 825,625" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_14" points="717,645 721,643 721,644.1 720,644.1 720,643 724,645 720,647 720,645.9 721,645.9 721,647" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_14" points="819,645 825,642 825,643.8 900,643.8 900,643.8 900,646.2 900,646.2 825,646.2 825,648" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_15" points="717,668 721,666 721,667.1 720,667.1 720,666 724,668 720,670 720,668.9 721,668.9 721,670" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_15" points="819,668 825,665 825,666.8 900,666.8 900,666.8 900,669.2 900,669.2 825,669.2 825,671" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_16" points="717,691 721,689 721,690.1 720,690.1 720,689 724,691 720,693 720,691.9 721,691.9 721,693" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_16" points="819,691 825,688 825,689.8 900,689.8 900,689.8 900,692.2 900,692.2 825,692.2 825,694" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_17" points="717,714 721,712 721,713.1 720,713.1 720,712 724,714 720,716 720,714.9 721,714.9 721,716" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_17" points="819,714 825,711 825,712.8 900,712.8 900,712.8 900,715.2 900,715.2 825,715.2 825,717" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_18" points="717,737 721,735 721,736.1 720,736.1 720,735 724,737 720,739 720,737.9 721,737.9 721,739" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_18" points="819,737 825,734 825,735.8 900,735.8 900,735.8 900,738.2 900,738.2 825,738.2 825,740" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_19" points="717,760 721,758 721,759.1 720,759.1 720,758 724,760 720,762 720,760.9 721,760.9 721,762" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_19" points="819,760 825,757 825,758.8 900,758.8 900,758.8 900,761.2 900,761.2 825,761.2 825,763" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_20" points="717,783 721,781 721,782.1 720,782.1 720,781 724,783 720,785 720,783.9 721,783.9 721,785" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_20" points="819,783 825,780 825,781.8 900,781.8 900,781.8 900,784.2 900,784.2 825,784.2 825,786" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_21" points="717,806 721,804 721,805.1 720,805.1 720,804 724,806 720,808 720,806.9 721,806.9 721,808" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_21" points="819,806 825,803 825,804.8 900,804.8 900,804.8 900,807.2 900,807.2 825,807.2 825,809" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_22" points="717,829 721,827 721,828.1 720,828.1 720,827 724,829 720,831 720,829.9 721,829.9 721,831" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_22" points="819,829 825,826 825,827.8 900,827.8 900,827.8 900,830.2 900,830.2 825,830.2 825,832" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_23" points="717,852 721,850 721,851.1 720,851.1 720,850 724,852 720,854 720,852.9 721,852.9 721,854" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_23" points="819,852 825,849 825,850.8 900,850.8 900,850.8 900,853.2 900,853.2 825,853.2 825,855" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_24" points="717,875 721,873 721,874.1 720,874.1 720,873 724,875 720,877 720,875.9 721,875.9 721,877" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_24" points="819,875 825,872 825,873.8 900,873.8 900,873.8 900,876.2 900,876.2 825,876.2 825,878" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_25" points="717,898 721,896 721,897.1 720,897.1 720,896 724,898 720,900 720,898.9 721,898.9 721,900" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_25" points="819,898 825,895 825,896.8 900,896.8 900,896.8 900,899.2 900,899.2 825,899.2 825,901" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_26" points="717,921 721,919 721,920.1 720,920.1 720,919 724,921 720,923 720,921.9 721,921.9 721,923" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_26" points="819,921 825,918 825,919.8 900,919.8 900,919.8 900,922.2 900,922.2 825,922.2 825,924" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_27" points="717,944 721,942 721,943.1 720,943.1 720,942 724,944 720,946 720,944.9 721,944.9 721,946" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_27" points="819,944 825,941 825,942.8 900,942.8 900,942.8 900,945.2 900,945.2 825,945.2 825,947" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_28" points="717,967 721,965 721,966.1 720,966.1 720,965 724,967 720,969 720,967.9 721,967.9 721,969" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_28" points="819,967 825,964 825,965.8 900,965.8 900,965.8 900,968.2 900,968.2 825,968.2 825,970" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_29" points="717,990 721,988 721,989.1 720,989.1 720,988 724,990 720,992 720,990.9 721,990.9 721,992" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_29" points="819,990 825,987 825,988.8 900,988.8 900,988.8 900,991.2 900,991.2 825,991.2 825,993" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_30" points="717,1013 721,1011 721,1012.1 720,1012.1 720,1011 724,1013 720,1015 720,1013.9 721,1013.9 721,1015" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_30" points="819,1013 825,1010 825,1011.8 900,1011.8 900,1011.8 900,1014.2 900,1014.2 825,1014.2 825,1016" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_31" points="717,1036 721,1034 721,1035.1 720,1035.1 720,1034 724,1036 720,1038 720,1036.9 721,1036.9 721,1038" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_31" points="819,1036 825,1033 825,1034.8 900,1034.8 900,1034.8 900,1037.2 900,1037.2 825,1037.2 825,1039" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_32" points="717,1059 721,1057 721,1058.1 720,1058.1 720,1057 724,1059 720,1061 720,1059.9 721,1059.9 721,1061" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_32" points="819,1059 825,1056 825,1057.8 900,1057.8 900,1057.8 900,1060.2 900,1060.2 825,1060.2 825,1062" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_bus_to_block_33" points="717,1082 721,1080 721,1081.1 720,1081.1 720,1080 724,1082 720,1084 720,1082.9 721,1082.9 721,1084" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="right_edge_33" points="819,1082 825,1079 825,1080.8 900,1080.8 900,1080.8 900,1083.2 900,1083.2 825,1083.2 825,1085" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_0" points="105,336.8 105,336.8 230,336.8 230,335 236,338 230,341 230,339.2 105,339.2 105,339.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_0" points="349,338 353,336 353,337.1 356,337.1 356,336 360,338 356,340 356,338.9 353,338.9 353,340" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_1" points="105,370.8 105,370.8 230,370.8 230,369 236,372 230,375 230,373.2 105,373.2 105,373.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_1" points="349,372 353,370 353,371.1 356,371.1 356,370 360,372 356,374 356,372.9 353,372.9 353,374" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_2" points="105,404.8 105,404.8 230,404.8 230,403 236,406 230,409 230,407.2 105,407.2 105,407.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_2" points="349,406 353,404 353,405.1 356,405.1 356,404 360,406 356,408 356,406.9 353,406.9 353,408" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_3" points="105,438.8 105,438.8 230,438.8 230,437 236,440 230,443 230,441.2 105,441.2 105,441.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_3" points="349,440 353,438 353,439.1 356,439.1 356,438 360,440 356,442 356,440.9 353,440.9 353,442" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_4" points="105,472.8 105,472.8 230,472.8 230,471 236,474 230,477 230,475.2 105,475.2 105,475.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_4" points="349,474 353,472 353,473.1 356,473.1 356,472 360,474 356,476 356,474.9 353,474.9 353,476" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_5" points="105,506.8 105,506.8 230,506.8 230,505 236,508 230,511 230,509.2 105,509.2 105,509.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_5" points="349,508 353,506 353,507.1 356,507.1 356,506 360,508 356,510 356,508.9 353,508.9 353,510" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_6" points="105,540.8 105,540.8 230,540.8 230,539 236,542 230,545 230,543.2 105,543.2 105,543.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_6" points="349,542 353,540 353,541.1 356,541.1 356,540 360,542 356,544 356,542.9 353,542.9 353,544" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_7" points="105,574.8 105,574.8 230,574.8 230,573 236,576 230,579 230,577.2 105,577.2 105,577.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_7" points="349,576 353,574 353,575.1 356,575.1 356,574 360,576 356,578 356,576.9 353,576.9 353,578" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_8" points="105,608.8 105,608.8 230,608.8 230,607 236,610 230,613 230,611.2 105,611.2 105,611.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_8" points="349,610 353,608 353,609.1 356,609.1 356,608 360,610 356,612 356,610.9 353,610.9 353,612" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_9" points="105,642.8 105,642.8 230,642.8 230,641 236,644 230,647 230,645.2 105,645.2 105,645.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_9" points="349,644 353,642 353,643.1 356,643.1 356,642 360,644 356,646 356,644.9 353,644.9 353,646" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_10" points="105,676.8 105,676.8 230,676.8 230,675 236,678 230,681 230,679.2 105,679.2 105,679.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_10" points="349,678 353,676 353,677.1 356,677.1 356,676 360,678 356,680 356,678.9 353,678.9 353,680" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_11" points="105,710.8 105,710.8 230,710.8 230,709 236,712 230,715 230,713.2 105,713.2 105,713.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_11" points="349,712 353,710 353,711.1 356,711.1 356,710 360,712 356,714 356,712.9 353,712.9 353,714" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_12" points="105,744.8 105,744.8 230,744.8 230,743 236,746 230,749 230,747.2 105,747.2 105,747.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_12" points="349,746 353,744 353,745.1 356,745.1 356,744 360,746 356,748 356,746.9 353,746.9 353,748" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_13" points="105,778.8 105,778.8 230,778.8 230,777 236,780 230,783 230,781.2 105,781.2 105,781.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_13" points="349,780 353,778 353,779.1 356,779.1 356,778 360,780 356,782 356,780.9 353,780.9 353,782" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_14" points="105,812.8 105,812.8 230,812.8 230,811 236,814 230,817 230,815.2 105,815.2 105,815.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_14" points="349,814 353,812 353,813.1 356,813.1 356,812 360,814 356,816 356,814.9 353,814.9 353,816" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_15" points="105,846.8 105,846.8 230,846.8 230,845 236,848 230,851 230,849.2 105,849.2 105,849.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_15" points="349,848 353,846 353,847.1 356,847.1 356,846 360,848 356,850 356,848.9 353,848.9 353,850" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_16" points="105,880.8 105,880.8 230,880.8 230,879 236,882 230,885 230,883.2 105,883.2 105,883.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_16" points="349,882 353,880 353,881.1 356,881.1 356,880 360,882 356,884 356,882.9 353,882.9 353,884" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_17" points="105,914.8 105,914.8 230,914.8 230,913 236,916 230,919 230,917.2 105,917.2 105,917.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_17" points="349,916 353,914 353,915.1 356,915.1 356,914 360,916 356,918 356,916.9 353,916.9 353,918" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_18" points="105,948.8 105,948.8 230,948.8 230,947 236,950 230,953 230,951.2 105,951.2 105,951.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_18" points="349,950 353,948 353,949.1 356,949.1 356,948 360,950 356,952 356,950.9 353,950.9 353,952" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_19" points="105,982.8 105,982.8 230,982.8 230,981 236,984 230,987 230,985.2 105,985.2 105,985.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_19" points="349,984 353,982 353,983.1 356,983.1 356,982 360,984 356,986 356,984.9 353,984.9 353,986" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_20" points="105,1016.8 105,1016.8 230,1016.8 230,1015 236,1018 230,1021 230,1019.2 105,1019.2 105,1019.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_20" points="349,1018 353,1016 353,1017.1 356,1017.1 356,1016 360,1018 356,1020 356,1018.9 353,1018.9 353,1020" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_21" points="105,1050.8 105,1050.8 230,1050.8 230,1049 236,1052 230,1055 230,1053.2 105,1053.2 105,1053.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_21" points="349,1052 353,1050 353,1051.1 356,1051.1 356,1050 360,1052 356,1054 356,1052.9 353,1052.9 353,1054" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_edge_22" points="105,1084.8 105,1084.8 230,1084.8 230,1083 236,1086 230,1089 230,1087.2 105,1087.2 105,1087.2" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="left_block_to_bus_22" points="349,1086 353,1084 353,1085.1 356,1085.1 356,1084 360,1086 356,1088 356,1086.9 353,1086.9 353,1088" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_edge_0" points="105,1082.4 105,1082.4 231,1082.4 231,1081 236,1083.5 231,1086 231,1084.6 105,1084.6 105,1084.6" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_to_bus_0" points="332,1083.5 336,1081.5 336,1082.6 356,1082.6 356,1081.5 360,1083.5 356,1085.5 356,1084.4 336,1084.4 336,1085.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_edge_1" points="105,1108.4 105,1108.4 231,1108.4 231,1107 236,1109.5 231,1112 231,1110.6 105,1110.6 105,1110.6" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_to_bus_1" points="332,1109.5 336,1107.5 336,1108.6 356,1108.6 356,1107.5 360,1109.5 356,1111.5 356,1110.4 336,1110.4 336,1111.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_edge_2" points="105,1134.4 105,1134.4 231,1134.4 231,1133 236,1135.5 231,1138 231,1136.6 105,1136.6 105,1136.6" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_to_bus_2" points="332,1135.5 336,1133.5 336,1134.6 356,1134.6 356,1133.5 360,1135.5 356,1137.5 356,1136.4 336,1136.4 336,1137.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_edge_3" points="105,1160.4 105,1160.4 231,1160.4 231,1159 236,1161.5 231,1164 231,1162.6 105,1162.6 105,1162.6" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_to_bus_3" points="332,1161.5 336,1159.5 336,1160.6 356,1160.6 356,1159.5 360,1161.5 356,1163.5 356,1162.4 336,1162.4 336,1163.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_edge_4" points="105,1186.4 105,1186.4 231,1186.4 231,1185 236,1187.5 231,1190 231,1188.6 105,1188.6 105,1188.6" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_to_bus_4" points="332,1187.5 336,1185.5 336,1186.6 356,1186.6 356,1185.5 360,1187.5 356,1189.5 356,1188.4 336,1188.4 336,1189.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_edge_5" points="105,1212.4 105,1212.4 231,1212.4 231,1211 236,1213.5 231,1216 231,1214.6 105,1214.6 105,1214.6" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_to_bus_5" points="332,1213.5 336,1211.5 336,1212.6 356,1212.6 356,1211.5 360,1213.5 356,1215.5 356,1214.4 336,1214.4 336,1215.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_edge_6" points="105,1238.4 105,1238.4 231,1238.4 231,1237 236,1239.5 231,1242 231,1240.6 105,1240.6 105,1240.6" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_to_bus_6" points="332,1239.5 336,1237.5 336,1238.6 356,1238.6 356,1237.5 360,1239.5 356,1241.5 356,1240.4 336,1240.4 336,1241.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_edge_7" points="105,1264.4 105,1264.4 231,1264.4 231,1263 236,1265.5 231,1268 231,1266.6 105,1266.6 105,1266.6" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_to_bus_7" points="332,1265.5 336,1263.5 336,1264.6 356,1264.6 356,1263.5 360,1265.5 356,1267.5 356,1266.4 336,1266.4 336,1267.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_edge_8" points="105,1290.4 105,1290.4 231,1290.4 231,1289 236,1291.5 231,1294 231,1292.6 105,1292.6 105,1292.6" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="bottom_left_to_bus_8" points="332,1291.5 336,1289.5 336,1290.6 356,1290.6 356,1289.5 360,1291.5 356,1293.5 356,1292.4 336,1292.4 336,1293.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="sys_bottom_to_bus_0" points="360,1093.5 364,1091.5 364,1092.6 388,1092.6 388,1091.5 392,1093.5 388,1095.5 388,1094.4 364,1094.4 364,1095.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="sys_bottom_to_bus_1" points="360,1125.5 364,1123.5 364,1124.6 388,1124.6 388,1123.5 392,1125.5 388,1127.5 388,1126.4 364,1126.4 364,1127.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="sys_bottom_to_bus_2" points="360,1157.5 364,1155.5 364,1156.6 388,1156.6 388,1155.5 392,1157.5 388,1159.5 388,1158.4 364,1158.4 364,1159.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="sys_bottom_to_bus_3" points="360,1189.5 364,1187.5 364,1188.6 388,1188.6 388,1187.5 392,1189.5 388,1191.5 388,1190.4 364,1190.4 364,1191.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+<polygon id="sys_bottom_to_bus_4" points="360,1221.5 364,1219.5 364,1220.6 388,1220.6 388,1219.5 392,1221.5 388,1223.5 388,1222.4 364,1222.4 364,1223.5" fill="#ffffff" stroke="#000000" stroke-width="1.35" />
+</svg>

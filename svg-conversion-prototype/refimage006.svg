@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1862" height="940" viewBox="0 0 1862 940">
+<defs>
+<marker id="marker-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke" />
+</marker>
+<marker id="marker-open-arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="13" markerHeight="13" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+<path d="M 2 2 L 10 6 L 2 10" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+</marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff" />
+<g id="sys_sec">
+<rect x="529" y="129.5" width="320" height="395" rx="0" ry="0" fill="#eeeeee" stroke="none" stroke-width="0" />
+</g>
+<g id="sys_0">
+<rect x="542" y="157" width="290" height="31" rx="0" ry="0" fill="#f6bd3f" stroke="none" stroke-width="0" />
+<text id="sys_0_label" x="687" y="172.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">Secure JTAG</tspan></text>
+</g>
+<g id="sys_1">
+<rect x="542" y="198" width="290" height="31" rx="0" ry="0" fill="#f6bd3f" stroke="none" stroke-width="0" />
+<text id="sys_1_label" x="687" y="213.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">PLL, OSC</tspan></text>
+</g>
+<g id="sys_2">
+<rect x="542" y="239" width="290" height="31" rx="0" ry="0" fill="#f6bd3f" stroke="none" stroke-width="0" />
+<text id="sys_2_label" x="687" y="254.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">eDMA</tspan></text>
+</g>
+<g id="sys_3">
+<rect x="542" y="280" width="290" height="31" rx="0" ry="0" fill="#f6bd3f" stroke="none" stroke-width="0" />
+<text id="sys_3_label" x="687" y="295.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">4 x Watch Dog</tspan></text>
+</g>
+<g id="sys_4">
+<rect x="542" y="321" width="290" height="31" rx="0" ry="0" fill="#f6bd3f" stroke="none" stroke-width="0" />
+<text id="sys_4_label" x="687" y="336.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">6 x GP Timer</tspan></text>
+</g>
+<g id="sys_5">
+<rect x="542" y="362" width="290" height="31" rx="0" ry="0" fill="#f6bd3f" stroke="none" stroke-width="0" />
+<text id="sys_5_label" x="687" y="377.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">4 x Quadrature ENC</tspan></text>
+</g>
+<g id="sys_6">
+<rect x="542" y="403" width="290" height="31" rx="0" ry="0" fill="#f6bd3f" stroke="none" stroke-width="0" />
+<text id="sys_6_label" x="687" y="418.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">4 x QuadTimer</tspan></text>
+</g>
+<g id="sys_7">
+<rect x="542" y="444" width="290" height="31" rx="0" ry="0" fill="#f6bd3f" stroke="none" stroke-width="0" />
+<text id="sys_7_label" x="687" y="459.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">4 x FlexPWM</tspan></text>
+</g>
+<g id="sys_8">
+<rect x="542" y="485" width="290" height="31" rx="0" ry="0" fill="#f6bd3f" stroke="none" stroke-width="0" />
+<text id="sys_8_label" x="687" y="500.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">IOMUX</tspan></text>
+</g>
+<g id="mem_sec">
+<rect x="529" y="532" width="320" height="112" rx="0" ry="0" fill="#eeeeee" stroke="none" stroke-width="0" />
+</g>
+<g id="mem_0">
+<rect x="542" y="561" width="290" height="33" rx="0" ry="0" fill="#b7c4e5" stroke="none" stroke-width="0" />
+<text id="mem_0_label" x="687" y="577.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">Up to 1 MB SRAM Total</tspan></text>
+</g>
+<g id="mem_1">
+<rect x="542" y="603" width="290" height="33" rx="0" ry="0" fill="#b7c4e5" stroke="none" stroke-width="0" />
+<text id="mem_1_label" x="687" y="619.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">128 KB ROM</tspan></text>
+</g>
+<g id="pwr_sec">
+<rect x="529" y="663" width="320" height="104" rx="0" ry="0" fill="#eeeeee" stroke="none" stroke-width="0" />
+</g>
+<g id="pwr_0">
+<rect x="542" y="681" width="290" height="33" rx="0" ry="0" fill="#b7c4e5" stroke="none" stroke-width="0" />
+<text id="pwr_0_label" x="687" y="697.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">DC/DC &amp; LDO</tspan></text>
+</g>
+<g id="pwr_1">
+<rect x="542" y="723" width="290" height="33" rx="0" ry="0" fill="#b7c4e5" stroke="none" stroke-width="0" />
+<text id="pwr_1_label" x="687" y="739.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="687" dy="0">Temp Monitor</tspan></text>
+</g>
+<g id="cpu_sec">
+<rect x="856.5" y="127" width="465" height="240" rx="0" ry="0" fill="#eeeeee" stroke="none" stroke-width="0" />
+</g>
+<g id="cpu_core">
+<rect x="879" y="157.5" width="422" height="197" rx="0" ry="0" fill="#c4dc4f" stroke="none" stroke-width="0" />
+</g>
+<g id="cpu_arm_tile">
+<rect x="895" y="178" width="390" height="50" rx="0" ry="0" fill="#e9f1b6" stroke="none" stroke-width="0" />
+</g>
+<g id="cpu_sub_0">
+<rect x="888" y="243" width="193" height="46" rx="0" ry="0" fill="#e9f1b6" stroke="none" stroke-width="0" />
+<text id="cpu_sub_0_label" x="984.5" y="266" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="984.5" dy="-0.575em">32 KB</tspan><tspan x="984.5" dy="1.15em">I-cache</tspan></text>
+</g>
+<g id="cpu_sub_1">
+<rect x="1090" y="243" width="193" height="46" rx="0" ry="0" fill="#e9f1b6" stroke="none" stroke-width="0" />
+<text id="cpu_sub_1_label" x="1186.5" y="266" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1186.5" dy="-0.575em">32 KB</tspan><tspan x="1186.5" dy="1.15em">D-cache</tspan></text>
+</g>
+<g id="cpu_sub_2">
+<rect x="888" y="300" width="193" height="46" rx="0" ry="0" fill="#e9f1b6" stroke="none" stroke-width="0" />
+<text id="cpu_sub_2_label" x="984.5" y="323" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="984.5" dy="0">FPU</tspan></text>
+</g>
+<g id="cpu_sub_3">
+<rect x="1090" y="300" width="193" height="46" rx="0" ry="0" fill="#e9f1b6" stroke="none" stroke-width="0" />
+<text id="cpu_sub_3_label" x="1186.5" y="323" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1186.5" dy="0">Up to 512 KB TCM</tspan></text>
+</g>
+<g id="mm_sec">
+<rect x="857.5" y="367" width="465" height="190" rx="0" ry="0" fill="#eeeeee" stroke="none" stroke-width="0" />
+</g>
+<g id="mm_camera">
+<rect x="871.5" y="399" width="435" height="34" rx="0" ry="0" fill="#a998c4" stroke="#555555" stroke-width="1" stroke-dasharray="4 3" />
+<text id="mm_camera_label" x="1089" y="416" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1089" dy="0">8-/16-bit Parallel Camera Interface</tspan></text>
+</g>
+<g id="mm_lcd">
+<rect x="871.5" y="439" width="435" height="34" rx="0" ry="0" fill="#a998c4" stroke="#555555" stroke-width="1" stroke-dasharray="4 3" />
+<text id="mm_lcd_label" x="1089" y="456" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1089" dy="0">24-bit Parallel LCD (RGB)</tspan></text>
+</g>
+<g id="mm_pxp">
+<rect x="871.5" y="476" width="435" height="76" rx="0" ry="0" fill="#a998c4" stroke="#555555" stroke-width="1" stroke-dasharray="4 3" />
+<text id="mm_pxp_label" x="1089" y="514" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1089" dy="-1.08em">Pixel Processing Pipeline (PXP)</tspan><tspan x="1089" dy="1.08em">2D Graphics Acceleration</tspan><tspan x="1089" dy="1.08em">Resize, CSC, Overlay, Rotation</tspan></text>
+</g>
+<g id="ext_sec">
+<rect x="857.5" y="585.5" width="465" height="199" rx="0" ry="0" fill="#eeeeee" stroke="none" stroke-width="0" />
+</g>
+<g id="extmem_0">
+<rect x="872" y="599" width="435" height="54" rx="0" ry="0" fill="#ffdfa7" stroke="none" stroke-width="0" />
+<text id="extmem_0_label" x="1089.5" y="626" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1089.5" dy="-0.54em">2 x Dual-Channel Quad-SPI with Bus</tspan><tspan x="1089.5" dy="1.08em">Encryption Engine</tspan></text>
+</g>
+<g id="extmem_1">
+<rect x="872" y="663" width="435" height="54" rx="0" ry="0" fill="#ffdfa7" stroke="none" stroke-width="0" />
+<text id="extmem_1_label" x="1089.5" y="690" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1089.5" dy="-1.62em">External Memory Controller</tspan><tspan x="1089.5" dy="1.08em">8-/16-bit SDRAM</tspan><tspan x="1089.5" dy="1.08em">Parallel NOR Flash</tspan><tspan x="1089.5" dy="1.08em">NAND Flash</tspan></text>
+</g>
+<g id="conn_sec">
+<rect x="1335" y="126" width="320" height="518" rx="0" ry="0" fill="#eeeeee" stroke="none" stroke-width="0" />
+</g>
+<g id="conn_0">
+<rect x="1345" y="157" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_0_label" x="1490" y="172.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">eMMC 4.5/SD 3.0 x 2</tspan></text>
+</g>
+<g id="conn_1">
+<rect x="1345" y="196" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_1_label" x="1490" y="211.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">8 x UART</tspan></text>
+</g>
+<g id="conn_2">
+<rect x="1345" y="235" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_2_label" x="1490" y="250.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">8 x 8 Keypad</tspan></text>
+</g>
+<g id="conn_3">
+<rect x="1345" y="274" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_3_label" x="1490" y="289.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">4 x I²C</tspan></text>
+</g>
+<g id="conn_4">
+<rect x="1345" y="313" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_4_label" x="1490" y="328.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">4 x SPI</tspan></text>
+</g>
+<g id="conn_5">
+<rect x="1345" y="352" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_5_label" x="1490" y="367.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">Single Clock Cycle GPIO</tspan></text>
+</g>
+<g id="conn_6">
+<rect x="1345" y="391" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_6_label" x="1490" y="406.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">3 x I²S/SAI</tspan></text>
+</g>
+<g id="conn_7">
+<rect x="1345" y="430" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_7_label" x="1490" y="445.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">S/PDIF Tx/Rx</tspan></text>
+</g>
+<g id="conn_8">
+<rect x="1345" y="469" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_8_label" x="1490" y="484.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">1 x CAN FD</tspan></text>
+</g>
+<g id="conn_9">
+<rect x="1345" y="508" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_9_label" x="1490" y="523.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">2 x CAN</tspan></text>
+</g>
+<g id="conn_10">
+<rect x="1345" y="547" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_10_label" x="1490" y="562.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="-0.575em">2 x USB 2.0</tspan><tspan x="1490" dy="1.15em">with PHY</tspan></text>
+</g>
+<g id="conn_11">
+<rect x="1345" y="586" width="290" height="31" rx="0" ry="0" fill="#aad7d8" stroke="none" stroke-width="0" />
+<text id="conn_11_label" x="1490" y="601.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="-0.575em">2 x 10/100 ENET</tspan><tspan x="1490" dy="1.15em">with IEEE® 1588</tspan></text>
+</g>
+<g id="adc_sec">
+<rect x="1335" y="699.5" width="320" height="105" rx="0" ry="0" fill="#eeeeee" stroke="none" stroke-width="0" />
+</g>
+<g id="adc_0">
+<rect x="1345" y="690" width="290" height="33" rx="0" ry="0" fill="#b7c4e5" stroke="none" stroke-width="0" />
+<text id="adc_0_label" x="1490" y="706.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">2 x ADC (20-ch.)</tspan></text>
+</g>
+<g id="adc_1">
+<rect x="1345" y="732" width="290" height="33" rx="0" ry="0" fill="#b7c4e5" stroke="none" stroke-width="0" />
+<text id="adc_1_label" x="1490" y="748.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1490" dy="0">4 x ACMP</tspan></text>
+</g>
+<g id="security_sec">
+<rect x="530" y="776.5" width="1120" height="71" rx="0" ry="0" fill="#eeeeee" stroke="none" stroke-width="0" />
+</g>
+<g id="sec_0">
+<rect x="542" y="801" width="250" height="33" rx="0" ry="0" fill="#74a9dc" stroke="none" stroke-width="0" />
+<text id="sec_0_label" x="667" y="817.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="667" dy="0">Ciphers &amp; RNG</tspan></text>
+</g>
+<g id="sec_1">
+<rect x="827" y="801" width="250" height="33" rx="0" ry="0" fill="#74a9dc" stroke="none" stroke-width="0" />
+<text id="sec_1_label" x="952" y="817.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="952" dy="0">Secure RTC</tspan></text>
+</g>
+<g id="sec_2">
+<rect x="1112" y="801" width="250" height="33" rx="0" ry="0" fill="#74a9dc" stroke="none" stroke-width="0" />
+<text id="sec_2_label" x="1237" y="817.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1237" dy="0">eFuse</tspan></text>
+</g>
+<g id="sec_3">
+<rect x="1397" y="801" width="250" height="33" rx="0" ry="0" fill="#74a9dc" stroke="none" stroke-width="0" />
+<text id="sec_3_label" x="1522" y="817.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1522" dy="0">HAB</tspan></text>
+</g>
+<g id="legend_box">
+<rect x="525" y="869" width="14" height="14" rx="0" ry="0" fill="transparent" stroke="#111111" stroke-width="1.2" stroke-dasharray="4 3" />
+</g>
+<text id="rt1060_sys_section_title" x="689" y="143" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="689" dy="0">System Control</tspan></text>
+<text id="rt1060_mem_section_title" x="689" y="546" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="689" dy="0">Internal Memory</tspan></text>
+<text id="rt1060_pwr_section_title" x="689" y="671" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="689" dy="0">Power Management</tspan></text>
+<text id="rt1060_cpu_section_title" x="1089" y="143" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1089" dy="0">Main CPU Platform</tspan></text>
+<text id="rt1060_mm_section_title" x="1090" y="386" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1090" dy="0">Multimedia</tspan></text>
+<text id="rt1060_ext_section_title" x="1090" y="581" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1090" dy="0">External Memory</tspan></text>
+<text id="rt1060_conn_section_title" x="1495" y="143" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1495" dy="0">Connectivity</tspan></text>
+<text id="rt1060_adc_section_title" x="1495" y="671" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1495" dy="0">ADC/DAC</tspan></text>
+<text id="rt1060_security_section_title" x="1090" y="785" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1090" dy="0">Security</tspan></text>
+<text id="title" x="25" y="74" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="25" dy="0">i.MX RT1060 Crossover MCU</tspan></text>
+<text id="cpu_core_title" x="1090" y="172" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1090" dy="0">Core</tspan></text>
+<text id="cpu_core_arm" x="1090" y="205" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle"><tspan x="1090" dy="0">Arm® Cortex®-M7</tspan></text>
+<text id="legend" x="548" y="876" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle"><tspan x="548" dy="0">Available on certain product families</tspan></text>
+</svg>
