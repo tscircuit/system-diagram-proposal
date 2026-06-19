@@ -21,15 +21,16 @@ type RenderableElement =
 const defaultInputPath = "reference-images/refimage001.json"
 const defaultOutputPath = "svg-conversion-prototype/refimage001.svg"
 
-const inputPath = Bun.argv[2] ?? defaultInputPath
-const outputPath = Bun.argv[3] ?? defaultOutputPath
+if (import.meta.main) {
+  const inputPath = Bun.argv[2] ?? defaultInputPath
+  const outputPath = Bun.argv[3] ?? defaultOutputPath
+  const rawJson = await Bun.file(inputPath).text()
+  const elements = JSON.parse(rawJson) as SystemDiagramElement[]
+  const svg = renderSystemDiagram(elements)
 
-const rawJson = await Bun.file(inputPath).text()
-const elements = JSON.parse(rawJson) as SystemDiagramElement[]
-const svg = renderSystemDiagram(elements)
-
-await Bun.write(outputPath, svg)
-console.log(`Wrote ${outputPath}`)
+  await Bun.write(outputPath, svg)
+  console.log(`Wrote ${outputPath}`)
+}
 
 export function renderSystemDiagram(elements: SystemDiagramElement[]): string {
   const diagram = elements.find(
