@@ -1,0 +1,1510 @@
+[
+  {
+    "type": "system_diagram",
+    "system_diagram_id": "system_diagram_refimage005",
+    "name": "ESP32-S3 functional block diagram",
+    "description": "Semantic system_diagram recreation of reference-images/refimage005.png.",
+    "width": 1284,
+    "height": 1086
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage005_section",
+    "system_diagram_id": "system_diagram_refimage005",
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#111111",
+      "stroke_width": 1.2,
+      "corner_radius": 8
+    },
+    "text_style": {
+      "font_size": 23,
+      "font_weight": "bold"
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage005_tile",
+    "system_diagram_id": "system_diagram_refimage005",
+    "appearance": {
+      "fill_color": "#e5e5e5",
+      "stroke_color": "#111111",
+      "stroke_width": 1.1,
+      "corner_radius": 8
+    },
+    "text_style": {
+      "font_size": 19,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage005_low_power",
+    "system_diagram_id": "system_diagram_refimage005",
+    "appearance": {
+      "fill_color": "#bebebe",
+      "stroke_color": "#111111",
+      "stroke_width": 1.1,
+      "corner_radius": 8
+    },
+    "text_style": {
+      "font_size": 19,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage005_frame",
+    "system_diagram_id": "system_diagram_refimage005",
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#777777",
+      "stroke_width": 1.2,
+      "corner_radius": 8
+    },
+    "text_style": {}
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "outer_frame",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 642,
+      "y": 480
+    },
+    "size": {
+      "width": 1200,
+      "height": 890
+    },
+    "style_id": "style_system_diagram_refimage005_frame",
+    "is_container": true,
+    "z_index": 0
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "title",
+    "system_diagram_id": "system_diagram_refimage005",
+    "text": "Espressif ESP32-S3 Wi-Fi + Bluetooth® Low Energy SoC",
+    "position": {
+      "x": 642,
+      "y": 53
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 22,
+      "font_weight": "bold"
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu_sec",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 265,
+      "y": 218
+    },
+    "size": {
+      "width": 404,
+      "height": 267
+    },
+    "style_id": "style_system_diagram_refimage005_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rf_sec",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 674,
+      "y": 218
+    },
+    "size": {
+      "width": 380,
+      "height": 267
+    },
+    "style_id": "style_system_diagram_refimage005_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "wireless_sec",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1051,
+      "y": 218
+    },
+    "size": {
+      "width": 330,
+      "height": 267
+    },
+    "style_id": "style_system_diagram_refimage005_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_sec",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 466,
+      "y": 657
+    },
+    "size": {
+      "width": 810,
+      "height": 540
+    },
+    "style_id": "style_system_diagram_refimage005_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_sec",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1051,
+      "y": 546
+    },
+    "size": {
+      "width": 330,
+      "height": 340
+    },
+    "style_id": "style_system_diagram_refimage005_section",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rtc_sec",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 1051,
+      "y": 829
+    },
+    "size": {
+      "width": 330,
+      "height": 212
+    },
+    "style_id": "style_system_diagram_refimage005_section",
+    "is_container": true
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "cpu_section_title",
+    "system_diagram_id": "system_diagram_refimage005",
+    "text": "CPU and Memory",
+    "position": {
+      "x": 265,
+      "y": 103
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 22,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rf_section_title",
+    "system_diagram_id": "system_diagram_refimage005",
+    "text": "RF",
+    "position": {
+      "x": 674,
+      "y": 103
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 22,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "wireless_section_title",
+    "system_diagram_id": "system_diagram_refimage005",
+    "text": "Wireless Digital Circuits",
+    "position": {
+      "x": 1051,
+      "y": 103
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 21,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "periph_section_title",
+    "system_diagram_id": "system_diagram_refimage005",
+    "text": "Peripherals",
+    "position": {
+      "x": 466,
+      "y": 378
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 23,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "security_section_title",
+    "system_diagram_id": "system_diagram_refimage005",
+    "text": "Security",
+    "position": {
+      "x": 1051,
+      "y": 380
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 23,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "rtc_section_title",
+    "system_diagram_id": "system_diagram_refimage005",
+    "text": "RTC",
+    "position": {
+      "x": 1051,
+      "y": 738
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 23,
+      "font_weight": "bold"
+    },
+    "z_index": 30
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "xtensa",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Xtensa® Dual-core 32-bit LX7\nMicroprocessor",
+    "center": {
+      "x": 264,
+      "y": 156
+    },
+    "size": {
+      "width": 366,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 19,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cache",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Cache",
+    "center": {
+      "x": 132,
+      "y": 228
+    },
+    "size": {
+      "width": 113,
+      "height": 59
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "sram",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "SRAM",
+    "center": {
+      "x": 264,
+      "y": 228
+    },
+    "size": {
+      "width": 113,
+      "height": 59
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "interrupt_matrix",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Interrupt\nMatrix",
+    "center": {
+      "x": 396,
+      "y": 244
+    },
+    "size": {
+      "width": 113,
+      "height": 118
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "jtag",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "JTAG",
+    "center": {
+      "x": 132,
+      "y": 300
+    },
+    "size": {
+      "width": 113,
+      "height": 59
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rom",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "ROM",
+    "center": {
+      "x": 264,
+      "y": 300
+    },
+    "size": {
+      "width": 113,
+      "height": 59
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rf_balun",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "2.4 GHz Balun +\nSwitch",
+    "center": {
+      "x": 579,
+      "y": 156
+    },
+    "size": {
+      "width": 205,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rf_ext_clock",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "External\nMain Clock",
+    "center": {
+      "x": 765,
+      "y": 156
+    },
+    "size": {
+      "width": 112,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rf_receiver",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "2.4 GHz\nReceiver",
+    "center": {
+      "x": 528,
+      "y": 245
+    },
+    "size": {
+      "width": 58,
+      "height": 118
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_rotation": -90,
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rf_transmitter",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "2.4 GHz\nTransmitter",
+    "center": {
+      "x": 599,
+      "y": 245
+    },
+    "size": {
+      "width": 58,
+      "height": 118
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_rotation": -90,
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rf_synth",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "RF\nSynthesizer",
+    "center": {
+      "x": 670,
+      "y": 245
+    },
+    "size": {
+      "width": 58,
+      "height": 118
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_rotation": -90,
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rf_fast_rc",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Fast RC\nOscillator",
+    "center": {
+      "x": 765,
+      "y": 228
+    },
+    "size": {
+      "width": 112,
+      "height": 59
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rf_pll",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Phase Lock\nLoop",
+    "center": {
+      "x": 765,
+      "y": 300
+    },
+    "size": {
+      "width": 112,
+      "height": 59
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "wifi_mac",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Wi-Fi MAC",
+    "center": {
+      "x": 958,
+      "y": 156
+    },
+    "size": {
+      "width": 145,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "wifi_baseband",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Wi-Fi\nBaseband",
+    "center": {
+      "x": 1120,
+      "y": 156
+    },
+    "size": {
+      "width": 145,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ble_link",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Bluetooth LE Link Controller",
+    "center": {
+      "x": 1039,
+      "y": 228
+    },
+    "size": {
+      "width": 290,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 19
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ble_baseband",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Bluetooth LE Baseband",
+    "center": {
+      "x": 1039,
+      "y": 300
+    },
+    "size": {
+      "width": 290,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 19
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_0_0",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "GDMA",
+    "center": {
+      "x": 132,
+      "y": 449
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_0_1",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "System\nTimer",
+    "center": {
+      "x": 290,
+      "y": 449
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_0_2",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "General-\npurpose\nTimers",
+    "center": {
+      "x": 448,
+      "y": 449
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_0_3",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "GPIO",
+    "center": {
+      "x": 606,
+      "y": 449
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_0_4",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "RTC GPIO",
+    "center": {
+      "x": 764,
+      "y": 449
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_1_0",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "SD/MMC\nHost",
+    "center": {
+      "x": 132,
+      "y": 535
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_1_1",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Pulse\nCounter",
+    "center": {
+      "x": 290,
+      "y": 535
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_1_2",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "World\nController",
+    "center": {
+      "x": 448,
+      "y": 535
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_1_3",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "USB Serial/\nJTAG",
+    "center": {
+      "x": 606,
+      "y": 535
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_1_4",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "eFuse\nController",
+    "center": {
+      "x": 764,
+      "y": 535
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_2_0",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "SPI0/1",
+    "center": {
+      "x": 132,
+      "y": 621
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_2_1",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "SPI2/3",
+    "center": {
+      "x": 290,
+      "y": 621
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_2_2",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "I2S",
+    "center": {
+      "x": 448,
+      "y": 621
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_2_3",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Main System\nWatchdog\nTimers",
+    "center": {
+      "x": 606,
+      "y": 621
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_2_4",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "RTC\nWatchdog\nTimer",
+    "center": {
+      "x": 764,
+      "y": 621
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_3_0",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "USB OTG",
+    "center": {
+      "x": 132,
+      "y": 707
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_3_1",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "TWAI®",
+    "center": {
+      "x": 290,
+      "y": 707
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_3_2",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "I2C",
+    "center": {
+      "x": 448,
+      "y": 707
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_3_3",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Super\nWatchdog",
+    "center": {
+      "x": 606,
+      "y": 707
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_3_4",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Touch\nSensor",
+    "center": {
+      "x": 764,
+      "y": 707
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_4_0",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "UART",
+    "center": {
+      "x": 132,
+      "y": 793
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_4_1",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "LED PWM",
+    "center": {
+      "x": 290,
+      "y": 793
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_4_2",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "MCPWM",
+    "center": {
+      "x": 448,
+      "y": 793
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_4_3",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Super\nWatchdog",
+    "center": {
+      "x": 606,
+      "y": 793
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_4_4",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Touch\nSensor",
+    "center": {
+      "x": 764,
+      "y": 793
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_5_0",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "RMT",
+    "center": {
+      "x": 132,
+      "y": 879
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_5_1",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "LCD\nInterface",
+    "center": {
+      "x": 290,
+      "y": 879
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_5_2",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Camera\nInterface",
+    "center": {
+      "x": 448,
+      "y": 879
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_5_3",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "RTC I2C",
+    "center": {
+      "x": 606,
+      "y": 879
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "periph_5_4",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Temperature\nSensor",
+    "center": {
+      "x": 764,
+      "y": 879
+    },
+    "size": {
+      "width": 143,
+      "height": 74
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_tiles_0",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "SHA",
+    "center": {
+      "x": 932,
+      "y": 436
+    },
+    "size": {
+      "width": 64,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_tiles_1",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "RSA",
+    "center": {
+      "x": 1011,
+      "y": 436
+    },
+    "size": {
+      "width": 64,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_tiles_2",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "AES",
+    "center": {
+      "x": 1090,
+      "y": 436
+    },
+    "size": {
+      "width": 64,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_tiles_3",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "RNG",
+    "center": {
+      "x": 1169,
+      "y": 436
+    },
+    "size": {
+      "width": 64,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_tiles_4",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "HMAC",
+    "center": {
+      "x": 932,
+      "y": 508
+    },
+    "size": {
+      "width": 64,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_tiles_5",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "RSA_DS",
+    "center": {
+      "x": 1011,
+      "y": 508
+    },
+    "size": {
+      "width": 64,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_tiles_6",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Secure Boot",
+    "center": {
+      "x": 1090,
+      "y": 508
+    },
+    "size": {
+      "width": 64,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_tiles_7",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Flash\nEncryption",
+    "center": {
+      "x": 1169,
+      "y": 508
+    },
+    "size": {
+      "width": 64,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "security_tiles_8",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "Permission\nControl",
+    "center": {
+      "x": 932,
+      "y": 580
+    },
+    "size": {
+      "width": 64,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_tile",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rtc_tiles_0",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "RTC\nMemory",
+    "center": {
+      "x": 971.5,
+      "y": 798
+    },
+    "size": {
+      "width": 143,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rtc_tiles_1",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "PMU",
+    "center": {
+      "x": 1128.5,
+      "y": 798
+    },
+    "size": {
+      "width": 143,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "rtc_tiles_2",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "ULP Coprocessor",
+    "center": {
+      "x": 971.5,
+      "y": 874
+    },
+    "size": {
+      "width": 143,
+      "height": 58
+    },
+    "style_id": "style_system_diagram_refimage005_low_power",
+    "label_style": {
+      "font_size": 18,
+      "line_height": 1.02
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "legend_title",
+    "system_diagram_id": "system_diagram_refimage005",
+    "text": "Power consumption",
+    "position": {
+      "x": 78,
+      "y": 996
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 22,
+      "font_weight": "bold"
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "legend_normal",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 122,
+      "y": 1024
+    },
+    "size": {
+      "width": 96,
+      "height": 21
+    },
+    "style_id": "style_system_diagram_refimage005_tile"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "legend_normal_text",
+    "system_diagram_id": "system_diagram_refimage005",
+    "text": "Normal",
+    "position": {
+      "x": 177,
+      "y": 1025
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 19
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "legend_low",
+    "system_diagram_id": "system_diagram_refimage005",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 122,
+      "y": 1052
+    },
+    "size": {
+      "width": 96,
+      "height": 21
+    },
+    "style_id": "style_system_diagram_refimage005_low_power"
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "legend_low_text",
+    "system_diagram_id": "system_diagram_refimage005",
+    "text": "Low power consumption components capable of working in Deep-sleep mode",
+    "position": {
+      "x": 177,
+      "y": 1053
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 19
+    }
+  }
+]

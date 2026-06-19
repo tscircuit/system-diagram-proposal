@@ -1,0 +1,6732 @@
+[
+  {
+    "type": "system_diagram",
+    "system_diagram_id": "system_diagram_refimage004",
+    "name": "nRF52840 block diagram",
+    "description": "Semantic system_diagram recreation of reference-images/refimage004.png.",
+    "width": 1130,
+    "height": 1630
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage004_mono",
+    "system_diagram_id": "system_diagram_refimage004",
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "text_style": {
+      "font_size": 16,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_style",
+    "system_style_id": "style_system_diagram_refimage004_frame",
+    "system_diagram_id": "system_diagram_refimage004",
+    "appearance": {
+      "fill_color": "#e9e9e9",
+      "stroke_color": "#555555",
+      "stroke_width": 2.4
+    },
+    "text_style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "nRF52840",
+    "position": {
+      "x": 166,
+      "y": 53
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "chip",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 565,
+      "y": 815
+    },
+    "size": {
+      "width": 816,
+      "height": 1568
+    },
+    "style_id": "style_system_diagram_refimage004_frame",
+    "is_container": true,
+    "z_index": 0
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ram_0",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RAM₀",
+    "center": {
+      "x": 312.5,
+      "y": 72
+    },
+    "size": {
+      "width": 59,
+      "height": 60
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ram_1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RAM₁",
+    "center": {
+      "x": 377.5,
+      "y": 72
+    },
+    "size": {
+      "width": 59,
+      "height": 60
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ram_2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RAM₂",
+    "center": {
+      "x": 442.5,
+      "y": 72
+    },
+    "size": {
+      "width": 59,
+      "height": 60
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ram_3",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RAM₃",
+    "center": {
+      "x": 507.5,
+      "y": 72
+    },
+    "size": {
+      "width": 59,
+      "height": 60
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ram_4",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RAM₄",
+    "center": {
+      "x": 572.5,
+      "y": 72
+    },
+    "size": {
+      "width": 59,
+      "height": 60
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ram_5",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RAM₅",
+    "center": {
+      "x": 637.5,
+      "y": 72
+    },
+    "size": {
+      "width": 59,
+      "height": 60
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ram_6",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RAM₆",
+    "center": {
+      "x": 702.5,
+      "y": 72
+    },
+    "size": {
+      "width": 59,
+      "height": 60
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ram_7",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RAM₇",
+    "center": {
+      "x": 767.5,
+      "y": 72
+    },
+    "size": {
+      "width": 59,
+      "height": 60
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ram_8",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RAM₈",
+    "center": {
+      "x": 832.5,
+      "y": 72
+    },
+    "size": {
+      "width": 59,
+      "height": 60
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ram_9",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "GPIO",
+    "center": {
+      "x": 897.5,
+      "y": 72
+    },
+    "size": {
+      "width": 59,
+      "height": 60
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ahb_multilayer",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "AHB multilayer",
+    "center": {
+      "x": 619,
+      "y": 286
+    },
+    "size": {
+      "width": 663,
+      "height": 62
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 16
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "cpu_cluster",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 295,
+      "y": 489
+    },
+    "size": {
+      "width": 250,
+      "height": 128
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "is_container": true
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ahb_ap",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "AHB-AP",
+    "center": {
+      "x": 210,
+      "y": 425
+    },
+    "size": {
+      "width": 82,
+      "height": 36
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 14
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "etm",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "ETM",
+    "center": {
+      "x": 294,
+      "y": 425
+    },
+    "size": {
+      "width": 84,
+      "height": 36
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 14
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "cpu_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "CPU\nARM\nCORTEX-M4",
+    "position": {
+      "x": 295,
+      "y": 492
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 16,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "nvic",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "NVIC",
+    "center": {
+      "x": 255,
+      "y": 571
+    },
+    "size": {
+      "width": 84,
+      "height": 38
+    },
+    "style_id": "style_system_diagram_refimage004_mono"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "systick",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "SysTick",
+    "center": {
+      "x": 346,
+      "y": 571
+    },
+    "size": {
+      "width": 84,
+      "height": 38
+    },
+    "style_id": "style_system_diagram_refimage004_mono"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ahb_apb_bridge",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "AHB TO APB\nBRIDGE",
+    "center": {
+      "x": 506,
+      "y": 462
+    },
+    "size": {
+      "width": 123,
+      "height": 94
+    },
+    "style_id": "style_system_diagram_refimage004_mono"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "apb0_bus",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "APB0",
+    "center": {
+      "x": 486,
+      "y": 1040
+    },
+    "size": {
+      "width": 22,
+      "height": 820
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_rotation": -90,
+    "label_style": {
+      "font_size": 13
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "apb_bus",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "APB",
+    "center": {
+      "x": 625,
+      "y": 920
+    },
+    "size": {
+      "width": 30,
+      "height": 1206
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_rotation": -90
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "ficr",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "FICR",
+    "center": {
+      "x": 726,
+      "y": 431
+    },
+    "size": {
+      "width": 58,
+      "height": 62
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 14
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "uicr",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "UICR",
+    "center": {
+      "x": 794,
+      "y": 431
+    },
+    "size": {
+      "width": 58,
+      "height": 62
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 14
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "flash_code",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "I-Cache\nCODE",
+    "center": {
+      "x": 878,
+      "y": 443
+    },
+    "size": {
+      "width": 97,
+      "height": 102
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 14,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "nvmc",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "NVMC",
+    "center": {
+      "x": 796,
+      "y": 544
+    },
+    "size": {
+      "width": 165,
+      "height": 30
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 14
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_debug_0",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "TPIU",
+    "center": {
+      "x": 244.5,
+      "y": 146
+    },
+    "size": {
+      "width": 75,
+      "height": 62
+    },
+    "style_id": "style_system_diagram_refimage004_mono"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_debug_1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "SW-DP",
+    "center": {
+      "x": 244.5,
+      "y": 236
+    },
+    "size": {
+      "width": 75,
+      "height": 62
+    },
+    "style_id": "style_system_diagram_refimage004_mono"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_debug_2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "CTRL-AP",
+    "center": {
+      "x": 244.5,
+      "y": 326
+    },
+    "size": {
+      "width": 75,
+      "height": 62
+    },
+    "style_id": "style_system_diagram_refimage004_mono"
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_0",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "POWER",
+    "center": {
+      "x": 336,
+      "y": 634
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "WDT",
+    "center": {
+      "x": 336,
+      "y": 696
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "PPI",
+    "center": {
+      "x": 336,
+      "y": 758
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_3",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "CLOCK",
+    "center": {
+      "x": 336,
+      "y": 820
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_4",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 336,
+      "y": 882
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_5",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 336,
+      "y": 944
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_6",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 336,
+      "y": 1006
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_7",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "GPIOTE",
+    "center": {
+      "x": 336,
+      "y": 1068
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_8",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "COMP",
+    "center": {
+      "x": 336,
+      "y": 1130
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_9",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "LPCOMP",
+    "center": {
+      "x": 336,
+      "y": 1192
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_10",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 336,
+      "y": 1254
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_11",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "QDEC",
+    "center": {
+      "x": 336,
+      "y": 1316
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_12",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 336,
+      "y": 1378
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_13",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 336,
+      "y": 1440
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "left_stack_14",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 336,
+      "y": 1502
+    },
+    "size": {
+      "width": 170,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_0",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RNG",
+    "center": {
+      "x": 798,
+      "y": 599
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "RTC [0..2]",
+    "center": {
+      "x": 798,
+      "y": 660
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "TIMER [0..4]",
+    "center": {
+      "x": 798,
+      "y": 721
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_3",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "TEMP",
+    "center": {
+      "x": 798,
+      "y": 782
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_4",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 798,
+      "y": 843
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_5",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 798,
+      "y": 904
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_6",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 798,
+      "y": 965
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_7",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 798,
+      "y": 1026
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_8",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 798,
+      "y": 1087
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_9",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 798,
+      "y": 1148
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_10",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 798,
+      "y": 1209
+    },
+    "size": {
+      "width": 166,
+      "height": 48
+    },
+    "style_id": "style_system_diagram_refimage004_mono",
+    "label_style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "radio_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 251,
+      "y": 894
+    },
+    "end": {
+      "x": 421,
+      "y": 894
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "radio_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "RADIO",
+    "position": {
+      "x": 336,
+      "y": 875
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "radio_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 336,
+      "y": 902
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "usbd_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 251,
+      "y": 956
+    },
+    "end": {
+      "x": 421,
+      "y": 956
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "usbd_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "USBD",
+    "position": {
+      "x": 336,
+      "y": 937
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "usbd_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 336,
+      "y": 964
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "nfct_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 251,
+      "y": 1018
+    },
+    "end": {
+      "x": 421,
+      "y": 1018
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nfct_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "NFCT",
+    "position": {
+      "x": 336,
+      "y": 999
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nfct_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 336,
+      "y": 1026
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "saadc_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 251,
+      "y": 1266
+    },
+    "end": {
+      "x": 421,
+      "y": 1266
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "saadc_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "SAADC",
+    "position": {
+      "x": 336,
+      "y": 1247
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "saadc_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 336,
+      "y": 1274
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "pwm_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 251,
+      "y": 1390
+    },
+    "end": {
+      "x": 421,
+      "y": 1390
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "pwm_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "PWM [0..3]",
+    "position": {
+      "x": 336,
+      "y": 1371
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "pwm_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 336,
+      "y": 1398
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "i2s_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 251,
+      "y": 1452
+    },
+    "end": {
+      "x": 421,
+      "y": 1452
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "i2s_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "I2S",
+    "position": {
+      "x": 336,
+      "y": 1433
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "i2s_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 336,
+      "y": 1460
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "pdm_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 251,
+      "y": 1514
+    },
+    "end": {
+      "x": 421,
+      "y": 1514
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "pdm_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "PDM",
+    "position": {
+      "x": 336,
+      "y": 1495
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "pdm_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 336,
+      "y": 1522
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ecb_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 715,
+      "y": 855
+    },
+    "end": {
+      "x": 881,
+      "y": 855
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ecb_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "ECB",
+    "position": {
+      "x": 798,
+      "y": 836
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ecb_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 798,
+      "y": 863
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ccm_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 715,
+      "y": 916
+    },
+    "end": {
+      "x": 881,
+      "y": 916
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ccm_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "CCM",
+    "position": {
+      "x": 798,
+      "y": 897
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ccm_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 798,
+      "y": 924
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "aar_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 715,
+      "y": 977
+    },
+    "end": {
+      "x": 881,
+      "y": 977
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "aar_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "AAR",
+    "position": {
+      "x": 798,
+      "y": 958
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "aar_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 798,
+      "y": 985
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "cryptocell_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 715,
+      "y": 1038
+    },
+    "end": {
+      "x": 881,
+      "y": 1038
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "cryptocell_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "CryptoCell",
+    "position": {
+      "x": 798,
+      "y": 1019
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "cryptocell_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "DMA",
+    "position": {
+      "x": 798,
+      "y": 1046
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "spim_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 715,
+      "y": 1099
+    },
+    "end": {
+      "x": 881,
+      "y": 1099
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "spim_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "SPIM [0..3]",
+    "position": {
+      "x": 798,
+      "y": 1080
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "spim_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 798,
+      "y": 1107
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "twis_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 715,
+      "y": 1160
+    },
+    "end": {
+      "x": 881,
+      "y": 1160
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "twis_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "TWIS [0..1]",
+    "position": {
+      "x": 798,
+      "y": 1141
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "twis_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 798,
+      "y": 1168
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "twim_dma_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 715,
+      "y": 1221
+    },
+    "end": {
+      "x": 881,
+      "y": 1221
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "twim_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "TWIM [0..1]",
+    "position": {
+      "x": 798,
+      "y": 1202
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "twim_dma_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 798,
+      "y": 1229
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_qspi",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 798,
+      "y": 1306
+    },
+    "size": {
+      "width": 166,
+      "height": 116
+    },
+    "style_id": "style_system_diagram_refimage004_mono"
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_stack_qspi_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 715,
+      "y": 1334
+    },
+    "end": {
+      "x": 881,
+      "y": 1334
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_stack_qspi_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "QSPI",
+    "position": {
+      "x": 798,
+      "y": 1293
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_stack_qspi_dma",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 798,
+      "y": 1348
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_uarte",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 798,
+      "y": 1430
+    },
+    "size": {
+      "width": 166,
+      "height": 92
+    },
+    "style_id": "style_system_diagram_refimage004_mono"
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_stack_uarte_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 715,
+      "y": 1451
+    },
+    "end": {
+      "x": 881,
+      "y": 1451
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_stack_uarte_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "UARTE [0..1]",
+    "position": {
+      "x": 798,
+      "y": 1410
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_stack_uarte_dma",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 798,
+      "y": 1465
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_component",
+    "system_component_id": "right_stack_spis",
+    "system_diagram_id": "system_diagram_refimage004",
+    "component_kind": "module",
+    "label": "",
+    "center": {
+      "x": 798,
+      "y": 1532
+    },
+    "size": {
+      "width": 166,
+      "height": 92
+    },
+    "style_id": "style_system_diagram_refimage004_mono"
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_stack_spis_divider",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 715,
+      "y": 1553
+    },
+    "end": {
+      "x": 881,
+      "y": 1553
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_stack_spis_title",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "SPIS [0..2]",
+    "position": {
+      "x": 798,
+      "y": 1512
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_stack_spis_dma",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "EasyDMA",
+    "position": {
+      "x": 798,
+      "y": 1567
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 15,
+      "line_height": 1.05
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ram_bus_313_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 313,
+        "y": 108
+      },
+      {
+        "x": 319,
+        "y": 120
+      },
+      {
+        "x": 316,
+        "y": 120
+      },
+      {
+        "x": 316,
+        "y": 243
+      },
+      {
+        "x": 319,
+        "y": 243
+      },
+      {
+        "x": 313,
+        "y": 255
+      },
+      {
+        "x": 307,
+        "y": 243
+      },
+      {
+        "x": 310,
+        "y": 243
+      },
+      {
+        "x": 310,
+        "y": 120
+      },
+      {
+        "x": 307,
+        "y": 120
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ram_bus_313_slave",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 323,
+      "y": 176
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ram_bus_378_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 378,
+        "y": 108
+      },
+      {
+        "x": 384,
+        "y": 120
+      },
+      {
+        "x": 381,
+        "y": 120
+      },
+      {
+        "x": 381,
+        "y": 243
+      },
+      {
+        "x": 384,
+        "y": 243
+      },
+      {
+        "x": 378,
+        "y": 255
+      },
+      {
+        "x": 372,
+        "y": 243
+      },
+      {
+        "x": 375,
+        "y": 243
+      },
+      {
+        "x": 375,
+        "y": 120
+      },
+      {
+        "x": 372,
+        "y": 120
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ram_bus_378_slave",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 388,
+      "y": 176
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ram_bus_443_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 443,
+        "y": 108
+      },
+      {
+        "x": 449,
+        "y": 120
+      },
+      {
+        "x": 446,
+        "y": 120
+      },
+      {
+        "x": 446,
+        "y": 243
+      },
+      {
+        "x": 449,
+        "y": 243
+      },
+      {
+        "x": 443,
+        "y": 255
+      },
+      {
+        "x": 437,
+        "y": 243
+      },
+      {
+        "x": 440,
+        "y": 243
+      },
+      {
+        "x": 440,
+        "y": 120
+      },
+      {
+        "x": 437,
+        "y": 120
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ram_bus_443_slave",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 453,
+      "y": 176
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ram_bus_508_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 508,
+        "y": 108
+      },
+      {
+        "x": 514,
+        "y": 120
+      },
+      {
+        "x": 511,
+        "y": 120
+      },
+      {
+        "x": 511,
+        "y": 243
+      },
+      {
+        "x": 514,
+        "y": 243
+      },
+      {
+        "x": 508,
+        "y": 255
+      },
+      {
+        "x": 502,
+        "y": 243
+      },
+      {
+        "x": 505,
+        "y": 243
+      },
+      {
+        "x": 505,
+        "y": 120
+      },
+      {
+        "x": 502,
+        "y": 120
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ram_bus_508_slave",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 518,
+      "y": 176
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ram_bus_573_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 573,
+        "y": 108
+      },
+      {
+        "x": 579,
+        "y": 120
+      },
+      {
+        "x": 576,
+        "y": 120
+      },
+      {
+        "x": 576,
+        "y": 243
+      },
+      {
+        "x": 579,
+        "y": 243
+      },
+      {
+        "x": 573,
+        "y": 255
+      },
+      {
+        "x": 567,
+        "y": 243
+      },
+      {
+        "x": 570,
+        "y": 243
+      },
+      {
+        "x": 570,
+        "y": 120
+      },
+      {
+        "x": 567,
+        "y": 120
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ram_bus_573_slave",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 583,
+      "y": 176
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ram_bus_638_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 638,
+        "y": 108
+      },
+      {
+        "x": 644,
+        "y": 120
+      },
+      {
+        "x": 641,
+        "y": 120
+      },
+      {
+        "x": 641,
+        "y": 243
+      },
+      {
+        "x": 644,
+        "y": 243
+      },
+      {
+        "x": 638,
+        "y": 255
+      },
+      {
+        "x": 632,
+        "y": 243
+      },
+      {
+        "x": 635,
+        "y": 243
+      },
+      {
+        "x": 635,
+        "y": 120
+      },
+      {
+        "x": 632,
+        "y": 120
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ram_bus_638_slave",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 648,
+      "y": 176
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ram_bus_703_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 703,
+        "y": 108
+      },
+      {
+        "x": 709,
+        "y": 120
+      },
+      {
+        "x": 706,
+        "y": 120
+      },
+      {
+        "x": 706,
+        "y": 243
+      },
+      {
+        "x": 709,
+        "y": 243
+      },
+      {
+        "x": 703,
+        "y": 255
+      },
+      {
+        "x": 697,
+        "y": 243
+      },
+      {
+        "x": 700,
+        "y": 243
+      },
+      {
+        "x": 700,
+        "y": 120
+      },
+      {
+        "x": 697,
+        "y": 120
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ram_bus_703_slave",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 713,
+      "y": 176
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ram_bus_768_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 768,
+        "y": 108
+      },
+      {
+        "x": 774,
+        "y": 120
+      },
+      {
+        "x": 771,
+        "y": 120
+      },
+      {
+        "x": 771,
+        "y": 243
+      },
+      {
+        "x": 774,
+        "y": 243
+      },
+      {
+        "x": 768,
+        "y": 255
+      },
+      {
+        "x": 762,
+        "y": 243
+      },
+      {
+        "x": 765,
+        "y": 243
+      },
+      {
+        "x": 765,
+        "y": 120
+      },
+      {
+        "x": 762,
+        "y": 120
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ram_bus_768_slave",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 778,
+      "y": 176
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ram_bus_833_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 833,
+        "y": 108
+      },
+      {
+        "x": 839,
+        "y": 120
+      },
+      {
+        "x": 836,
+        "y": 120
+      },
+      {
+        "x": 836,
+        "y": 243
+      },
+      {
+        "x": 839,
+        "y": 243
+      },
+      {
+        "x": 833,
+        "y": 255
+      },
+      {
+        "x": 827,
+        "y": 243
+      },
+      {
+        "x": 830,
+        "y": 243
+      },
+      {
+        "x": 830,
+        "y": 120
+      },
+      {
+        "x": 827,
+        "y": 120
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ram_bus_833_slave",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 843,
+      "y": 176
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ram_bus_898_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 898,
+        "y": 108
+      },
+      {
+        "x": 904,
+        "y": 120
+      },
+      {
+        "x": 901,
+        "y": 120
+      },
+      {
+        "x": 901,
+        "y": 243
+      },
+      {
+        "x": 904,
+        "y": 243
+      },
+      {
+        "x": 898,
+        "y": 255
+      },
+      {
+        "x": 892,
+        "y": 243
+      },
+      {
+        "x": 895,
+        "y": 243
+      },
+      {
+        "x": 895,
+        "y": 120
+      },
+      {
+        "x": 892,
+        "y": 120
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ram_bus_898_slave",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 908,
+      "y": 176
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 17
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ahb_down_cpu_master_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 330,
+        "y": 318
+      },
+      {
+        "x": 336,
+        "y": 330
+      },
+      {
+        "x": 333,
+        "y": 330
+      },
+      {
+        "x": 333,
+        "y": 378
+      },
+      {
+        "x": 336,
+        "y": 378
+      },
+      {
+        "x": 330,
+        "y": 390
+      },
+      {
+        "x": 324,
+        "y": 378
+      },
+      {
+        "x": 327,
+        "y": 378
+      },
+      {
+        "x": 327,
+        "y": 330
+      },
+      {
+        "x": 324,
+        "y": 330
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ahb_down_cpu_master_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 341,
+      "y": 354
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 14
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ahb_down_bridge_slave_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 506,
+        "y": 318
+      },
+      {
+        "x": 512,
+        "y": 330
+      },
+      {
+        "x": 509,
+        "y": 330
+      },
+      {
+        "x": 509,
+        "y": 402
+      },
+      {
+        "x": 512,
+        "y": 402
+      },
+      {
+        "x": 506,
+        "y": 414
+      },
+      {
+        "x": 500,
+        "y": 402
+      },
+      {
+        "x": 503,
+        "y": 402
+      },
+      {
+        "x": 503,
+        "y": 330
+      },
+      {
+        "x": 500,
+        "y": 330
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ahb_down_bridge_slave_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 517,
+      "y": 366
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 14
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ahb_down_ficr_slave_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 726,
+        "y": 318
+      },
+      {
+        "x": 732,
+        "y": 330
+      },
+      {
+        "x": 729,
+        "y": 330
+      },
+      {
+        "x": 729,
+        "y": 380
+      },
+      {
+        "x": 732,
+        "y": 380
+      },
+      {
+        "x": 726,
+        "y": 392
+      },
+      {
+        "x": 720,
+        "y": 380
+      },
+      {
+        "x": 723,
+        "y": 380
+      },
+      {
+        "x": 723,
+        "y": 330
+      },
+      {
+        "x": 720,
+        "y": 330
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ahb_down_ficr_slave_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 737,
+      "y": 355
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 14
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ahb_down_uicr_slave_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 794,
+        "y": 318
+      },
+      {
+        "x": 800,
+        "y": 330
+      },
+      {
+        "x": 797,
+        "y": 330
+      },
+      {
+        "x": 797,
+        "y": 380
+      },
+      {
+        "x": 800,
+        "y": 380
+      },
+      {
+        "x": 794,
+        "y": 392
+      },
+      {
+        "x": 788,
+        "y": 380
+      },
+      {
+        "x": 791,
+        "y": 380
+      },
+      {
+        "x": 791,
+        "y": 330
+      },
+      {
+        "x": 788,
+        "y": 330
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ahb_down_uicr_slave_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 805,
+      "y": 355
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 14
+    }
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "ahb_down_code_slave_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 878,
+        "y": 318
+      },
+      {
+        "x": 884,
+        "y": 330
+      },
+      {
+        "x": 881,
+        "y": 330
+      },
+      {
+        "x": 881,
+        "y": 380
+      },
+      {
+        "x": 884,
+        "y": 380
+      },
+      {
+        "x": 878,
+        "y": 392
+      },
+      {
+        "x": 872,
+        "y": 380
+      },
+      {
+        "x": 875,
+        "y": 380
+      },
+      {
+        "x": 875,
+        "y": 330
+      },
+      {
+        "x": 872,
+        "y": 330
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "ahb_down_code_slave_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "slave",
+    "position": {
+      "x": 889,
+      "y": 355
+    },
+    "anchor": "center",
+    "rotation": -90,
+    "style": {
+      "font_size": 14
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nvmc_to_ficr",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 726,
+        "y": 529
+      },
+      {
+        "x": 726,
+        "y": 462
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nvmc_to_uicr",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 794,
+        "y": 529
+      },
+      {
+        "x": 794,
+        "y": 462
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nvmc_to_code",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 878,
+        "y": 529
+      },
+      {
+        "x": 878,
+        "y": 494
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 2
+    },
+    "marker_start": "none",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "apb0_to_ahb_apb_bridge_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 486,
+        "y": 509
+      },
+      {
+        "x": 492,
+        "y": 521
+      },
+      {
+        "x": 489,
+        "y": 521
+      },
+      {
+        "x": 489,
+        "y": 630
+      },
+      {
+        "x": 489,
+        "y": 630
+      },
+      {
+        "x": 483,
+        "y": 630
+      },
+      {
+        "x": 483,
+        "y": 630
+      },
+      {
+        "x": 483,
+        "y": 521
+      },
+      {
+        "x": 480,
+        "y": 521
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_641_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 641
+      },
+      {
+        "x": 431,
+        "y": 636
+      },
+      {
+        "x": 431,
+        "y": 638
+      },
+      {
+        "x": 465,
+        "y": 638
+      },
+      {
+        "x": 465,
+        "y": 636
+      },
+      {
+        "x": 475,
+        "y": 641
+      },
+      {
+        "x": 465,
+        "y": 646
+      },
+      {
+        "x": 465,
+        "y": 644
+      },
+      {
+        "x": 431,
+        "y": 644
+      },
+      {
+        "x": 431,
+        "y": 646
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_705_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 705
+      },
+      {
+        "x": 431,
+        "y": 700
+      },
+      {
+        "x": 431,
+        "y": 702
+      },
+      {
+        "x": 465,
+        "y": 702
+      },
+      {
+        "x": 465,
+        "y": 700
+      },
+      {
+        "x": 475,
+        "y": 705
+      },
+      {
+        "x": 465,
+        "y": 710
+      },
+      {
+        "x": 465,
+        "y": 708
+      },
+      {
+        "x": 431,
+        "y": 708
+      },
+      {
+        "x": 431,
+        "y": 710
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_769_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 769
+      },
+      {
+        "x": 431,
+        "y": 764
+      },
+      {
+        "x": 431,
+        "y": 766
+      },
+      {
+        "x": 465,
+        "y": 766
+      },
+      {
+        "x": 465,
+        "y": 764
+      },
+      {
+        "x": 475,
+        "y": 769
+      },
+      {
+        "x": 465,
+        "y": 774
+      },
+      {
+        "x": 465,
+        "y": 772
+      },
+      {
+        "x": 431,
+        "y": 772
+      },
+      {
+        "x": 431,
+        "y": 774
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_833_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 833
+      },
+      {
+        "x": 431,
+        "y": 828
+      },
+      {
+        "x": 431,
+        "y": 830
+      },
+      {
+        "x": 465,
+        "y": 830
+      },
+      {
+        "x": 465,
+        "y": 828
+      },
+      {
+        "x": 475,
+        "y": 833
+      },
+      {
+        "x": 465,
+        "y": 838
+      },
+      {
+        "x": 465,
+        "y": 836
+      },
+      {
+        "x": 431,
+        "y": 836
+      },
+      {
+        "x": 431,
+        "y": 838
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_897_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 897
+      },
+      {
+        "x": 431,
+        "y": 892
+      },
+      {
+        "x": 431,
+        "y": 894
+      },
+      {
+        "x": 465,
+        "y": 894
+      },
+      {
+        "x": 465,
+        "y": 892
+      },
+      {
+        "x": 475,
+        "y": 897
+      },
+      {
+        "x": 465,
+        "y": 902
+      },
+      {
+        "x": 465,
+        "y": 900
+      },
+      {
+        "x": 431,
+        "y": 900
+      },
+      {
+        "x": 431,
+        "y": 902
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_961_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 961
+      },
+      {
+        "x": 431,
+        "y": 956
+      },
+      {
+        "x": 431,
+        "y": 958
+      },
+      {
+        "x": 465,
+        "y": 958
+      },
+      {
+        "x": 465,
+        "y": 956
+      },
+      {
+        "x": 475,
+        "y": 961
+      },
+      {
+        "x": 465,
+        "y": 966
+      },
+      {
+        "x": 465,
+        "y": 964
+      },
+      {
+        "x": 431,
+        "y": 964
+      },
+      {
+        "x": 431,
+        "y": 966
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_1025_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 1025
+      },
+      {
+        "x": 431,
+        "y": 1020
+      },
+      {
+        "x": 431,
+        "y": 1022
+      },
+      {
+        "x": 465,
+        "y": 1022
+      },
+      {
+        "x": 465,
+        "y": 1020
+      },
+      {
+        "x": 475,
+        "y": 1025
+      },
+      {
+        "x": 465,
+        "y": 1030
+      },
+      {
+        "x": 465,
+        "y": 1028
+      },
+      {
+        "x": 431,
+        "y": 1028
+      },
+      {
+        "x": 431,
+        "y": 1030
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_1089_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 1089
+      },
+      {
+        "x": 431,
+        "y": 1084
+      },
+      {
+        "x": 431,
+        "y": 1086
+      },
+      {
+        "x": 465,
+        "y": 1086
+      },
+      {
+        "x": 465,
+        "y": 1084
+      },
+      {
+        "x": 475,
+        "y": 1089
+      },
+      {
+        "x": 465,
+        "y": 1094
+      },
+      {
+        "x": 465,
+        "y": 1092
+      },
+      {
+        "x": 431,
+        "y": 1092
+      },
+      {
+        "x": 431,
+        "y": 1094
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_1153_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 1153
+      },
+      {
+        "x": 431,
+        "y": 1148
+      },
+      {
+        "x": 431,
+        "y": 1150
+      },
+      {
+        "x": 465,
+        "y": 1150
+      },
+      {
+        "x": 465,
+        "y": 1148
+      },
+      {
+        "x": 475,
+        "y": 1153
+      },
+      {
+        "x": 465,
+        "y": 1158
+      },
+      {
+        "x": 465,
+        "y": 1156
+      },
+      {
+        "x": 431,
+        "y": 1156
+      },
+      {
+        "x": 431,
+        "y": 1158
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_1217_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 1217
+      },
+      {
+        "x": 431,
+        "y": 1212
+      },
+      {
+        "x": 431,
+        "y": 1214
+      },
+      {
+        "x": 465,
+        "y": 1214
+      },
+      {
+        "x": 465,
+        "y": 1212
+      },
+      {
+        "x": 475,
+        "y": 1217
+      },
+      {
+        "x": 465,
+        "y": 1222
+      },
+      {
+        "x": 465,
+        "y": 1220
+      },
+      {
+        "x": 431,
+        "y": 1220
+      },
+      {
+        "x": 431,
+        "y": 1222
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_1281_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 1281
+      },
+      {
+        "x": 431,
+        "y": 1276
+      },
+      {
+        "x": 431,
+        "y": 1278
+      },
+      {
+        "x": 465,
+        "y": 1278
+      },
+      {
+        "x": 465,
+        "y": 1276
+      },
+      {
+        "x": 475,
+        "y": 1281
+      },
+      {
+        "x": 465,
+        "y": 1286
+      },
+      {
+        "x": 465,
+        "y": 1284
+      },
+      {
+        "x": 431,
+        "y": 1284
+      },
+      {
+        "x": 431,
+        "y": 1286
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_1345_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 1345
+      },
+      {
+        "x": 431,
+        "y": 1340
+      },
+      {
+        "x": 431,
+        "y": 1342
+      },
+      {
+        "x": 465,
+        "y": 1342
+      },
+      {
+        "x": 465,
+        "y": 1340
+      },
+      {
+        "x": 475,
+        "y": 1345
+      },
+      {
+        "x": 465,
+        "y": 1350
+      },
+      {
+        "x": 465,
+        "y": 1348
+      },
+      {
+        "x": 431,
+        "y": 1348
+      },
+      {
+        "x": 431,
+        "y": 1350
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_1409_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 1409
+      },
+      {
+        "x": 431,
+        "y": 1404
+      },
+      {
+        "x": 431,
+        "y": 1406
+      },
+      {
+        "x": 465,
+        "y": 1406
+      },
+      {
+        "x": 465,
+        "y": 1404
+      },
+      {
+        "x": 475,
+        "y": 1409
+      },
+      {
+        "x": 465,
+        "y": 1414
+      },
+      {
+        "x": 465,
+        "y": 1412
+      },
+      {
+        "x": 431,
+        "y": 1412
+      },
+      {
+        "x": 431,
+        "y": 1414
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_to_apb_1473_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 421,
+        "y": 1473
+      },
+      {
+        "x": 431,
+        "y": 1468
+      },
+      {
+        "x": 431,
+        "y": 1470
+      },
+      {
+        "x": 465,
+        "y": 1470
+      },
+      {
+        "x": 465,
+        "y": 1468
+      },
+      {
+        "x": 475,
+        "y": 1473
+      },
+      {
+        "x": 465,
+        "y": 1478
+      },
+      {
+        "x": 465,
+        "y": 1476
+      },
+      {
+        "x": 431,
+        "y": 1476
+      },
+      {
+        "x": 431,
+        "y": 1478
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_to_apb_0_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 475,
+        "y": 591
+      },
+      {
+        "x": 491,
+        "y": 583
+      },
+      {
+        "x": 491,
+        "y": 586
+      },
+      {
+        "x": 699,
+        "y": 586
+      },
+      {
+        "x": 699,
+        "y": 583
+      },
+      {
+        "x": 715,
+        "y": 591
+      },
+      {
+        "x": 699,
+        "y": 599
+      },
+      {
+        "x": 699,
+        "y": 596
+      },
+      {
+        "x": 491,
+        "y": 596
+      },
+      {
+        "x": 491,
+        "y": 599
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_to_apb_1_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 475,
+        "y": 655
+      },
+      {
+        "x": 491,
+        "y": 647
+      },
+      {
+        "x": 491,
+        "y": 650
+      },
+      {
+        "x": 699,
+        "y": 650
+      },
+      {
+        "x": 699,
+        "y": 647
+      },
+      {
+        "x": 715,
+        "y": 655
+      },
+      {
+        "x": 699,
+        "y": 663
+      },
+      {
+        "x": 699,
+        "y": 660
+      },
+      {
+        "x": 491,
+        "y": 660
+      },
+      {
+        "x": 491,
+        "y": 663
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_to_apb_2_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 475,
+        "y": 719
+      },
+      {
+        "x": 491,
+        "y": 711
+      },
+      {
+        "x": 491,
+        "y": 714
+      },
+      {
+        "x": 699,
+        "y": 714
+      },
+      {
+        "x": 699,
+        "y": 711
+      },
+      {
+        "x": 715,
+        "y": 719
+      },
+      {
+        "x": 699,
+        "y": 727
+      },
+      {
+        "x": 699,
+        "y": 724
+      },
+      {
+        "x": 491,
+        "y": 724
+      },
+      {
+        "x": 491,
+        "y": 727
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_to_apb_3_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 475,
+        "y": 783
+      },
+      {
+        "x": 491,
+        "y": 775
+      },
+      {
+        "x": 491,
+        "y": 778
+      },
+      {
+        "x": 699,
+        "y": 778
+      },
+      {
+        "x": 699,
+        "y": 775
+      },
+      {
+        "x": 715,
+        "y": 783
+      },
+      {
+        "x": 699,
+        "y": 791
+      },
+      {
+        "x": 699,
+        "y": 788
+      },
+      {
+        "x": 491,
+        "y": 788
+      },
+      {
+        "x": 491,
+        "y": 791
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 28
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_radio_master_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 510,
+        "y": 911
+      },
+      {
+        "x": 528,
+        "y": 902
+      },
+      {
+        "x": 528,
+        "y": 904
+      },
+      {
+        "x": 577,
+        "y": 904
+      },
+      {
+        "x": 577,
+        "y": 902
+      },
+      {
+        "x": 595,
+        "y": 911
+      },
+      {
+        "x": 577,
+        "y": 920
+      },
+      {
+        "x": 577,
+        "y": 918
+      },
+      {
+        "x": 528,
+        "y": 918
+      },
+      {
+        "x": 528,
+        "y": 920
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_radio_master_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 552,
+      "y": 911
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 12
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_nfct_master_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 510,
+        "y": 1039
+      },
+      {
+        "x": 528,
+        "y": 1030
+      },
+      {
+        "x": 528,
+        "y": 1032
+      },
+      {
+        "x": 577,
+        "y": 1032
+      },
+      {
+        "x": 577,
+        "y": 1030
+      },
+      {
+        "x": 595,
+        "y": 1039
+      },
+      {
+        "x": 577,
+        "y": 1048
+      },
+      {
+        "x": 577,
+        "y": 1046
+      },
+      {
+        "x": 528,
+        "y": 1046
+      },
+      {
+        "x": 528,
+        "y": 1048
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_nfct_master_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 552,
+      "y": 1039
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 12
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_saadc_master_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 510,
+        "y": 1231
+      },
+      {
+        "x": 528,
+        "y": 1222
+      },
+      {
+        "x": 528,
+        "y": 1224
+      },
+      {
+        "x": 577,
+        "y": 1224
+      },
+      {
+        "x": 577,
+        "y": 1222
+      },
+      {
+        "x": 595,
+        "y": 1231
+      },
+      {
+        "x": 577,
+        "y": 1240
+      },
+      {
+        "x": 577,
+        "y": 1238
+      },
+      {
+        "x": 528,
+        "y": 1238
+      },
+      {
+        "x": 528,
+        "y": 1240
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_saadc_master_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 552,
+      "y": 1231
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 12
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_pwm_master_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 510,
+        "y": 1306
+      },
+      {
+        "x": 528,
+        "y": 1297
+      },
+      {
+        "x": 528,
+        "y": 1299
+      },
+      {
+        "x": 577,
+        "y": 1299
+      },
+      {
+        "x": 577,
+        "y": 1297
+      },
+      {
+        "x": 595,
+        "y": 1306
+      },
+      {
+        "x": 577,
+        "y": 1315
+      },
+      {
+        "x": 577,
+        "y": 1313
+      },
+      {
+        "x": 528,
+        "y": 1313
+      },
+      {
+        "x": 528,
+        "y": 1315
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pwm_master_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 552,
+      "y": 1306
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 12
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_i2s_master_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 510,
+        "y": 1430
+      },
+      {
+        "x": 528,
+        "y": 1421
+      },
+      {
+        "x": 528,
+        "y": 1423
+      },
+      {
+        "x": 577,
+        "y": 1423
+      },
+      {
+        "x": 577,
+        "y": 1421
+      },
+      {
+        "x": 595,
+        "y": 1430
+      },
+      {
+        "x": 577,
+        "y": 1439
+      },
+      {
+        "x": 577,
+        "y": 1437
+      },
+      {
+        "x": 528,
+        "y": 1437
+      },
+      {
+        "x": 528,
+        "y": 1439
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_i2s_master_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 552,
+      "y": 1430
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 12
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "left_pdm_master_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 510,
+        "y": 1532
+      },
+      {
+        "x": 528,
+        "y": 1523
+      },
+      {
+        "x": 528,
+        "y": 1525
+      },
+      {
+        "x": 577,
+        "y": 1525
+      },
+      {
+        "x": 577,
+        "y": 1523
+      },
+      {
+        "x": 595,
+        "y": 1532
+      },
+      {
+        "x": 577,
+        "y": 1541
+      },
+      {
+        "x": 577,
+        "y": 1539
+      },
+      {
+        "x": 528,
+        "y": 1539
+      },
+      {
+        "x": 528,
+        "y": 1541
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "left_pdm_master_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 552,
+      "y": 1532
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 12
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_master_0_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 650,
+        "y": 847
+      },
+      {
+        "x": 666,
+        "y": 839
+      },
+      {
+        "x": 666,
+        "y": 840
+      },
+      {
+        "x": 690,
+        "y": 840
+      },
+      {
+        "x": 690,
+        "y": 839
+      },
+      {
+        "x": 706,
+        "y": 847
+      },
+      {
+        "x": 690,
+        "y": 855
+      },
+      {
+        "x": 690,
+        "y": 854
+      },
+      {
+        "x": 666,
+        "y": 854
+      },
+      {
+        "x": 666,
+        "y": 855
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_master_0_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 678,
+      "y": 847
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 11
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_master_1_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 650,
+        "y": 911
+      },
+      {
+        "x": 666,
+        "y": 903
+      },
+      {
+        "x": 666,
+        "y": 904
+      },
+      {
+        "x": 690,
+        "y": 904
+      },
+      {
+        "x": 690,
+        "y": 903
+      },
+      {
+        "x": 706,
+        "y": 911
+      },
+      {
+        "x": 690,
+        "y": 919
+      },
+      {
+        "x": 690,
+        "y": 918
+      },
+      {
+        "x": 666,
+        "y": 918
+      },
+      {
+        "x": 666,
+        "y": 919
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_master_1_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 678,
+      "y": 911
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 11
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_master_2_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 650,
+        "y": 975
+      },
+      {
+        "x": 666,
+        "y": 967
+      },
+      {
+        "x": 666,
+        "y": 968
+      },
+      {
+        "x": 690,
+        "y": 968
+      },
+      {
+        "x": 690,
+        "y": 967
+      },
+      {
+        "x": 706,
+        "y": 975
+      },
+      {
+        "x": 690,
+        "y": 983
+      },
+      {
+        "x": 690,
+        "y": 982
+      },
+      {
+        "x": 666,
+        "y": 982
+      },
+      {
+        "x": 666,
+        "y": 983
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_master_2_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 678,
+      "y": 975
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 11
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_master_3_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 650,
+        "y": 1039
+      },
+      {
+        "x": 666,
+        "y": 1031
+      },
+      {
+        "x": 666,
+        "y": 1032
+      },
+      {
+        "x": 690,
+        "y": 1032
+      },
+      {
+        "x": 690,
+        "y": 1031
+      },
+      {
+        "x": 706,
+        "y": 1039
+      },
+      {
+        "x": 690,
+        "y": 1047
+      },
+      {
+        "x": 690,
+        "y": 1046
+      },
+      {
+        "x": 666,
+        "y": 1046
+      },
+      {
+        "x": 666,
+        "y": 1047
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_master_3_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 678,
+      "y": 1039
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 11
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_master_4_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 650,
+        "y": 1103
+      },
+      {
+        "x": 666,
+        "y": 1095
+      },
+      {
+        "x": 666,
+        "y": 1096
+      },
+      {
+        "x": 690,
+        "y": 1096
+      },
+      {
+        "x": 690,
+        "y": 1095
+      },
+      {
+        "x": 706,
+        "y": 1103
+      },
+      {
+        "x": 690,
+        "y": 1111
+      },
+      {
+        "x": 690,
+        "y": 1110
+      },
+      {
+        "x": 666,
+        "y": 1110
+      },
+      {
+        "x": 666,
+        "y": 1111
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_master_4_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 678,
+      "y": 1103
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 11
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_master_5_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 650,
+        "y": 1167
+      },
+      {
+        "x": 666,
+        "y": 1159
+      },
+      {
+        "x": 666,
+        "y": 1160
+      },
+      {
+        "x": 690,
+        "y": 1160
+      },
+      {
+        "x": 690,
+        "y": 1159
+      },
+      {
+        "x": 706,
+        "y": 1167
+      },
+      {
+        "x": 690,
+        "y": 1175
+      },
+      {
+        "x": 690,
+        "y": 1174
+      },
+      {
+        "x": 666,
+        "y": 1174
+      },
+      {
+        "x": 666,
+        "y": 1175
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_master_5_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 678,
+      "y": 1167
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 11
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_master_6_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 650,
+        "y": 1231
+      },
+      {
+        "x": 666,
+        "y": 1223
+      },
+      {
+        "x": 666,
+        "y": 1224
+      },
+      {
+        "x": 690,
+        "y": 1224
+      },
+      {
+        "x": 690,
+        "y": 1223
+      },
+      {
+        "x": 706,
+        "y": 1231
+      },
+      {
+        "x": 690,
+        "y": 1239
+      },
+      {
+        "x": 690,
+        "y": 1238
+      },
+      {
+        "x": 666,
+        "y": 1238
+      },
+      {
+        "x": 666,
+        "y": 1239
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_master_6_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 678,
+      "y": 1231
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 11
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_master_7_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 650,
+        "y": 1306
+      },
+      {
+        "x": 666,
+        "y": 1298
+      },
+      {
+        "x": 666,
+        "y": 1299
+      },
+      {
+        "x": 690,
+        "y": 1299
+      },
+      {
+        "x": 690,
+        "y": 1298
+      },
+      {
+        "x": 706,
+        "y": 1306
+      },
+      {
+        "x": 690,
+        "y": 1314
+      },
+      {
+        "x": 690,
+        "y": 1313
+      },
+      {
+        "x": 666,
+        "y": 1313
+      },
+      {
+        "x": 666,
+        "y": 1314
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_master_7_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 678,
+      "y": 1306
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 11
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_master_8_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 650,
+        "y": 1430
+      },
+      {
+        "x": 666,
+        "y": 1422
+      },
+      {
+        "x": 666,
+        "y": 1423
+      },
+      {
+        "x": 690,
+        "y": 1423
+      },
+      {
+        "x": 690,
+        "y": 1422
+      },
+      {
+        "x": 706,
+        "y": 1430
+      },
+      {
+        "x": 690,
+        "y": 1438
+      },
+      {
+        "x": 690,
+        "y": 1437
+      },
+      {
+        "x": 666,
+        "y": 1437
+      },
+      {
+        "x": 666,
+        "y": 1438
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_master_8_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 678,
+      "y": 1430
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 11
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "right_master_9_outline_arrow",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "polygon",
+    "points": [
+      {
+        "x": 650,
+        "y": 1532
+      },
+      {
+        "x": 666,
+        "y": 1524
+      },
+      {
+        "x": 666,
+        "y": 1525
+      },
+      {
+        "x": 690,
+        "y": 1525
+      },
+      {
+        "x": 690,
+        "y": 1524
+      },
+      {
+        "x": 706,
+        "y": 1532
+      },
+      {
+        "x": 690,
+        "y": 1540
+      },
+      {
+        "x": 690,
+        "y": 1539
+      },
+      {
+        "x": 666,
+        "y": 1539
+      },
+      {
+        "x": 666,
+        "y": 1540
+      }
+    ],
+    "appearance": {
+      "fill_color": "#ffffff",
+      "stroke_color": "#000000",
+      "stroke_width": 1.35
+    },
+    "z_index": 35
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "right_master_9_label",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "master",
+    "position": {
+      "x": 678,
+      "y": 1532
+    },
+    "anchor": "center",
+    "style": {
+      "font_size": 11
+    },
+    "z_index": 36
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_0",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "TP",
+    "position": {
+      "x": 100,
+      "y": 159
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_tp_to_chip",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 122,
+        "y": 159
+      },
+      {
+        "x": 153,
+        "y": 159
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_tp_to_tpiu",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 153,
+        "y": 159
+      },
+      {
+        "x": 207,
+        "y": 159
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#555555",
+      "stroke_width": 1.8
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "SWCLK\nSWDIO",
+    "position": {
+      "x": 100,
+      "y": 212
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_swclk",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 200
+      },
+      {
+        "x": 207,
+        "y": 200
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "marker_start": "none",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_swdio",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 224
+      },
+      {
+        "x": 207,
+        "y": 224
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "marker_start": "arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "nRESET",
+    "position": {
+      "x": 100,
+      "y": 634
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 634
+      },
+      {
+        "x": 250,
+        "y": 634
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_3",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "XC1\nXC2\nXL1\nXL2",
+    "position": {
+      "x": 100,
+      "y": 820
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_xc1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 802
+      },
+      {
+        "x": 251,
+        "y": 802
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "marker_start": "arrow",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_xc2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 817
+      },
+      {
+        "x": 251,
+        "y": 817
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "marker_start": "arrow",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_xl1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 832
+      },
+      {
+        "x": 251,
+        "y": 832
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_xl2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 847
+      },
+      {
+        "x": 251,
+        "y": 847
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_4",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "ANT",
+    "position": {
+      "x": 100,
+      "y": 882
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_ant",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 882
+      },
+      {
+        "x": 251,
+        "y": 882
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "marker_start": "arrow",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_5",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "VBUS\nD+\nD-",
+    "position": {
+      "x": 100,
+      "y": 944
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_vbus",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 926
+      },
+      {
+        "x": 251,
+        "y": 926
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "marker_start": "arrow",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_d_plus",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 944
+      },
+      {
+        "x": 251,
+        "y": 944
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "marker_start": "arrow",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_d_minus",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 962
+      },
+      {
+        "x": 251,
+        "y": 962
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "marker_start": "arrow",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_6",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "NFC1\nNFC2",
+    "position": {
+      "x": 100,
+      "y": 1006
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_nfc1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 994
+      },
+      {
+        "x": 251,
+        "y": 994
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "marker_start": "arrow",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_nfc2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 1018
+      },
+      {
+        "x": 251,
+        "y": 1018
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "marker_start": "arrow",
+    "marker_end": "arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_7",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "P0.0 - P0.31\nP1.0 - P1.15",
+    "position": {
+      "x": 100,
+      "y": 1068
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_gpio_to_gpiote",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 1068
+      },
+      {
+        "x": 251,
+        "y": 1068
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_8",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "AIN0 - AIN7",
+    "position": {
+      "x": 100,
+      "y": 1254
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_ain_to_branch",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 1254
+      },
+      {
+        "x": 154,
+        "y": 1254
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "nrf_left_pin_ain_branch",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "line",
+    "start": {
+      "x": 154,
+      "y": 1130
+    },
+    "end": {
+      "x": 154,
+      "y": 1254
+    },
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#111111",
+      "stroke_width": 1.8
+    },
+    "z_index": 22
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "nrf_left_pin_ain_comp_dot",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "circle",
+    "center": {
+      "x": 154,
+      "y": 1130
+    },
+    "radius": 5,
+    "appearance": {
+      "fill_color": "#111111",
+      "stroke_color": "#111111",
+      "stroke_width": 0
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_ain_to_comp",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 154,
+        "y": 1130
+      },
+      {
+        "x": 251,
+        "y": 1130
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "nrf_left_pin_ain_lpcomp_dot",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "circle",
+    "center": {
+      "x": 154,
+      "y": 1192
+    },
+    "radius": 5,
+    "appearance": {
+      "fill_color": "#111111",
+      "stroke_color": "#111111",
+      "stroke_width": 0
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_ain_to_lpcomp",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 154,
+        "y": 1192
+      },
+      {
+        "x": 251,
+        "y": 1192
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_shape",
+    "system_shape_id": "nrf_left_pin_ain_saadc_dot",
+    "system_diagram_id": "system_diagram_refimage004",
+    "shape": "circle",
+    "center": {
+      "x": 154,
+      "y": 1254
+    },
+    "radius": 5,
+    "appearance": {
+      "fill_color": "#111111",
+      "stroke_color": "#111111",
+      "stroke_width": 0
+    },
+    "z_index": 24
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_ain_to_saadc",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 154,
+        "y": 1254
+      },
+      {
+        "x": 251,
+        "y": 1254
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_9",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "LED\nA\nB",
+    "position": {
+      "x": 100,
+      "y": 1316
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_qdec_led",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 1296
+      },
+      {
+        "x": 251,
+        "y": 1296
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_qdec_a",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 1316
+      },
+      {
+        "x": 251,
+        "y": 1316
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_qdec_b",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 1336
+      },
+      {
+        "x": 251,
+        "y": 1336
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_10",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "OUT0 - OUT3",
+    "position": {
+      "x": 100,
+      "y": 1378
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_out_to_pwm",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 1378
+      },
+      {
+        "x": 251,
+        "y": 1378
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_11",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "MCK\nLRCK\nSCLK\nSDOUT\nSDIN",
+    "position": {
+      "x": 100,
+      "y": 1457
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_11",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 1457
+      },
+      {
+        "x": 250,
+        "y": 1457
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_left_label_12",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "CLK\nDIN",
+    "position": {
+      "x": 100,
+      "y": 1572
+    },
+    "anchor": "middle_right",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_left_pin_12",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 116,
+        "y": 1572
+      },
+      {
+        "x": 250,
+        "y": 1572
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_right_label_0",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "P0.0 - P0.31\nP1.0 - P1.15",
+    "position": {
+      "x": 1024,
+      "y": 66
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_0",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 928,
+        "y": 66
+      },
+      {
+        "x": 1010,
+        "y": 66
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_right_label_1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "SCK\nMOSI\nMISO",
+    "position": {
+      "x": 1024,
+      "y": 1088
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_spim_sck",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1072
+      },
+      {
+        "x": 1010,
+        "y": 1072
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_spim_mosi",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1088
+      },
+      {
+        "x": 1010,
+        "y": 1088
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_spim_miso",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1104
+      },
+      {
+        "x": 1010,
+        "y": 1104
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_right_label_2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "SCL\nSDA",
+    "position": {
+      "x": 1024,
+      "y": 1148
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_twis_0",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1139
+      },
+      {
+        "x": 1010,
+        "y": 1139
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_twis_1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1157
+      },
+      {
+        "x": 1010,
+        "y": 1157
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_right_label_3",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "SCL\nSDA",
+    "position": {
+      "x": 1024,
+      "y": 1209
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_twim_0",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1200
+      },
+      {
+        "x": 1010,
+        "y": 1200
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_twim_1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1218
+      },
+      {
+        "x": 1010,
+        "y": 1218
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_right_label_4",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "IO0\nIO1\nIO2\nIO3\nSCK\nCSN",
+    "position": {
+      "x": 1024,
+      "y": 1315
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_qspi_0",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1276
+      },
+      {
+        "x": 1010,
+        "y": 1276
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_qspi_1",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1290
+      },
+      {
+        "x": 1010,
+        "y": 1290
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_qspi_2",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1304
+      },
+      {
+        "x": 1010,
+        "y": 1304
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_qspi_3",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1318
+      },
+      {
+        "x": 1010,
+        "y": 1318
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_qspi_4",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1332
+      },
+      {
+        "x": 1010,
+        "y": 1332
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_qspi_5",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1346
+      },
+      {
+        "x": 1010,
+        "y": 1346
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_right_label_5",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "RTS\nCTS\nTXD\nRXD",
+    "position": {
+      "x": 1024,
+      "y": 1439
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_uarte_rts",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1402
+      },
+      {
+        "x": 1010,
+        "y": 1402
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_uarte_cts",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1417
+      },
+      {
+        "x": 1010,
+        "y": 1417
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_uarte_txd",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1432
+      },
+      {
+        "x": 1010,
+        "y": 1432
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_uarte_rxd",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1447
+      },
+      {
+        "x": 1010,
+        "y": 1447
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_text",
+    "system_text_id": "nrf_right_label_6",
+    "system_diagram_id": "system_diagram_refimage004",
+    "text": "CSN\nMISO\nMOSI\nSCK",
+    "position": {
+      "x": 1024,
+      "y": 1541
+    },
+    "anchor": "middle_left",
+    "style": {
+      "font_size": 18,
+      "line_height": 1.04
+    }
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_spis_csn",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1504
+      },
+      {
+        "x": 1010,
+        "y": 1504
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_spis_miso",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1519
+      },
+      {
+        "x": 1010,
+        "y": 1519
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "none",
+    "marker_end": "open_arrow",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_spis_mosi",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1534
+      },
+      {
+        "x": 1010,
+        "y": 1534
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  },
+  {
+    "type": "system_connection",
+    "system_connection_id": "nrf_right_pin_spis_sck",
+    "system_diagram_id": "system_diagram_refimage004",
+    "path": [
+      {
+        "x": 881,
+        "y": 1549
+      },
+      {
+        "x": 1010,
+        "y": 1549
+      }
+    ],
+    "appearance": {
+      "fill_color": "none",
+      "stroke_color": "#666666",
+      "stroke_width": 1.6
+    },
+    "marker_start": "open_arrow",
+    "marker_end": "none",
+    "labels": [],
+    "z_index": 20
+  }
+]
