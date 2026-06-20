@@ -4,10 +4,12 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "generate:refimages": "bun scripts/generate-reference-images.ts"
+    "generate:refimages": "bun scripts/generate-reference-images.ts",
+    "diff:refimages": "bun scripts/diff-reference-images.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "sharp": "^0.33.5"
   },
   "peerDependencies": {
     "typescript": "^5"
