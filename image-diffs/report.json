@@ -1,0 +1,86 @@
+[
+  {
+    "id": "refimage001",
+    "referencePngPath": "reference-images/refimage001.png",
+    "generatedSvgPath": "svg-conversion-prototype/refimage001.svg",
+    "actualPngPath": "image-diffs/refimage001.actual.png",
+    "diffPngPath": "image-diffs/refimage001.diff.png",
+    "width": 1296,
+    "height": 1382,
+    "mismatchedPixels": 188331,
+    "mismatchRatio": 0.10514987672187383,
+    "meanAbsoluteError": 14.557953932989108
+  },
+  {
+    "id": "refimage002",
+    "referencePngPath": "reference-images/refimage002.png",
+    "generatedSvgPath": "svg-conversion-prototype/refimage002.svg",
+    "actualPngPath": "image-diffs/refimage002.actual.png",
+    "diffPngPath": "image-diffs/refimage002.diff.png",
+    "width": 1036,
+    "height": 1346,
+    "mismatchedPixels": 260336,
+    "mismatchRatio": 0.18669359233995192,
+    "meanAbsoluteError": 20.06830883632518
+  },
+  {
+    "id": "refimage003",
+    "referencePngPath": "reference-images/refimage003.png",
+    "generatedSvgPath": "svg-conversion-prototype/refimage003.svg",
+    "actualPngPath": "image-diffs/refimage003.actual.png",
+    "diffPngPath": "image-diffs/refimage003.diff.png",
+    "width": 1400,
+    "height": 1406,
+    "mismatchedPixels": 255182,
+    "mismatchRatio": 0.12963930095509044,
+    "meanAbsoluteError": 17.473148411569465
+  },
+  {
+    "id": "refimage004",
+    "referencePngPath": "reference-images/refimage004.png",
+    "generatedSvgPath": "svg-conversion-prototype/refimage004.svg",
+    "actualPngPath": "image-diffs/refimage004.actual.png",
+    "diffPngPath": "image-diffs/refimage004.diff.png",
+    "width": 1130,
+    "height": 1630,
+    "mismatchedPixels": 1116966,
+    "mismatchRatio": 0.6064205440034747,
+    "meanAbsoluteError": 32.79554246520803
+  },
+  {
+    "id": "refimage005",
+    "referencePngPath": "reference-images/refimage005.png",
+    "generatedSvgPath": "svg-conversion-prototype/refimage005.svg",
+    "actualPngPath": "image-diffs/refimage005.actual.png",
+    "diffPngPath": "image-diffs/refimage005.diff.png",
+    "width": 1284,
+    "height": 1086,
+    "mismatchedPixels": 415634,
+    "mismatchRatio": 0.29806859319690426,
+    "meanAbsoluteError": 26.937319638789923
+  },
+  {
+    "id": "refimage006",
+    "referencePngPath": "reference-images/refimage006.png",
+    "generatedSvgPath": "svg-conversion-prototype/refimage006.svg",
+    "actualPngPath": "image-diffs/refimage006.actual.png",
+    "diffPngPath": "image-diffs/refimage006.diff.png",
+    "width": 1862,
+    "height": 940,
+    "mismatchedPixels": 205830,
+    "mismatchRatio": 0.11759832712480289,
+    "meanAbsoluteError": 10.03216475840056
+  },
+  {
+    "id": "refimage007",
+    "referencePngPath": "reference-images/refimage007.png",
+    "generatedSvgPath": "svg-conversion-prototype/refimage007.svg",
+    "actualPngPath": "image-diffs/refimage007.actual.png",
+    "diffPngPath": "image-diffs/refimage007.diff.png",
+    "width": 1036,
+    "height": 1394,
+    "mismatchedPixels": 443109,
+    "mismatchRatio": 0.3068230917943974,
+    "meanAbsoluteError": 34.53067960869252
+  }
+]
